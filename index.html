@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sync</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230c0e13'/%3E%3Crect x='2' y='2' width='12' height='12' fill='%2343d17c'/%3E%3Crect x='2' y='2' width='12' height='4' fill='%2369e39c'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://api.mcsrvstat.us">
+<link rel="preconnect" href="https://api.github.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+
+  <aside id="sidebar">
+    <div class="logo">SYNC</div>
+    <nav>
+      <button class="nav-item active" data-view="inicio">
+        <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-7h-6v7H4a1 1 0 0 1-1-1z"/></svg>
+        Inicio
+      </button>
+      <button class="nav-item" data-view="social">
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 19c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 13.4c2.9.3 5 2.4 5 5.6"/></svg>
+        Social
+      </button>
+      <button class="nav-item" data-view="mods">
+        <svg viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
+        Mods
+      </button>
+      <div class="nav-sep"></div>
+      <button class="nav-item" data-view="ajustes">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+        Ajustes
+      </button>
+    </nav>
+    <div class="side-foot">Fabric 1.21.1<br><span id="verNote">v1</span></div>
+  </aside>
+
+  <main id="main">
+
+    <section id="view-inicio" class="view active">
+      <h2 class="sect">Seguir jugando</h2>
+      <div id="hero" class="hero">
+        <div class="hero-fade"></div>
+        <div class="hero-info">
+          <div class="hero-title">El Server de los Bros</div>
+          <div class="hero-sub">
+            <span id="statusPill" class="pill">verificando…</span>
+            <span id="playersNow" class="dim"></span>
+          </div>
+          <div class="hero-nick dim" id="heroNick"></div>
+        </div>
+        <button id="btnPlay" class="play-btn">▶&nbsp; JUGAR</button>
+      </div>
+      <div class="hero-hint dim">Entra directo al server. Si Windows pregunta algo, dale a <b>Abrir</b>.</div>
+
+      <div class="row-head">
+        <h2 class="sect">Tus mundos</h2>
+        <span class="sect-sub dim" id="worldsNote">un jugador</span>
+      </div>
+      <div id="worlds" class="cards"></div>
+
+      <div id="avisosWrap" hidden>
+        <h2 class="sect">Avisos</h2>
+        <div id="avisos" class="avisos"></div>
+      </div>
+    </section>
+
+    <section id="view-social" class="view">
+      <h2 class="sect">Ahora mismo en el server</h2>
+      <div id="onlineList" class="online-list"></div>
+      <h2 class="sect">Los bros</h2>
+      <div id="friendsList" class="cards"></div>
+    </section>
+
+    <section id="view-mods" class="view">
+      <h2 class="sect">Mods del pack</h2>
+      <div class="mods-head dim" id="modsHead">cargando…</div>
+      <div id="modsList" class="mods-list"></div>
+    </section>
+
+    <section id="view-ajustes" class="view">
+      <h2 class="sect">Tu nombre</h2>
+      <div class="panel">
+        <div class="field-row">
+          <input id="nickInput" maxlength="16" spellcheck="false" placeholder="tu nombre de jugador">
+          <button id="nickSave" class="btn">Guardar</button>
+        </div>
+        <p class="dim small">Este nombre es para siempre: con él te ven en el server y con él se carga tu skin. Si tienes cuenta en <b>ely.by</b>, usa exactamente ese mismo nombre.</p>
+      </div>
+
+      <h2 class="sect">Carpeta del juego</h2>
+      <div class="panel">
+        <p class="dim small" id="folderState">Sin conectar. Así la página ve tus mundos y tus horas jugadas.</p>
+        <button id="folderPick" class="btn">Conectar carpeta</button>
+        <p class="dim small">Elige la carpeta donde descomprimiste <b>AppSync</b> (la que tiene SyncApp.exe). Solo se pide una vez.</p>
+      </div>
+
+      <h2 class="sect">Instalación (una sola vez)</h2>
+      <div class="panel">
+        <ol class="steps dim">
+          <li>Descomprime la carpeta <b>AppSync</b> en tu PC (quedó por WhatsApp o USB).</li>
+          <li>Abre la carpeta y dale doble clic a <b>SyncApp.exe</b>. Aparece "Todo listo" y ya.</li>
+          <li>Vuelve aquí y dale a <b>JUGAR</b> arriba. Eso es todo, siempre.</li>
+        </ol>
+        <p class="dim small">Esto no crea accesos directos ni nada visible. Todo vive dentro de la carpeta AppSync.</p>
+      </div>
+
+      <h2 class="sect">Server</h2>
+      <div class="panel">
+        <p class="small mono" id="serverAddr"></p>
+        <p class="dim small">Dirección fija. Si dice "apagado" es que la PC del host está apagada.</p>
+        <button id="recheck" class="btn btn-ghost">Probar ahora</button>
+      </div>
+    </section>
+
+  </main>
+
+  <aside id="profile">
+    <div class="p-nick" id="pNick">sin nombre</div>
+    <div class="p-tag" id="pTag">CONFIGURA TU NOMBRE</div>
+    <div class="p-bar"><div id="pBar"></div></div>
+    <div class="p-stats">
+      <div class="stat"><b id="statMods">—</b><span>mods</span></div>
+      <div class="stat"><b id="statSes">—</b><span>sesiones</span></div>
+    </div>
+    <div id="skinView"></div>
+    <canvas id="skinHead" width="128" height="128" hidden></canvas>
+    <div class="p-note dim">tu skin viaja contigo<br><span class="mono tiny">ely.by · CustomSkinLoader</span></div>
+  </aside>
+
+</div>
+
+<div id="onlinePill">
+  <span class="dot" id="onlineDot"></span>
+  <span id="onlineTxt">verificando…</span>
+  <span class="amigos" id="pillFriends">Amigos</span>
+</div>
+
+<div id="wizard" class="overlay" hidden>
+  <div class="wiz-card">
+    <div class="wiz-step" id="wiz1">
+      <div class="wiz-emoji">🎮</div>
+      <h1>Bienvenida a Sync</h1>
+      <p class="dim">Aquí juegas Minecraft con los bros. Primero lo más importante:</p>
+      <input id="wizNick" maxlength="16" spellcheck="false" placeholder="elige tu nombre de jugador">
+      <p class="dim small" id="wizNickNote">3 a 16 letras o números, sin espacios. Este nombre es para siempre y debe ser igual a tu cuenta de ely.by si tienes skin.</p>
+      <button id="wizNext" class="btn btn-big">Continuar</button>
+    </div>
+    <div class="wiz-step" id="wiz2" hidden>
+      <div class="wiz-emoji">📦</div>
+      <h1>Una sola vez: instala el programa</h1>
+      <p class="dim">La página manda, pero el juego vive en tu PC:</p>
+      <ol class="steps dim" style="text-align:left">
+        <li>Descomprime la carpeta <b>AppSync</b> donde quieras.</li>
+        <li>Entra y doble clic a <b>SyncApp.exe</b>.</li>
+        <li>Verás "✓ Todo listo" — ciérralo.</li>
+      </ol>
+      <button id="wizDone" class="btn btn-big">Ya está, ¡a jugar!</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" hidden></div>
+<div id="testBadge" hidden>modo prueba</div>
+<script src="app.js"></script>
+</body>
+</html>
