@@ -1,0 +1,7 @@
+{
+  "default": "bros",
+  "instances": {
+    "bros": { "nombre": "El pack de los bros", "ruta": "" },
+    "backrooms": { "nombre": "Backrooms XD", "ruta": "backrooms", "server": "" }
+  }
+}
