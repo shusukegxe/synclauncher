@@ -14,6 +14,8 @@ const state = {
   dir: null,        // File System handle de la carpeta AppSync
   needsPerm: null,  // handle guardado que pide permiso de nuevo
   mods: null,
+  insts: null,      // instancias del instances.json (null = solo hay una)
+  inst: null,
   test: false,      // ?test=1 → simula server online y JUGAR no invoca mcq://
 };
 
@@ -144,10 +146,40 @@ function renderStatus() {
 function launch(qp) {
   if (!state.nick) { openWizard(); return; }
   let u = 'mcq://play?nick=' + encodeURIComponent(state.nick);
+  if (state.insts && state.inst) u += '&inst=' + encodeURIComponent(state.inst);
   if (qp) u += '&qp=' + encodeURIComponent(qp);
   if (state.test) { toast('PRUEBA · abriría: ' + u); return; }
   location.href = u;
   toast('Abriendo Minecraft… si Windows pregunta, dale a Abrir');
+}
+
+/* ---------- instancias (multi-pack) ---------- */
+async function loadInstancias() {
+  try {
+    const r = await fetchTO('./instances.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const j = await r.json();
+    const defs = j.instances || {};
+    const ids = Object.keys(defs);
+    if (ids.length < 2) return;
+    state.insts = ids.map(id => ({ id, nombre: defs[id].nombre || id }));
+    const guardada = localStorage.getItem('inst');
+    state.inst = state.insts.some(i => i.id === guardada) ? guardada : (j.default || ids[0]);
+    renderInst();
+  } catch (e) { /* sin instances.json: una sola instancia, sin selector */ }
+}
+
+function renderInst() {
+  const row = $('#instPills');
+  row.innerHTML = '';
+  $('#instRow').hidden = false;
+  state.insts.forEach(i => {
+    const b = document.createElement('button');
+    b.className = 'inst-pill' + (i.id === state.inst ? ' on' : '');
+    b.textContent = i.nombre;
+    b.onclick = () => { state.inst = i.id; localStorage.setItem('inst', i.id); renderInst(); };
+    row.appendChild(b);
+  });
 }
 
 /* ---------- carpeta local (File System Access) ---------- */
@@ -490,6 +522,7 @@ function init() {
   restoreFolder();
   loadMods();
   loadAvisos();
+  loadInstancias();
   pollStatus();
   // placeholder de mundos cuando aún no hay carpeta conectada
   function worldsPlaceholder() {
