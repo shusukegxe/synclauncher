@@ -1,5 +1,30 @@
 {
-  "bros": [],
+  "bros": [
+    {
+      "file": "enhancedblockentities-0.10.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/OVuFYfre/versions/HBZAPs3u/enhancedblockentities-0.10.2%2B1.21.jar",
+      "size": 201157,
+      "sha1": "d81359d77fc7c5437f3e83e519dc2f869300f0cd"
+    },
+    {
+      "file": "Ksyxis-1.4.6.jar",
+      "url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/kzLBJQLn/Ksyxis-1.4.6.jar",
+      "size": 23873,
+      "sha1": "6de6271329e0c83e3ccc0512a0d3cfcc3e790d3f"
+    },
+    {
+      "file": "particle_core-0.3.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/mau4pnKr/particle_core-0.3.3%2B1.21.jar",
+      "size": 147812,
+      "sha1": "21134697c26b73cde41d1575c725ab30736d6b17"
+    },
+    {
+      "file": "fzzy_config-0.7.7+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/zFccjYag/fzzy_config-0.7.7%2B1.21.jar",
+      "size": 2387721,
+      "sha1": "5e96a2f5b0a26417c7f10f5bdbeaa62ec4ec4cd9"
+    }
+  ],
   "backrooms": [
     {
       "file": "spb-revamped-1.20.1-1.2.0.jar",
