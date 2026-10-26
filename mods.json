@@ -49,6 +49,36 @@
       "url": "https://mediafilez.forgecdn.net/files/9185/270/penumbra-2.0.0%2B1.21.1.jar",
       "size": 27474818,
       "sha1": "23301ef3ae71c6fc880ceee449f9286986102ec2"
+    },
+    {
+      "file": "tenseambience-1.18.2-1.21.8-FABRIC-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9qIVVBj8/versions/ScuqVfg0/tenseambience-1.18.2-1.21.8-FABRIC-2.0.0.jar",
+      "size": 88166183,
+      "sha1": "87784235a27967208be982886359570b6ceabdc2"
+    },
+    {
+      "file": "Kenny-8.0.0-Fabric+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/1qMrluiH/versions/RNWkTMUV/Kenny-8.0.0-Fabric%2Bmc1.21.1.jar",
+      "size": 3656702,
+      "sha1": "e8be3eacc205d1b50b7e464badcad219372c2920"
+    },
+    {
+      "file": "cryptid-1.1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fgon4GGl/versions/SlLZ9hv4/cryptid-1.1.1.0.jar",
+      "size": 4304297,
+      "sha1": "b641b718aff03198c8cd6a44d9927f4e772d200d"
+    },
+    {
+      "file": "hollow-steve-1.21.1-fabric-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rfgvBkts/versions/hw0JlqWS/hollow-steve-1.21.1-fabric-4.1.0.jar",
+      "size": 2098082,
+      "sha1": "7efc19f168f8bf1978b9735730d74f6a7254adbc"
+    },
+    {
+      "file": "spookydoors-fabric-1.21.1-21.1.14.jar",
+      "url": "https://cdn.modrinth.com/data/j5axkwld/versions/k4HJJaUE/spookydoors-fabric-1.21.1-21.1.14.jar",
+      "size": 162743,
+      "sha1": "32423188a2a54b19b93a3dedbccf563211fedc5b"
     }
   ],
   "backrooms": [
