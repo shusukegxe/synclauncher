@@ -46,5 +46,37 @@
       "size": 115866331,
       "sha1": "ba5278db307e3e86703bd4def3830684cf0a4f2b"
     }
+  ],
+  "backrooms3": [
+    {
+      "file": "EufoniaBackrooms-free-1.0.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/8755/339/EufoniaBackrooms-free-1.0.0.jar",
+      "size": 162005518,
+      "sha1": "08a80b9a93dffbba55c7c54e52e68f3710273990"
+    },
+    {
+      "file": "fabric-api-0.116.17+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+      "size": 2452735,
+      "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c"
+    },
+    {
+      "file": "entity_model_features-3.3.11-1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/VeoAKvQ0/entity_model_features-3.3.11-1.21-fabric.jar",
+      "size": 652846,
+      "sha1": "484d51ba5c1efcfb511e2f8db7c0974e66d594fb"
+    },
+    {
+      "file": "entity_texture_features-7.2.5-1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/OVZ7HJXt/entity_texture_features-7.2.5-1.21-fabric.jar",
+      "size": 799948,
+      "sha1": "726958e34edf7b424d7254d73d214caeedd15737"
+    },
+    {
+      "file": "CustomSkinLoader_Universal-15.1.jar",
+      "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/CustomSkinLoader_Universal-15.1.jar",
+      "size": 222917,
+      "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+    }
   ]
 }
