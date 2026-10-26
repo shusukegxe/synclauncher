@@ -37,6 +37,18 @@
       "size": 317832,
       "sha1": "bed0115ddb0c035640a910cdf5dd6cbda4c133a8",
       "humilde": true
+    },
+    {
+      "file": "The-Latch-Threshold-Horror-1.21.1-v1.7.0.jar",
+      "url": "https://github.com/7thplanetyt/the-latch/releases/download/v1.7.0/The-Latch-Threshold-Horror-1.21.1-v1.7.0.jar",
+      "size": 2774242,
+      "sha1": "cfb12f198acf28202ee001c257f79dcf7621fb56"
+    },
+    {
+      "file": "penumbra-2.0.0+1.21.1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9185/270/penumbra-2.0.0%2B1.21.1.jar",
+      "size": 27474818,
+      "sha1": "23301ef3ae71c6fc880ceee449f9286986102ec2"
     }
   ],
   "backrooms": [
