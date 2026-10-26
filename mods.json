@@ -23,6 +23,13 @@
       "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/zFccjYag/fzzy_config-0.7.7%2B1.21.jar",
       "size": 2387721,
       "sha1": "5e96a2f5b0a26417c7f10f5bdbeaa62ec4ec4cd9"
+    },
+    {
+      "file": "exordium-fabric-1.4.2-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/DynYZEae/versions/yhV8WpQg/exordium-fabric-1.4.2-mc1.21.jar",
+      "size": 218732,
+      "sha1": "937dfbbaaaebe935bc6c2538861c7b75106b07b6",
+      "humilde": true
     }
   ],
   "backrooms": [
