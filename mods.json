@@ -45,6 +45,12 @@
       "sha1": "cfb12f198acf28202ee001c257f79dcf7621fb56"
     },
     {
+      "file": "penumbra-2.0.0+1.21.1.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9185/270/penumbra-2.0.0%2B1.21.1.jar",
+      "size": 27474818,
+      "sha1": "23301ef3ae71c6fc880ceee449f9286986102ec2"
+    },
+    {
       "file": "tenseambience-1.18.2-1.21.8-FABRIC-2.0.0.jar",
       "url": "https://cdn.modrinth.com/data/9qIVVBj8/versions/ScuqVfg0/tenseambience-1.18.2-1.21.8-FABRIC-2.0.0.jar",
       "size": 88166183,
@@ -67,18 +73,6 @@
       "url": "https://cdn.modrinth.com/data/j5axkwld/versions/k4HJJaUE/spookydoors-fabric-1.21.1-21.1.14.jar",
       "size": 162743,
       "sha1": "32423188a2a54b19b93a3dedbccf563211fedc5b"
-    },
-    {
-      "file": "gigeresque-fabric-1.21.1-0.8.16.jar",
-      "url": "https://cdn.modrinth.com/data/2kXK3iBI/versions/QXyrUz2p/gigeresque-fabric-1.21.1-0.8.16.jar",
-      "size": 3484741,
-      "sha1": "b8073c1c0b4200ebb1ac812d1c87cc31c7bc25c7"
-    },
-    {
-      "file": "azurelib-fabric-1.21.1-3.1.22.jar",
-      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/YFYcJPIn/azurelib-fabric-1.21.1-3.1.22.jar",
-      "size": 988774,
-      "sha1": "fdf8099faa3daee8aba999cf4ac291d9c40b7374"
     },
     {
       "file": "cosmichorror-fabric-1.21.1-1.0.0.jar",
@@ -111,42 +105,6 @@
       "sha1": "3b80027d2ed279b26b2d300b9545fe5b1c40ff60"
     },
     {
-      "file": "graveyard-FABRIC-4.0.0+mc1.21.1.jar",
-      "url": "https://cdn.modrinth.com/data/QivVPB8W/versions/o5pQ7KmB/graveyard-FABRIC-4.0.0%2Bmc1.21.1.jar",
-      "size": 10979957,
-      "sha1": "e81d84f8ced9e4ea97d05d6c85542b2730b663a0"
-    },
-    {
-      "file": "villagertradingplus-fabric-mc1.21.1-1.1.0.jar",
-      "url": "https://cdn.modrinth.com/data/DhOXUfnP/versions/lBQgtQmq/villagertradingplus-fabric-mc1.21.1-1.1.0.jar",
-      "size": 233371,
-      "sha1": "30371df240a9b7c41deef567c539aae852076ede"
-    },
-    {
-      "file": "aquamirae-fabric-1.21.1-7.2.13.jar",
-      "url": "https://cdn.modrinth.com/data/k23mNPhZ/versions/DkxnNHlJ/aquamirae-fabric-1.21.1-7.2.13.jar",
-      "size": 26110551,
-      "sha1": "a92325959849638304d4d6f541f0cb3a95cb2e2f"
-    },
-    {
-      "file": "fragmentum-5.4.0+1.21.1-fabric.jar",
-      "url": "https://cdn.modrinth.com/data/49C5QgTK/versions/xaaQmZf2/fragmentum-5.4.0%2B1.21.1-fabric.jar",
-      "size": 9770655,
-      "sha1": "12e3be8e600fe26fe6f023441e96dc80712e2ab8"
-    },
-    {
-      "file": "MutantMonsters-v21.1.1-1.21.1-Fabric.jar",
-      "url": "https://cdn.modrinth.com/data/derP0ten/versions/2Sdb5JWj/MutantMonsters-v21.1.1-1.21.1-Fabric.jar",
-      "size": 1318293,
-      "sha1": "ea07a218e3c5a7e342505d33ca19d896ba5afd53"
-    },
-    {
-      "file": "puzzleslib-v21.1.66-mc1.21.1+fabric.jar",
-      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/IV6k1yRp/puzzleslib-v21.1.66-mc1.21.1%2Bfabric.jar",
-      "size": 1507756,
-      "sha1": "fc946af8992dbf77a1de98b2e9fbdb72071b495c"
-    },
-    {
       "file": "[1.21.x] Horde Nights v1.3.15.jar",
       "url": "https://cdn.modrinth.com/data/jGO2ac1X/versions/ZCjTMGZR/%5B1.21.x%5D%20Horde%20Nights%20v1.3.15.jar",
       "size": 553033,
@@ -163,30 +121,6 @@
       "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/zdIS5aiv/voicechat-fabric-1.21.1-2.6.26.jar",
       "size": 5388866,
       "sha1": "df902c43f1c69af157b099d64d9fb9c98e4cc561"
-    },
-    {
-      "file": "deeperdarker-fabric-1.21-1.3.3-plus-b.jar",
-      "url": "https://cdn.modrinth.com/data/fnAffV0n/versions/3MnQb3Tb/deeperdarker-fabric-1.21-1.3.3-plus-b.jar",
-      "size": 17977802,
-      "sha1": "aa5617f608fedd5415f12af459e4e9966b50ef8c"
-    },
-    {
-      "file": "IllagerInvasion-v21.1.6-1.21.1-Fabric.jar",
-      "url": "https://cdn.modrinth.com/data/jSV9w0J5/versions/rfLsSsrL/IllagerInvasion-v21.1.6-1.21.1-Fabric.jar",
-      "size": 2336674,
-      "sha1": "9bffd7c89b1f1b0d671bcac68363000dd08239c7"
-    },
-    {
-      "file": "zombieawareness-fabric-1.21.0-1.13.2.jar",
-      "url": "https://cdn.modrinth.com/data/mMTOWOaA/versions/lBdgO4GL/zombieawareness-fabric-1.21.0-1.13.2.jar",
-      "size": 721869,
-      "sha1": "040a6cb20164c33db3a629e1a65af7134d612988"
-    },
-    {
-      "file": "coroutil-fabric-1.21.1-1.3.8.jar",
-      "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/U0NUocji/coroutil-fabric-1.21.1-1.3.8.jar",
-      "size": 2956258,
-      "sha1": "1bb71c0df6959b06915d6d62b8040aa0892f08ae"
     },
     {
       "file": "architectury-13.0.8-fabric.jar",
