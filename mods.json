@@ -57,12 +57,6 @@
       "sha1": "87784235a27967208be982886359570b6ceabdc2"
     },
     {
-      "file": "Kenny-8.0.0-Fabric+mc1.21.1.jar",
-      "url": "https://cdn.modrinth.com/data/1qMrluiH/versions/RNWkTMUV/Kenny-8.0.0-Fabric%2Bmc1.21.1.jar",
-      "size": 3656702,
-      "sha1": "e8be3eacc205d1b50b7e464badcad219372c2920"
-    },
-    {
       "file": "cryptid-1.1.1.0.jar",
       "url": "https://cdn.modrinth.com/data/fgon4GGl/versions/SlLZ9hv4/cryptid-1.1.1.0.jar",
       "size": 4304297,
@@ -79,12 +73,6 @@
       "url": "https://cdn.modrinth.com/data/j5axkwld/versions/k4HJJaUE/spookydoors-fabric-1.21.1-21.1.14.jar",
       "size": 162743,
       "sha1": "32423188a2a54b19b93a3dedbccf563211fedc5b"
-    },
-    {
-      "file": "faceofhorror-3.3-fabric-1.21.1.jar",
-      "url": "https://cdn.modrinth.com/data/LWhRxaou/versions/YtjEc035/faceofhorror-3.3-fabric-1.21.1.jar",
-      "size": 4750948,
-      "sha1": "646b052c2f1f69d4115c970f56eb167071b75577"
     },
     {
       "file": "gigeresque-fabric-1.21.1-0.8.16.jar",
