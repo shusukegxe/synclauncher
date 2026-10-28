@@ -1,8 +1,27 @@
 {
   "default": "bros",
   "instances": {
-    "bros": { "nombre": "El pack de los bros", "ruta": "" },
-    "backrooms": { "nombre": "Backrooms XD", "ruta": "backrooms", "server": "", "version": "1.20.1" },
-    "backrooms3": { "nombre": "Backrooms Vol. 3", "ruta": "backrooms3", "server": "", "version": "1.21.1" }
+    "bros": {
+      "nombre": "El pack de los bros",
+      "ruta": ""
+    },
+    "backrooms": {
+      "nombre": "Backrooms XD",
+      "ruta": "backrooms",
+      "server": "",
+      "version": "1.20.1"
+    },
+    "backrooms3": {
+      "nombre": "Backrooms Vol. 3",
+      "ruta": "backrooms3",
+      "server": "",
+      "version": "1.21.1"
+    },
+    "lite": {
+      "nombre": "Lite (PCs humildes)",
+      "ruta": "lite",
+      "server": "",
+      "version": "1.21.1"
+    }
   }
 }

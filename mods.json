@@ -84,5 +84,31 @@
       "size": 222917,
       "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
     }
+  ],
+  "lite": [
+    {
+      "file": "fabric-api-0.116.17+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/fabric-api-0.116.17%2B1.21.1.jar",
+      "size": 2452735,
+      "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c"
+    },
+    {
+      "file": "sodium-fabric-0.8.13+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sodium-fabric-0.8.13%2Bmc1.21.1.jar",
+      "size": 1574609,
+      "sha1": "003c114c85ca88ef3362e018deb6aca0c682d6a1"
+    },
+    {
+      "file": "lithium-fabric-0.15.4+mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+      "size": 797454,
+      "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63"
+    },
+    {
+      "file": "ferritecore-7.0.3-fabric.jar",
+      "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ferritecore-7.0.3-fabric.jar",
+      "size": 123450,
+      "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad"
+    }
   ]
 }
