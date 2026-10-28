@@ -1,0 +1,34 @@
+{
+  "ambient.cave": {
+    "sounds": [
+      {
+        "name": "horror/screamer",
+        "stream": false
+      }
+    ]
+  },
+  "entity.wither.spawn": {
+    "sounds": [
+      {
+        "name": "horror/son_alarme",
+        "stream": true
+      }
+    ]
+  },
+  "entity.zombie.ambient": {
+    "sounds": [
+      {
+        "name": "horror/kids_laughing",
+        "stream": false
+      }
+    ]
+  },
+  "block.bell.use": {
+    "sounds": [
+      {
+        "name": "horror/heartbeat-sound",
+        "stream": false
+      }
+    ]
+  }
+}

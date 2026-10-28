@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 999,
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 9999
+    },
+    "description": "Horror Element 26.2 \u2014 Eagler Edition (cabezas y sonidos de terror)"
+  }
+}
