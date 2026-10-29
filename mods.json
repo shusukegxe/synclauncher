@@ -273,6 +273,24 @@
       "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/CuniXtbo/litematica-fabric-26.2-0.28.8.jar",
       "size": 1929569,
       "sha1": "736eda2b7a9f08ef2a104f6a79bce2c2715ecf28"
+    },
+    {
+      "file": "malilib-fabric-26.2-0.29.6.jar",
+      "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/KvjmGjAV/malilib-fabric-26.2-0.29.6.jar",
+      "size": 2037195,
+      "sha1": "8e4959313bec2d413ac898d1a030f1d73d419d5a"
+    },
+    {
+      "file": "badpackets-fabric-0.12.2.jar",
+      "url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/SgNrUT3E/badpackets-fabric-0.12.2.jar",
+      "size": 54465,
+      "sha1": "6733365cd9e0a44f6bb28326385b96e2328b31f2"
+    },
+    {
+      "file": "yet_another_config_lib_v3-3.9.7+26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
+      "size": 1125271,
+      "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
     }
   ]
 }
