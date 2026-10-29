@@ -22,6 +22,12 @@
       "ruta": "lite",
       "server": "",
       "version": "1.21.1"
+    },
+    "mc262": {
+      "nombre": "26.2 Nueva Generacion",
+      "ruta": "mc262",
+      "server": "127.0.0.1:25577",
+      "version": "26.2"
     }
   }
 }
