@@ -291,6 +291,12 @@
       "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
       "size": 1125271,
       "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
+    },
+    {
+      "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+      "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+      "size": 8142878,
+      "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
     }
   ]
 }
