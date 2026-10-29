@@ -297,6 +297,24 @@
       "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
       "size": 8142878,
       "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
+    },
+    {
+      "file": "CustomSkinLoader_Universal-15.1.jar",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+      "size": 222917,
+      "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+    },
+    {
+      "file": "entity_model_features-3.3.12-26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/hyDf8pNd/entity_model_features-3.3.12-26.2-fabric.jar",
+      "size": 665507,
+      "sha1": "34747e7aaf3b0b9f5b9edc3b9fd57fa0b545b531"
+    },
+    {
+      "file": "entity_texture_features-7.2.6-26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/p667cMa5/entity_texture_features-7.2.6-26.2-fabric.jar",
+      "size": 793181,
+      "sha1": "83e1ae7d1fdd64ce3dee8cd25c1cdee6b6d6570d"
     }
   ]
 }
