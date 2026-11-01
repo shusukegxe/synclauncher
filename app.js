@@ -5,7 +5,11 @@ const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
 const state = {
-  server: 'djibouti-entirety.tun.ply.gg',
+  server: 'djibouti-entirety.tun.ply.gg:37484',
+  serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
+  panels: ['http://127.0.0.1:5555', 'http://192.168.1.205:5555'],  // panel del host (chat, logs y mapa)
+  repoWeb: 'https://github.com/shusukegxe/synclauncher',
+  repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
   branch: 'main',
   excludes: ['literalenchants-1.1.0.jar', '.gitattributes', 'README.md'],
@@ -54,10 +58,98 @@ function toast(msg) {
   toastTimer = setTimeout(() => { t.hidden = true; }, 3200);
 }
 
+
+/* ============================================================
+   VISTA "EN VIVO": estado (mcsrvstat) + chat/logs/mapa (panel del host)
+   ============================================================ */
+const live = { chatTimer: null, logsTimer: null, mapSet: false };
+
+function liveStatus() {
+  const st = state.status || {};
+  const online = !!st.online;
+  const dot = $('#liveDot');
+  dot.className = 'live-dot ' + (online ? 'on' : 'off');
+  $('#livePill').textContent = st.err ? 'sin verificar' : (online ? 'En linea' : 'Apagado');
+  $('#livePill').className = 'pill ' + (online ? 'on' : (st.err ? '' : 'off'));
+  const pl = st.players;
+  $('#livePlayers').textContent = pl ? pl.online : (online ? '?' : '0');
+  $('#liveMax').textContent = pl ? pl.max : '—';
+  const addr = state.server;
+  $('#liveAddr').textContent = 'java · ' + addr + (online && st.ping != null ? '  ·  ping ' + st.ping + ' ms' : '');
+}
+
+async function panelFetch(path, ms) {
+  for (const base of (state.panels || [])) {
+    try {
+      const r = await fetchTO(base + path, { cache: 'no-store' }, ms || 2500);
+      if (!r.ok) throw new Error('http ' + r.status);
+      return await r.json();
+    } catch (e) { /* siguiente direccion */ }
+  }
+  return null;
+}
+
+async function liveChat() {
+  const d = await panelFetch('/api/chat?n=18');
+  const box = $('#liveChat');
+  if (!d || !d.chat) {
+    box.innerHTML = '<div class="ln sys"><b>—</b>El chat en vivo se lee desde el panel del host: conectate a la misma red WiFi.</div>';
+    return;
+  }
+  if (!d.chat.length) { box.innerHTML = '<div class="ln sys"><b>—</b>Silencio en el server.</div>'; return; }
+  box.innerHTML = d.chat.map(c =>
+    `<div class="ln"><time>${esc(c.h)}</time><b>${esc(c.nick)}</b>${esc(c.txt)}</div>`).join('');
+  box.scrollTop = box.scrollHeight;
+}
+
+async function liveLogs() {
+  const d = await panelFetch('/api/logs?n=26');
+  const box = $('#liveLogs');
+  if (!d || !d.log) {
+    box.innerHTML = '<div class="ln sys"><b>—</b>Los registros se leen desde el panel del host (misma red WiFi).</div>';
+    return;
+  }
+  box.innerHTML = d.log.map(l => {
+    const t = (l.match(/^\[(\d\d:\d\d:\d\d)\]/) || [])[1] || '';
+    const rest = l.replace(/^\[[^\]]+\]\s*/, '');
+    const m = rest.match(/^\[[^\]]*\]\s*\[?([^\]:]{1,24})\]?[:\s]*(.*)$/);
+    const who = m ? m[1] : '';
+    const txt = m ? m[2] : rest;
+    return `<div class="ln sys"><time>${esc(t)}</time>${who ? '<b>' + esc(who) + '</b>' : ''}${esc(txt).slice(0, 160)}</div>`;
+  }).join('');
+  box.scrollTop = box.scrollHeight;
+}
+
+async function liveMap() {
+  const d = await panelFetch('/api/mapurl');
+  const url = d && d.url ? d.url : 'http://192.168.1.205:8080';
+  $('#liveMap').src = url;
+  $('#mapLink').href = url;
+  $('#mapFallback').style.display = 'none';
+  live.mapSet = true;
+}
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function startLive() {
+  liveStatus(); liveChat(); liveLogs(); liveMap();
+  if (live.chatTimer) return;
+  live.chatTimer = setInterval(() => {
+    if (document.visibilityState === 'visible') { liveStatus(); liveChat(); }
+  }, 5000);
+  live.logsTimer = setInterval(() => {
+    if (document.visibilityState === 'visible') liveLogs();
+  }, 12000);
+}
+
 /* ---------- navegación ---------- */
 function go(view) {
   $$('.nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === view));
   $$('.view').forEach(v => v.classList.toggle('active', v.id === 'view-' + view));
+  if (view === 'server') startLive();
 }
 
 /* ---------- pixel art del hero: ahora es el gif de fondo, no se dibuja nada ---------- */
@@ -114,13 +206,32 @@ async function pollStatus() {
     renderStatus();
     return;
   }
-  try {
-    const r = await fetchTO('https://api.mcsrvstat.us/3/' + state.server, { cache: 'no-store' });
-    if (!r.ok) throw new Error('http ' + r.status);
-    state.status = await r.json();
-  } catch (e) {
-    state.status = { online: false, err: true };
+  const cand = [state.server, state.serverAlt].filter(Boolean);
+  let ok = null, lastErr = false;
+  for (const host of cand) {
+    // API 1: mcstatus.io (CORS, probe directo)
+    try {
+      const r = await fetchTO('https://api.mcstatus.io/v2/status/java/' + host, { cache: 'no-store' });
+      if (r.ok) {
+        const j = await r.json();
+        if (j && j.online) {
+          ok = { online: true, players: { online: (j.players || {}).online || 0, max: (j.players || {}).max || 0, list: [] }, ping: j.ping };
+          break;
+        }
+      } else lastErr = true;
+    } catch (e) { lastErr = true; }
+    // API 2: mcsrvstat (respaldo)
+    try {
+      const r = await fetchTO('https://api.mcsrvstat.us/3/' + host, { cache: 'no-store' });
+      if (!r.ok) { lastErr = true; continue; }
+      const j = await r.json();
+      if (j && j.online) {
+        ok = { online: true, players: j.players || { online: 0, max: 0, list: [] }, ping: j.ping };
+        break;
+      }
+    } catch (e) { lastErr = true; }
   }
+  state.status = ok || { online: false, err: lastErr };
   renderStatus();
 }
 
@@ -140,6 +251,7 @@ function renderStatus() {
   $('#onlineTxt').textContent = online && players ? players.online + ' en línea' : (online ? 'En línea' : 'Server apagado');
 
   renderSocial();
+  if (document.getElementById('liveDot')) liveStatus();
 }
 
 /* ---------- lanzar (protocolo mcq://) ---------- */
@@ -261,7 +373,6 @@ async function loadLocal() {
   if (!worlds.length) {
     const info = document.createElement('div');
     info.className = 'card card-add';
-    info.style.width = 'auto';
     info.innerHTML = '<span style="font-size:12.5px;padding:0 16px">Tus mundos aparecerán aquí cuando jueges</span>';
     info.onclick = () => launch(null);
     wEl.appendChild(info);
@@ -381,7 +492,7 @@ function renderSocial() {
 /* ---------- avisos del repo (opcional) ---------- */
 async function loadAvisos() {
   try {
-    const r = await fetchTO('https://raw.githubusercontent.com/' + state.repo + '/' + state.branch + '/avisos.json', { cache: 'no-store' });
+    const r = await fetchTO('https://raw.githubusercontent.com/' + (state.repoAvisos || state.repo) + '/' + state.branch + '/avisos.json', { cache: 'no-store' });
     if (!r.ok) return;
     const j = await r.json();
     if (!j || !j.texto) return;
@@ -531,7 +642,6 @@ function init() {
     if (wEl.children.length) return;
     const info = document.createElement('div');
     info.className = 'card card-add';
-    info.style.width = 'auto';
     info.innerHTML = '<span style="font-size:12.5px;padding:0 16px">Conecta tu carpeta para ver tus mundos</span>';
     info.onclick = pickFolder;
     wEl.appendChild(info);
