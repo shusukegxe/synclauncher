@@ -7,7 +7,9 @@ const $$ = s => document.querySelectorAll(s);
 const state = {
   server: 'djibouti-entirety.tun.ply.gg:37484',
   serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
-  panels: ['http://127.0.0.1:5555', 'http://192.168.1.205:5555'],  // panel del host (chat, logs y mapa)
+  panels: ['https://int-downtown-internship-exposure.trycloudflare.com',
+           'http://127.0.0.1:5555', 'http://192.168.1.205:5555'],  // panel: publico + host
+  mapPublic: 'https://telescope-luggage-willing-indicator.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
@@ -121,12 +123,17 @@ async function liveLogs() {
 }
 
 async function liveMap() {
+  if (state.mapPublic) {
+    $('#liveMap').src = state.mapPublic;
+    $('#mapLink').href = state.mapPublic;
+    $('#mapFallback').style.display = 'none';
+    return;
+  }
   const d = await panelFetch('/api/mapurl');
   const url = d && d.url ? d.url : 'http://192.168.1.205:8080';
   $('#liveMap').src = url;
   $('#mapLink').href = url;
   $('#mapFallback').style.display = 'none';
-  live.mapSet = true;
 }
 
 function esc(s) {
