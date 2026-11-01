@@ -10,49 +10,66 @@
   h1 { color:#55FF55; font-size:28px; margin:0 0 8px; }
   h2 { color:#09ADD3; font-size:18px; margin:24px 0 8px; }
   .ip { background:#0d1016; border:1px solid #09ADD3; border-radius:8px; padding:12px 16px; font-size:18px; color:#55FF55; margin:8px 0; word-break:break-all; }
-  .muerto { color:#FF6666; }
+  .ip.lan { border-color:#8892a6; color:#e8e8e8; font-size:15px; }
   small { color:#8892a6; }
   a { color:#09ADD3; }
+  .tag { display:inline-block; background:#0d1016; border:1px solid #55FF55; color:#55FF55; border-radius:20px; padding:2px 12px; font-size:12px; margin-left:6px; }
 </style>
 </head>
 <body>
 <div class="card">
   <h1>☠ Bros Server 26.2</h1>
-  <small>Mundo semilla 6006216005338798975 · survival · kits PvP · Terralith fuera del spawn</small>
+  <small>Mundo semilla 6006216005338798975 · survival · dificultad easy · dificultad de mobs moderada · pregeneración anti-lag al 8,000 de radio · mapa web · tumbas (GravesX) ·kits PvP</small>
 </div>
 
 <div class="card">
-  <h2>🎮 Java 26.2 (TLauncher / SyncApp)</h2>
-  <div class="ip">179.7.110.242:54201</div>
-  <small>Conexión directa (mejor ping). Requiere cliente <b>26.2</b>.</small>
-  <div class="ip">djibouti-entirety.tun.ply.gg:37484</div>
-  <small>Respaldo vía playit (misma puerta, Java 26.2).</small>
+  <h2>🎮 JAVA — puerta principal <span class="tag">PortWarp Lima</span></h2>
+  <div class="ip">ptjfu7b4.free.tryportwarp.cc:18791</div>
+  <small>Entra con el cliente Java <b>26.2</b> (TLauncher / SyncApp instancia mc262) escribiendo la dirección <b>tal cual, sin ws://</b>. Estable, nodo en tu ciudad.</small>
+  <h2>🎮 JAVA — IP local (solo misma red / mismo PC)</h2>
+  <div class="ip lan">192.168.1.205:54201 &nbsp;·&nbsp; 127.0.0.1:54201</div>
+  <small>El ping más bajo posible si estás en la misma WiFi que el host.</small>
 </div>
 
 <div class="card">
-  <h2>🌐 Eagler (navegador)</h2>
-  <div class="ip">wss://nirvana-mind-suspended-publisher.trycloudflare.com</div>
-  <small>Abre el cliente Eagler 26.2 → Multijugador → esta dirección. <span class="muerto">La URL cambia si la PC del host se reinicia.</span></small>
+  <h2>🌐 Eaglercraft (navegador)</h2>
+  <div class="ip">ws://ptjfu7b4.free.tryportwarp.cc:18791</div>
+  <small>Misma puerta PortWarp, <b>con ws:// adelante</b> y abriendo el cliente Eagler 26.2 como <b>archivo local</b> (doble clic al HTML). Multijugador → Agregar servidor.</small>
 </div>
 
 <div class="card">
-  <h2>🗺️ Mapa web en vivo</h2>
-  <div class="ip">http://179.7.110.242:8080</div>
-  <small>Jugadores, chunks y coordenadas en vivo. Se ve mejor en la misma WiFi (<b>http://192.168.1.205:8080</b>).</small>
+  <h2>🗺️ Mapa del mundo (squaremap)</h2>
+  <div class="ip lan">http://192.168.1.205:8080</div>
+  <small>En vivo: jugadores, chunks y coordenadas. Funciona en la misma WiFi del host (internet requiere abrir el puerto 8080 en el router).</small>
+</div>
+
+<div class="card">
+  <h2>📊 Estado en vivo (panel del host)</h2>
+  <div class="ip lan">http://192.168.1.205:5555</div>
+  <small>Página de estado del server, chat en vivo y mapa — solo desde la misma WiFi. La administración requiere clave.</small>
 </div>
 
 <div class="card">
   <h2>⚡ Comandos útiles (en el juego)</h2>
   <small>
-    /function horror:pvp — kit netherite + survival<br>
+    /function horror:pvp — kit PvP + survival<br>
     /function horror:todas — las 24 cabezas de horror<br>
-    /function horror:herobrine — una cabeza en específico<br>
-    /tpa &lt;amigo&gt; · /sethome · /spawn (EssentialsX)
+    /tpa &lt;amigo&gt; · /sethome · /spawn · /back (EssentialsX)<br>
+    /playerinfo [jugador] — estadísticas (SharedStats)<br>
+    /co i — inspector de bloques (quién rompió qué, CoreProtect)<br>
+    /sit · /lay · /crawl (GSit)
   </small>
 </div>
 
 <div class="card">
-  <small>Estado de los servicios corre en la PC del host (servicios automáticos). Este mapa web se actualiza solo mientras el server esté encendido. — BrosLauncher</small>
+  <h2>📜 La constitución del MOD</h2>
+  <small>
+    El MOD es una máquina de trueques: cambia items de valor equivalente, no hace milagros<br>
+    (ni hora, ni clima, ni items gratis). Los pedidos reales los procesa el supervisor.<br>
+    Trucos legendarios: huesos → pan · 9 diamantes → pico OP · jadeos al borde del mundo → 2 diamantes
+  </small>
 </div>
+
+<small style="display:block;text-align:center;color:#556">actualizado 2026-10-31 · shusukegxe</small>
 </body>
 </html>
