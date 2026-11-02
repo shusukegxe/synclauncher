@@ -6,10 +6,10 @@ const $$ = s => document.querySelectorAll(s);
 
 const state = {
   server: 'djibouti-entirety.tun.ply.gg:37484',
-  serverAlt: '61bysuma.free.tryportwarp.cc:11747',
-  eagler: 'ws://61bysuma.free.tryportwarp.cc:11747',   // cliente Eagler (mismo puerto, WebSocket)
+  serverAlt: '0thbm253.free.tryportwarp.cc:13302',
+  eagler: 'ws://0thbm253.free.tryportwarp.cc:13302',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
-  bedrock: '',                                        // puerta Bedrock (se llena sola)
+  bedrock: '0thbm253.free.tryportwarp.cc:13302',                                        // puerta Bedrock (se llena sola)
   eaglerWss: 'https://substance-catering-emma-corresponding.trycloudflare.com',  // respaldo wss://
   panels: ['https://sacred-advisor-women-hopes.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
