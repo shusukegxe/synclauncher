@@ -94,6 +94,22 @@ async function panelFetch(path, ms) {
   return null;
 }
 
+async function refrescarIps() {
+  // el host publica sus direcciones actuales en /api/ips (cambian solas)
+  const d = await panelFetch('/api/ips', 3500);
+  if (!d) return;
+  if (d.warp) {
+    state.serverAlt = d.warp;
+    state.eagler = 'ws://' + d.warp;
+  }
+  if (d.eagler) state.eagler = d.eagler;
+  if (d.eaglerWss) state.eaglerWss = d.eaglerWss;
+  if (d.mapPublic) state.mapPublic = d.mapPublic;
+  const s = $('#serverAddr'); if (s) s.textContent = state.server + '  ·  ' + state.serverAlt;
+  const e = $('#eaglerAddr'); if (e) e.textContent = state.eagler;
+  const w = $('#eaglerAddrWss'); if (w) w.textContent = state.eaglerWss;
+}
+
 async function liveChat() {
   const d = await panelFetch('/api/chat?n=18');
   const box = $('#liveChat');
@@ -145,7 +161,7 @@ function esc(s) {
 }
 
 function startLive() {
-  liveStatus(); liveChat(); liveLogs(); liveMap();
+  liveStatus(); liveChat(); liveLogs(); liveMap(); refrescarIps();
   if (live.chatTimer) return;
   live.chatTimer = setInterval(() => {
     if (document.visibilityState === 'visible') { liveStatus(); liveChat(); }
@@ -153,6 +169,9 @@ function startLive() {
   live.logsTimer = setInterval(() => {
     if (document.visibilityState === 'visible') liveLogs();
   }, 12000);
+  live.ipsTimer = setInterval(() => {
+    if (document.visibilityState === 'visible') refrescarIps();
+  }, 30000);
 }
 
 /* ---------- navegación ---------- */
@@ -647,6 +666,7 @@ function init() {
   loadAvisos();
   loadInstancias();
   pollStatus();
+  refrescarIps();
   // placeholder de mundos cuando aún no hay carpeta conectada
   function worldsPlaceholder() {
     if (state.dir) return;
