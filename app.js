@@ -9,9 +9,9 @@ const state = {
   serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
   eagler: 'ws://4ut3q0tm.free.tryportwarp.cc:13633',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
-  panels: ['https://int-downtown-internship-exposure.trycloudflare.com',
+  panels: ['https://creation-willing-registry-drugs.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
-  mapPublic: 'https://telescope-luggage-willing-indicator.trycloudflare.com',
+  mapPublic: 'https://fairly-alliance-conditional-hiring.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
