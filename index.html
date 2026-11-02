@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="app.css?v=20261102b">
+<link rel="stylesheet" href="app.css?v=20261102c">
 </head>
 <body>
 <div id="aurora" aria-hidden="true"><span class="b b1"></span><span class="b b2"></span><span class="b b3"></span></div>
@@ -169,18 +169,19 @@
       <h2 class="sect">Instalación (una sola vez)</h2>
       <div class="panel">
         <div class="dl-row">
-          <a class="btn" href="installer/SyncApp.msi" download>
+          <a class="btn" href="installer/Instalador.exe" download>
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12M7 11l5 5 5-5M4 20h16"/></svg>
-            Descargar SyncApp.msi
+            Descargar Instalador.exe (1 clic, recomendado)
           </a>
+          <a class="btn btn-ghost" href="installer/SyncApp.msi" download>SyncApp.msi</a>
           <a class="btn btn-ghost" href="installer/Instalar-Sync.bat" download>Instalar-Sync.bat</a>
         </div>
         <ol class="steps dim">
-          <li>Descarga el <b>MSI</b> (o el <b>.bat</b> si prefieres sin instalador).</li>
-          <li>Doble clic y listo: se instala, registra el protocolo <b>mcq://</b> y crea los accesos directos.</li>
+          <li>Descarga <b>Instalador.exe</b> (va todo dentro, no necesita nada más) y ábrelo.</li>
+          <li>Se instala solo, registra el protocolo <b>mcq://</b> y te avisa con un ✓. Sin admins.</li>
           <li>Vuelve aquí y dale a <b>JUGAR</b> arriba. Eso es todo, siempre.</li>
         </ol>
-        <p class="dim small">No pide permisos de administrador y no deja basura: todo vive en tu carpeta de usuario.</p>
+        <p class="dim small">Si prefieres el clásico: el <b>MSI</b> tiene asistente y el <b>.bat</b> es el de toda la vida.</p>
       </div>
 
       <h2 class="sect">Server</h2>
@@ -242,7 +243,7 @@
       <h1>Una sola vez: instala el programa</h1>
       <p class="dim">La pagina manda, pero el juego vive en tu PC:</p>
       <ol class="steps dim" style="text-align:left">
-        <li>Ejecuta <b>SyncApp.msi</b> (o <b>Instalar-Sync.bat</b>).</li>
+        <li>Abre <b>Instalador.exe</b>: se instala solo y te avisa con un ✓.</li>
         <li>Si Windows pregunta, dale a <b>Ejecutar</b> / <b>Instalar</b>.</li>
       </ol>
       <button id="wizDone" class="btn btn-big">Ya esta, a jugar!</button>
@@ -252,6 +253,6 @@
 
 <div id="toast" hidden></div>
 <div id="testBadge" hidden>modo prueba</div>
-<script src="app.js?v=20261102b"></script>
+<script src="app.js?v=20261102c"></script>
 </body>
 </html>
