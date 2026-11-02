@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sync — Ayuda y solución de problemas</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230a0c12'/%3E%3Crect x='2' y='2' width='12' height='12' fill='%2343d17c'/%3E%3Crect x='2' y='2' width='12' height='4' fill='%2369e39c'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+  @font-face { font-family:'Monocraft'; src:url('fonts/Monocraft.otf') format('opentype'); font-display:swap; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:32px 16px 80px; background:#0a0c12; color:#e8ecf2;
+         font-family:'Segoe UI',Arial,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; }
+  header { text-align:center; margin-bottom:34px; }
+  h1 { font-family:'Monocraft',monospace; color:#43d17c; font-size:26px; margin:0 0 6px;
+       text-shadow:0 0 24px rgba(67,209,124,.25); }
+  header p { color:#8b95a8; margin:0; font-size:14px; }
+  h2 { font-family:'Monocraft',monospace; color:#69e39c; font-size:18px; margin:38px 0 12px;
+       padding-top:18px; border-top:1px solid #1c2230; }
+  .card { background:#12151f; border:1px solid #1c2230; border-radius:14px; padding:18px 20px;
+          margin:14px 0; }
+  .paso { display:flex; gap:12px; align-items:flex-start; margin:10px 0; }
+  .num { font-family:'Monocraft',monospace; background:#1a2233; color:#43d17c; border-radius:8px;
+         min-width:30px; height:30px; display:flex; align-items:center; justify-content:center;
+         font-size:14px; flex-shrink:0; }
+  .paso p { margin:4px 0 0; font-size:14.5px; line-height:1.5; }
+  b { color:#ffffff; }
+  .cmd { position:relative; background:#07090e; border:1px solid #26304a; border-radius:10px;
+         padding:12px 44px 12px 14px; margin:8px 0; font-family:Consolas,monospace;
+         font-size:13.5px; color:#9fe8bd; word-break:break-all; }
+  .copiar { position:absolute; right:8px; top:50%; transform:translateY(-50%);
+            background:#1a2233; color:#43d17c; border:1px solid #2c3852; border-radius:8px;
+            padding:5px 10px; cursor:pointer; font-size:12px; font-family:inherit; }
+  .copiar:hover { background:#243050; }
+  .copiar.ok { color:#7dffa9; border-color:#43d17c; }
+  .aviso { background:#1f1a10; border:1px solid #4a3a14; border-radius:10px; padding:10px 14px;
+           color:#e8d49a; font-size:13.5px; margin:8px 0; }
+  .okv { background:#101f14; border:1px solid #1e4a2a; border-radius:10px; padding:10px 14px;
+         color:#a8e8b8; font-size:13.5px; margin:8px 0; }
+  a { color:#43d17c; }
+  .top { position:fixed; right:18px; bottom:18px; background:#1a2233; color:#43d17c;
+         border:1px solid #2c3852; border-radius:10px; padding:8px 14px; cursor:pointer;
+         font-family:'Monocraft',monospace; font-size:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SYNC — AYUDA</h1>
+    <p>Instalación y problemas, paso a paso. Los botones copian los comandos exactos (nada de comillas raras de Discord).</p>
+  </header>
+
+  <h2>0. INSTALAR (una sola vez)</h2>
+  <div class="card">
+    <div class="paso"><div class="num">1</div><p>Descarga el <b>Instalador.exe</b> desde la pestaña <b>Ajustes</b> de la web (va todo dentro, no necesita nada más).</p></div>
+    <div class="paso"><div class="num">2</div><p>Ábrelo. Se instala solo y te avisa con un <b>✓ verde</b>. Si el antivirus pregunta, dale <b>Permitir</b>.</p></div>
+    <div class="paso"><div class="num">3</div><p>Vuelve a la web y dale a <b>JUGAR</b>. Si Windows pregunta algo, <b>Abrir</b>.</p></div>
+    <div class="aviso">¿Ya tenías el juego de antes y algo falla? El instalador nuevo NO borra tus descargas: solo actualiza el lanzador. Instálalo encima y listo.</div>
+  </div>
+
+  <h2>1. LE DOY JUGAR Y NO PASA NADA</h2>
+  <div class="card">
+    <p>Casi siempre es un <b>launcher colgado de antes</b> bloqueando todo. Ábrelo <b>cmd</b> (tecla Windows, escribe <b>cmd</b>, Enter) y pega esto con los botones:</p>
+    <p><b>Paso 1 —</b> ver si hay un launcher colgado:</p>
+    <div class="cmd"><span class="txt">tasklist | findstr /i SyncApp</span><button class="copiar">copiar</button></div>
+    <div class="paso"><div class="num">A</div><p>Si sale una línea con <b>SyncApp.exe</b> → está colgado. Mátalo:</p></div>
+    <div class="cmd"><span class="txt">taskkill /F /IM SyncApp.exe</span><button class="copiar">copiar</button></div>
+    <p><b>Paso 2 —</b> ver si quedó un Minecraft zombi (de un intento anterior):</p>
+    <div class="cmd"><span class="txt">tasklist | findstr /i javaw</span><button class="copiar">copiar</button></div>
+    <div class="paso"><div class="num">A</div><p>Si sale <b>javaw.exe</b> → mátalo también:</p></div>
+    <div class="cmd"><span class="txt">taskkill /F /IM javaw.exe</span><button class="copiar">copiar</button></div>
+    <p><b>Paso 3 —</b> vuelve a la web y dale <b>JUGAR</b> de nuevo. En el 90% de los casos con esto revive.</p>
+  </div>
+
+  <h2>2. SE QUEDA EN "ABRIENDO MINECRAFT" Y NO ABRE</h2>
+  <div class="card">
+    <p>Con el instalador de hoy, todo lo que hace el juego queda escrito en un log. Ábrelo (elige la carpeta que tengas):</p>
+    <div class="cmd"><span class="txt">%APPDATA%\AppSync\logs\javaw.log</span><button class="copiar">copiar ruta</button></div>
+    <div class="cmd"><span class="txt">%APPDATA%\SyncApp\logs\javaw.log</span><button class="copiar">copiar ruta</button></div>
+    <div class="paso"><div class="num">1</div><p>Truco: <b>Win+R</b>, pega la ruta, Enter. Se abre la carpeta <b>logs</b> (o pega la ruta en la barra del explorador).</p></div>
+    <div class="paso"><div class="num">2</div><p>Manda el archivo <b>javaw.log</b> al grupo: la última línea dice la causa exacta.</p></div>
+    <p>Y el registro del lanzador (elige la carpeta que tengas):</p>
+    <div class="cmd"><span class="txt">%APPDATA%\AppSync\logs\sync.log</span><button class="copiar">copiar ruta</button></div>
+    <div class="cmd"><span class="txt">%APPDATA%\SyncApp\logs\sync.log</span><button class="copiar">copiar ruta</button></div>
+    <div class="okv">Dato: el primer arranque de la 26.2 puede tardar 2-4 minutos en mostrar el menú (carga mods). Si la ventana de Minecraft abrió y está negra, ESPERA antes de culparla.</div>
+  </div>
+
+  <h2>3. EL MSI "NO HACE NADA"</h2>
+  <div class="card">
+    <p>El MSI antiguo instalaba en silencio y parecía que no hacía nada. Ahora hay uno con asistente, pero <b>el recomendado es el Instalador.exe</b>: un solo archivo, un clic, sin msiexec de por medio.</p>
+    <p>Si aun así insistes con el MSI y da error, sácanos el log:</p>
+    <div class="cmd"><span class="txt">msiexec /i "%USERPROFILE%\Downloads\SyncApp.msi" /L*V "%TEMP%\sync-msi.log"</span><button class="copiar">copiar</button></div>
+    <p>y manda el archivo <b>%TEMP%\sync-msi.log</b>.</p>
+  </div>
+
+  <h2>4. EL ANTIVIRUS ME BORRA COSAS (McAfee y amigos)</h2>
+  <div class="card">
+    <p>El instalador y el juego viven en tu carpeta de usuario. Agrega estas <b>exclusiones</b> en tu antivirus y se termina el drama:</p>
+    <div class="cmd"><span class="txt">%APPDATA%\AppSync</span><button class="copiar">copiar</button></div>
+    <div class="cmd"><span class="txt">%APPDATA%\SyncApp</span><button class="copiar">copiar</button></div>
+    <p>En McAfee: <b>Configuración → Protección en tiempo real → Archivos excluidos</b>. Si ya te borró el exe, restaura de cuarentena <b>primero</b> las exclusiones, después reinstala con el Instalador.exe.</p>
+  </div>
+
+  <h2>5. NO PUEDO ENTRAR AL SERVER</h2>
+  <div class="card">
+    <p>Las direcciones actualizadas (Java, Eagler y respaldo) viven aquí:</p>
+    <p><a href="server.html">server.html — IPs y puertas del server →</a></p>
+    <p>Si el server "no responde" para todos a la vez, la PC del host se durmió o se cayó un túnel: avisa en Discord y se revive al toque.</p>
+  </div>
+
+  <h2>6. BORRAR TODO Y EMPEZAR DE CERO</h2>
+  <div class="card">
+    <div class="paso"><div class="num">1</div><p>Cierra el juego y el launcher.</p></div>
+    <div class="cmd"><span class="txt">taskkill /F /IM SyncApp.exe &amp; taskkill /F /IM javaw.exe</span><button class="copiar">copiar</button></div>
+    <div class="paso"><div class="num">2</div><p>Borra la carpeta del juego (elige la que tengas):</p></div>
+    <div class="cmd"><span class="txt">%APPDATA%\AppSync</span><button class="copiar">copiar</button></div>
+    <div class="cmd"><span class="txt">%APPDATA%\SyncApp</span><button class="copiar">copiar</button></div>
+    <div class="paso"><div class="num">3</div><p>Instala de nuevo con el <b>Instalador.exe</b> y JUGAR. (Esto borra también tus mundos de un jugador guardados ahí: solo como último recurso.)</p></div>
+  </div>
+
+  <p style="text-align:center;margin-top:40px;color:#5a6478;font-size:13px;">
+    ¿Nada de esto funcionó? Manda al grupo: qué paso hiciste, en qué te quedaste y el javaw.log. — el MOD
+  </p>
+</div>
+<button class="top" onclick="scrollTo({top:0,behavior:'smooth'})">SUBIR</button>
+<script>
+  document.querySelectorAll('.copiar').forEach(function(b){
+    b.addEventListener('click', function(){
+      var texto = b.parentElement.querySelector('.txt').innerText;
+      function listo(){ b.textContent='copiado ✓'; b.classList.add('ok');
+        setTimeout(function(){ b.textContent='copiar'; b.classList.remove('ok'); }, 1600); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(texto).then(listo).catch(function(){ fallback(texto); listo(); });
+      } else { fallback(texto); listo(); }
+    });
+  });
+  function fallback(t){
+    var ta = document.createElement('textarea'); ta.value = t;
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); } catch(e){}
+    document.body.removeChild(ta);
+  }
+</script>
+</body>
+</html>
