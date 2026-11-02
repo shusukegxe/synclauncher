@@ -9,6 +9,7 @@ const state = {
   serverAlt: '61bysuma.free.tryportwarp.cc:11747',
   eagler: 'ws://61bysuma.free.tryportwarp.cc:11747',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
+  bedrock: '',                                        // puerta Bedrock (se llena sola)
   eaglerWss: 'https://role-going-parameter-shows.trycloudflare.com',  // respaldo wss://
   panels: ['https://fate-racing-cycling-drive.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
@@ -105,9 +106,11 @@ async function refrescarIps() {
   if (d.eagler) state.eagler = d.eagler;
   if (d.eaglerWss) state.eaglerWss = d.eaglerWss;
   if (d.mapPublic) state.mapPublic = d.mapPublic;
+  if (d.bedrock) state.bedrock = d.bedrock;
   const s = $('#serverAddr'); if (s) s.textContent = state.server + '  ·  ' + state.serverAlt;
   const e = $('#eaglerAddr'); if (e) e.textContent = state.eagler;
   const w = $('#eaglerAddrWss'); if (w) w.textContent = state.eaglerWss;
+  const b = $('#bedrockAddr'); if (b) b.textContent = state.bedrock || '-';
 }
 
 async function liveChat() {
