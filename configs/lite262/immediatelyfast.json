@@ -1,0 +1,10 @@
+{
+  "configVersion": 2,
+  "enabled": true,
+  "hud_batching": true,
+  "gui_batching": true,
+  "text_effects_batching": true,
+  "fast_buffer_uploads": true,
+  "reduce_gpu_memory_usage": true,
+  "vulkan_compatibility_mode": true
+}

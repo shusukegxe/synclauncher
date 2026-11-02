@@ -1,0 +1,8 @@
+{
+  "property_state_cache": true,
+  "model_bakery_cache": true,
+  "quad_baking_optimizations": true,
+  "compact_fast_util": true,
+  "muddle_string_cache": true,
+  "predicated_models": true
+}

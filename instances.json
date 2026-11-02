@@ -28,6 +28,13 @@
       "ruta": "mc262",
       "server": "127.0.0.1:54201",
       "version": "26.2"
+    },
+    "lite262": {
+      "nombre": "26.2 Ultra Lite",
+      "ruta": "lite262",
+      "server": "",
+      "version": "26.2",
+      "puro": true
     }
   }
 }

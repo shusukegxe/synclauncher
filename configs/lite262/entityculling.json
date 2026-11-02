@@ -1,0 +1,12 @@
+{
+  "configVersion": 6,
+  "enabled": true,
+  "blockEntityLimitDistance": 16,
+  "allowedInProfiles": true,
+  "skipCheckedRenderers": true,
+  "cullEntities": true,
+  "cullBlockEntities": true,
+  "cullLessAggressively": false,
+  "checkHorizontalBeam": true,
+  "checkVerticalBeam": true
+}

@@ -1,0 +1,14 @@
+version:3800
+autoJump:false
+preferVulkan:true
+graphicsMode:0
+renderDistance:4
+simulationDistance:4
+enableVsync:false
+maxFps:60
+ambientOcclusion:0
+clouds:0
+particles:2
+entityShadows:false
+mipmapLevels:0
+gamma:1.0
