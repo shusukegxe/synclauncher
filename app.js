@@ -7,8 +7,10 @@ const $$ = s => document.querySelectorAll(s);
 const state = {
   server: 'djibouti-entirety.tun.ply.gg:37484',
   serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
+  eagler: 'ws://4ut3q0tm.free.tryportwarp.cc:13633',   // cliente Eagler (mismo puerto, WebSocket)
+  eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   panels: ['https://int-downtown-internship-exposure.trycloudflare.com',
-           'http://127.0.0.1:5555', 'http://192.168.1.205:5555'],  // panel: publico + host
+           'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
   mapPublic: 'https://telescope-luggage-willing-indicator.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
@@ -130,7 +132,7 @@ async function liveMap() {
     return;
   }
   const d = await panelFetch('/api/mapurl');
-  const url = d && d.url ? d.url : 'http://192.168.1.205:8080';
+  const url = d && d.url ? d.url : 'http://192.168.1.204:8080';
   $('#liveMap').src = url;
   $('#mapLink').href = url;
   $('#mapFallback').style.display = 'none';
@@ -605,6 +607,7 @@ function init() {
   $('#recheck').onclick = () => { pollStatus(); toast('Verificando server…'); };
 
   $('#serverAddr').textContent = state.server;
+  $('#eaglerAddr').textContent = state.eagler;
 
   $('#nickSave').onclick = () => {
     const n = $('#nickInput').value.trim();
