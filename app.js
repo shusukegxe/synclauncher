@@ -6,8 +6,8 @@ const $$ = s => document.querySelectorAll(s);
 
 const state = {
   server: 'djibouti-entirety.tun.ply.gg:37484',
-  serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
-  eagler: 'ws://4ut3q0tm.free.tryportwarp.cc:13633',   // cliente Eagler (mismo puerto, WebSocket)
+  serverAlt: '61bysuma.free.tryportwarp.cc:11747',
+  eagler: 'ws://61bysuma.free.tryportwarp.cc:11747',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   eaglerWss: 'https://field-willing-them-loading.trycloudflare.com',  // respaldo wss://
   panels: ['https://creation-willing-registry-drugs.trycloudflare.com',
