@@ -9,10 +9,10 @@ const state = {
   serverAlt: '61bysuma.free.tryportwarp.cc:11747',
   eagler: 'ws://61bysuma.free.tryportwarp.cc:11747',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
-  eaglerWss: 'https://field-willing-them-loading.trycloudflare.com',  // respaldo wss://
-  panels: ['https://creation-willing-registry-drugs.trycloudflare.com',
+  eaglerWss: 'https://role-going-parameter-shows.trycloudflare.com',  // respaldo wss://
+  panels: ['https://fate-racing-cycling-drive.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
-  mapPublic: 'https://fairly-alliance-conditional-hiring.trycloudflare.com',
+  mapPublic: 'https://subaru-reality-colors-ion.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
