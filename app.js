@@ -9,6 +9,7 @@ const state = {
   serverAlt: '4ut3q0tm.free.tryportwarp.cc:13633',
   eagler: 'ws://4ut3q0tm.free.tryportwarp.cc:13633',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
+  eaglerWss: 'https://field-willing-them-loading.trycloudflare.com',  // respaldo wss://
   panels: ['https://creation-willing-registry-drugs.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
   mapPublic: 'https://fairly-alliance-conditional-hiring.trycloudflare.com',
@@ -608,6 +609,7 @@ function init() {
 
   $('#serverAddr').textContent = state.server;
   $('#eaglerAddr').textContent = state.eagler;
+  $('#eaglerAddrWss').textContent = state.eaglerWss;
 
   $('#nickSave').onclick = () => {
     const n = $('#nickInput').value.trim();
