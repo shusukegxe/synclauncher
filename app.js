@@ -10,10 +10,10 @@ const state = {
   eagler: 'ws://0thbm253.free.tryportwarp.cc:13302',   // cliente Eagler (mismo puerto, WebSocket)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   bedrock: '0thbm253.free.tryportwarp.cc:13302',                                        // puerta Bedrock (se llena sola)
-  eaglerWss: 'https://model-hundred-eau-soma.trycloudflare.com',  // respaldo wss://
-  panels: ['https://dawn-reasonable-vital-printers.trycloudflare.com',
+  eaglerWss: 'https://helps-empire-surge-licensed.trycloudflare.com',  // respaldo wss://
+  panels: ['https://clause-fiction-pierce-chair.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
-  mapPublic: 'https://accounting-never-beast-prime.trycloudflare.com',
+  mapPublic: 'https://transmit-counting-broadcast-enforcement.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
