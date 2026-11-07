@@ -291,6 +291,10 @@ function launch(qp) {
   if (!state.nick) { openWizard(); return; }
   let u = 'mcq://play?nick=' + encodeURIComponent(state.nick);
   if (state.insts && state.inst) u += '&inst=' + encodeURIComponent(state.inst);
+  // instancias "servidor_dinamico" (la 26.2): manda la puerta viva de /api/ips
+  // para que la rotación del túnel nunca la deje apuntando a una puerta muerta
+  const defInst = state.insts && state.insts.find(i => i.id === state.inst);
+  if (defInst && defInst.dinamico && state.serverAlt && !qp) qp = 'mp:' + state.serverAlt;
   if (qp) u += '&qp=' + encodeURIComponent(qp);
   if (state.test) { toast('PRUEBA · abriría: ' + u); return; }
   location.href = u;
@@ -306,7 +310,7 @@ async function loadInstancias() {
     const defs = j.instances || {};
     const ids = Object.keys(defs);
     if (ids.length < 2) return;
-    state.insts = ids.map(id => ({ id, nombre: defs[id].nombre || id }));
+    state.insts = ids.map(id => ({ id, nombre: defs[id].nombre || id, dinamico: !!defs[id].servidor_dinamico }));
     const guardada = localStorage.getItem('inst');
     state.inst = state.insts.some(i => i.id === guardada) ? guardada : (j.default || ids[0]);
     renderInst();

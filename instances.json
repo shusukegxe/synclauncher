@@ -26,8 +26,9 @@
     "mc262": {
       "nombre": "26.2",
       "ruta": "mc262",
-      "server": "",
-      "version": "26.2"
+      "server": "0thbm253.free.tryportwarp.cc:13302",
+      "version": "26.2",
+      "servidor_dinamico": true
     },
     "lite262": {
       "nombre": "26.2 Lite",
@@ -39,9 +40,10 @@
     "pro262": {
       "nombre": "26.2 Pro",
       "ruta": "pro262",
-      "server": "",
+      "server": "0thbm253.free.tryportwarp.cc:13302",
       "version": "26.2",
-      "puro": true
+      "puro": true,
+      "servidor_dinamico": true
     }
   }
 }
