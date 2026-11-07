@@ -746,6 +746,12 @@
    "sha1": "0977eb0a35e1a1602bc9306ddbbb9177734131f0"
   },
   {
+   "file": "nvidium-0.4.4-beta6-26.2.jar",
+   "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/2VTUVLLs/nvidium-0.4.4-beta6-26.2.jar",
+   "size": 166469,
+   "sha1": "108723a7ebe97fcf0dbc16e154358c7f0553496e"
+  },
+  {
    "file": "ComplementaryReimagined_r5.9.3.zip",
    "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
    "size": 553397,
@@ -884,6 +890,146 @@
    "size": 66262,
    "sha1": "5d5c866f3acb73d3edbf9c0cca4c33fde8da251b",
    "destino": "shaderpacks"
+  },
+  {
+   "file": "cubic-sun-moon-v1.8.1a.zip",
+   "url": "https://cdn.modrinth.com/data/g4bSYbrU/versions/3svw5AHq/cubic-sun-moon-v1.8.1a.zip",
+   "size": 19483440,
+   "sha1": "e60672e9bb6ecffe5ba34596212a800312e2b198",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Recolourful Containers 3.1.4 (1.19.4+).zip",
+   "url": "https://cdn.modrinth.com/data/lewweaHO/versions/aQ7jLjk8/Recolourful%20Containers%203.1.4%20%281.19.4%2B%29.zip",
+   "size": 2011177,
+   "sha1": "802ca58c93fedc5ecbf83ba93df2dc50b6e79c41",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "animated-items 1.21.x-26.3 - v1.6.3.zip",
+   "url": "https://cdn.modrinth.com/data/uBBepXuH/versions/OwMX7WV9/animated-items%201.21.x-26.3%20-%20v1.6.3.zip",
+   "size": 1783851,
+   "sha1": "e1932eda40baedcab207975679ac161bd0168b9d",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Enchantment Outlines.zip",
+   "url": "https://cdn.modrinth.com/data/A32gwfe8/versions/2OjKyOYN/Enchantment%20Outlines.zip",
+   "size": 1220387,
+   "sha1": "517bd444ea55bd23d2a15856edeebce7a3a225b1",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Vocal Villagers 1.4.zip",
+   "url": "https://cdn.modrinth.com/data/SEt2q8cl/versions/B0ExDjpO/%C2%A7a%C2%A7lVocal%20Villagers%20%C2%A7r%C2%A771.4.zip",
+   "size": 1148298,
+   "sha1": "a80f9bf96570575cae80b55b30b34b9e9406436d",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Default-Dark-Mode-1.20.2+-2024.6.0.zip",
+   "url": "https://cdn.modrinth.com/data/6SLU7tS5/versions/KW0bu9nm/Default-Dark-Mode-1.20.2%2B-2024.6.0.zip",
+   "size": 750624,
+   "sha1": "4eedb17ea58f2d90ac0569b8b93a072fa650123e",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "trabens-3d-arrows-1.2.zip",
+   "url": "https://cdn.modrinth.com/data/bwYhZ5Le/versions/olGuFrhW/trabens-3d-arrows-1.2.zip",
+   "size": 734464,
+   "sha1": "29cde698be39a1f70ccf562a168514ae81630e2f",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "NewGlowingOres-Border.zip",
+   "url": "https://cdn.modrinth.com/data/oL18adaQ/versions/BG46xXmQ/NewGlowingOres-%C2%A76%5BBorder%5D%C2%A7r.zip",
+   "size": 344937,
+   "sha1": "40d8c6748585e4585c8d1e54a28b8ea51cad080d",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Clean Connected Glass [1.20-26.x].zip",
+   "url": "https://cdn.modrinth.com/data/dIyWZMgP/versions/O4iOjqoN/Clean%20Connected%20Glass%20%5B1.20-26.x%5D.zip",
+   "size": 344430,
+   "sha1": "94a31f94dc81e6e7829a846d9d5b74dc813fa587",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "JustExpressions_v1.2.1.zip",
+   "url": "https://cdn.modrinth.com/data/vPaHlT2U/versions/ZNXAMRW4/JustExpressions_v1.2.1.zip",
+   "size": 262755,
+   "sha1": "4485a851140d337fa8ecca25939db3be50a3ba59",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Particles+ V.1.5.zip",
+   "url": "https://cdn.modrinth.com/data/M7KG4X7U/versions/zoVYWD1j/Particles%2B%20V.1.5.zip",
+   "size": 224822,
+   "sha1": "be2409cec9b4425d396ded015d666e8dde812e37",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Simple Grass Flowers v2.0.0.zip",
+   "url": "https://cdn.modrinth.com/data/ti9KkMHm/versions/Cd4Xa7Sr/Simple%20Grass%20Flowers%20v2.0.0.zip",
+   "size": 208597,
+   "sha1": "afb56cfc90e663526352f7bd75a3c733178fca45",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Low Fire.zip",
+   "url": "https://cdn.modrinth.com/data/1jZGHJ05/versions/RP4ozzMC/Low%20Fire.zip",
+   "size": 42116,
+   "sha1": "0f8e2e5f6eb9f1e2fe35da7a7a0a355760998021",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Better Bows.zip",
+   "url": "https://cdn.modrinth.com/data/IPRL7R5J/versions/3IeWaPtN/Better%20Bows.zip",
+   "size": 18559,
+   "sha1": "ff133ff965f5b9b6bd26dda0ba72186c4c79e35c",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Colourful Containers GUI.zip",
+   "url": "https://cdn.modrinth.com/data/L85p0yMA/versions/UYoeJi2O/%C2%A7lcolourful%20containers%C2%A78.zip",
+   "size": 750332,
+   "sha1": "a88029867e985399620e43610294897db3f72477",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "FallingLeaves.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/FallingLeaves.zip",
+   "size": 35601,
+   "sha1": "69252465fb9da89f73d2c5fd7e3815bcc965523d",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "ShivaKlans animated textures.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/ShivaKlans%20animated%20textures.zip",
+   "size": 230371,
+   "sha1": "12f4fc95ed4c4419a0455865b6a090f03ff8fa9b",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "infinity.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/infinity.zip",
+   "size": 3021,
+   "sha1": "f72262b3bfc851d6f1ee4e6a1f21dc550de305dd",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "FreshAnimations_v1.11.1_1.20+.zip",
+   "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/aQjwvDfY/FreshAnimations_v1.11.1_1.20%2B.zip",
+   "size": 743793,
+   "sha1": "eaf28f57dee43c469534953517501a021d28cf21",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "Fresh Moves v3.1 (With Animated Eyes).zip",
+   "url": "https://cdn.modrinth.com/data/slufHzC2/versions/4uyHvhnf/-1.21.2%20Fresh%20Moves%20v3.1%20%28With%20Animated%20Eyes%29.zip",
+   "size": 321871,
+   "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+   "destino": "resourcepacks"
   },
   {
    "file": "iris.properties",
