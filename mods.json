@@ -437,5 +437,399 @@
    "sha1": "ad922dbb770ac89f9cc3c0a9932203b77f1c0170",
    "destino": "raiz"
   }
+ ],
+ "pro262": [
+  {
+   "file": "fabric-api-0.161.0+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/ewUK83HI/fabric-api-0.161.0%2B26.2.jar",
+   "size": 2566123,
+   "sha1": "332da34ebb72171e603a0c538de17f4c54ea9e29"
+  },
+  {
+   "file": "cloth-config-26.2.155.jar",
+   "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/Nv3xnWXd/cloth-config-26.2.155.jar",
+   "size": 1135186,
+   "sha1": "babcf16dbd15e09d326e21ffe85ab3f7d843ef9e"
+  },
+  {
+   "file": "modmenu-20.0.3.jar",
+   "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/iRo7AZXf/modmenu-20.0.3.jar",
+   "size": 616919,
+   "sha1": "9fc381627b471c18d67156e846228f51ff2ea5b4"
+  },
+  {
+   "file": "yet_another_config_lib_v3-3.9.7+26.2-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
+   "size": 1125271,
+   "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
+  },
+  {
+   "file": "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+   "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar",
+   "size": 8142878,
+   "sha1": "f1d4ab6ecd54d9782521333a87eb50724ecb03e0"
+  },
+  {
+   "file": "badpackets-fabric-0.12.2.jar",
+   "url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/SgNrUT3E/badpackets-fabric-0.12.2.jar",
+   "size": 54465,
+   "sha1": "6733365cd9e0a44f6bb28326385b96e2328b31f2"
+  },
+  {
+   "file": "sodium-fabric-0.9.2+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/AANobbMI/versions/xJZxADzI/sodium-fabric-0.9.2%2Bmc26.2.jar",
+   "size": 1885572,
+   "sha1": "62a70961a5b3e06938e06ab5f2dc4c5a51cf3323"
+  },
+  {
+   "file": "sodium-extra-fabric-0.9.5+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/PtjYWJkn/versions/GJjGKm2A/sodium-extra-fabric-0.9.5%2Bmc26.2.jar",
+   "size": 502161,
+   "sha1": "ac099861fd861f5de2b62501f9c3c07ee81c5046"
+  },
+  {
+   "file": "reeses-sodium-options-fabric-2.2.4+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/nnz8j4Hu/reeses-sodium-options-fabric-2.2.4%2Bmc26.2.jar",
+   "size": 257483,
+   "sha1": "2afa030032453550d89ccdf1f235f85c0166568d"
+  },
+  {
+   "file": "iris-fabric-1.11.4+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/gxZWWnKH/iris-fabric-1.11.4%2Bmc26.2.jar",
+   "size": 2821616,
+   "sha1": "bd0b24731a94b8fe164531e6345718d30ab08ed2"
+  },
+  {
+   "file": "lithium-fabric-0.25.3+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/f7vZ0VWU/lithium-fabric-0.25.3%2Bmc26.2.jar",
+   "size": 912850,
+   "sha1": "435ad0289209bb72195e7a423756a03f5dfa5a9a"
+  },
+  {
+   "file": "ferritecore-9.0.0-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+   "size": 72677,
+   "sha1": "eac76ff0f3753422c61b2c44487d0d195d88d4bc"
+  },
+  {
+   "file": "entityculling-fabric-1.11.3-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/uXe0pIaz/entityculling-fabric-1.11.3-mc26.2.jar",
+   "size": 1508596,
+   "sha1": "a2210d12bdeac78daf7bb2fdc6b5d85448642cdf"
+  },
+  {
+   "file": "ImmediatelyFast-Fabric-1.16.5+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/pMWERcSu/ImmediatelyFast-Fabric-1.16.5%2B26.2.jar",
+   "size": 100500,
+   "sha1": "0286260261591fe77ba0d332d5d5a2d2e868c2c6"
+  },
+  {
+   "file": "moreculling-fabric-26.2-1.8.1.jar",
+   "url": "https://cdn.modrinth.com/data/51shyZVL/versions/D5oVCouK/moreculling-fabric-26.2-1.8.1.jar",
+   "size": 363646,
+   "sha1": "189d90ef598883df8197ea18b510dba21e69bac4"
+  },
+  {
+   "file": "BadOptimizations-2.4.1-26.2-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/JmPs4Wie/BadOptimizations-2.4.1-26.2-fabric.jar",
+   "size": 60709,
+   "sha1": "b36b001f869d04245523807d9ccb26a085f243b4"
+  },
+  {
+   "file": "dynamic-fps-3.11.9+minecraft-26.2.0-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/pC2JjFw1/dynamic-fps-3.11.9%2Bminecraft-26.2.0-fabric.jar",
+   "size": 188740,
+   "sha1": "e8cd9e4fbc6d42091faffc873b0801f1189ed6a5"
+  },
+  {
+   "file": "krypton-0.3.1.jar",
+   "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/5WeL0Nkz/krypton-0.3.1.jar",
+   "size": 268842,
+   "sha1": "c83ed92c0f9f8523d7e6096151e74222fea91e96"
+  },
+  {
+   "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.60.jar",
+   "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/4wjXxrDQ/c2me-fabric-mc26.2-0.4.2-alpha.0.60.jar",
+   "size": 3843816,
+   "sha1": "388b8794f1ca5e9055434256920c73f62ded52e7"
+  },
+  {
+   "file": "Clumps-fabric-26.2-26.2.1.jar",
+   "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/dEMopoOJ/Clumps-fabric-26.2-26.2.1.jar",
+   "size": 19950,
+   "sha1": "98e368bacc9d1a607be81d02f78f9afe913e7cfe"
+  },
+  {
+   "file": "particle_core-0.3.3+fix1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/NPLw1nMG/particle_core-0.3.3%2Bfix1%2B26.2.jar",
+   "size": 141191,
+   "sha1": "1e04e1a40ea29c704c5ce008a8e737938a53a7f5"
+  },
+  {
+   "file": "Ksyxis-1.4.6.jar",
+   "url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/kzLBJQLn/Ksyxis-1.4.6.jar",
+   "size": 23873,
+   "sha1": "6de6271329e0c83e3ccc0512a0d3cfcc3e790d3f"
+  },
+  {
+   "file": "entity_model_features-3.3.12-26.2-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/hyDf8pNd/entity_model_features-3.3.12-26.2-fabric.jar",
+   "size": 665507,
+   "sha1": "34747e7aaf3b0b9f5b9edc3b9fd57fa0b545b531"
+  },
+  {
+   "file": "entity_texture_features-7.2.6-26.2-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/p667cMa5/entity_texture_features-7.2.6-26.2-fabric.jar",
+   "size": 793181,
+   "sha1": "83e1ae7d1fdd64ce3dee8cd25c1cdee6b6d6570d"
+  },
+  {
+   "file": "lambdynamiclights-4.12.4+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/yBW8D80W/versions/XVsaQXSm/lambdynamiclights-4.12.4%2B26.2.jar",
+   "size": 1344429,
+   "sha1": "c842011792dbaf95bb6243df1ad7f39c576f944d"
+  },
+  {
+   "file": "notenoughanimations-fabric-1.12.5-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/ocinaOmO/notenoughanimations-fabric-1.12.5-mc26.2.jar",
+   "size": 1863477,
+   "sha1": "a497dfeb1a7c27c5376a9a7a54ef7634a90d9c3d"
+  },
+  {
+   "file": "firstperson-fabric-2.7.3-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/H5XMjpHi/versions/f4rPoQxS/firstperson-fabric-2.7.3-mc26.2.jar",
+   "size": 1526783,
+   "sha1": "9a5f7f95c274ce2aa110cf19297426d63955b561"
+  },
+  {
+   "file": "xaerominimap-fabric-26.2-26.6.2.jar",
+   "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/kYWdcLLn/xaerominimap-fabric-26.2-26.6.2.jar",
+   "size": 2225160,
+   "sha1": "6b3cb6ee2752e0bd318c46055c865be73163db0a"
+  },
+  {
+   "file": "xaeroworldmap-fabric-26.2-1.47.2.jar",
+   "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/W8qSt5Gs/xaeroworldmap-fabric-26.2-1.47.2.jar",
+   "size": 1484601,
+   "sha1": "259b747c39c61df1ad96f6c4caefa9934cb6aaa5"
+  },
+  {
+   "file": "appleskin-fabric-mc26.2-3.0.10.jar",
+   "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uo5bAN1Y/appleskin-fabric-mc26.2-3.0.10.jar",
+   "size": 181627,
+   "sha1": "03a635bae2c5a5e66825a35ff130242752054b32"
+  },
+  {
+   "file": "wthit-26.2-fabric-20.0.0.jar",
+   "url": "https://cdn.modrinth.com/data/6AQIaxuO/versions/7hordoNl/wthit-26.2-fabric-20.0.0.jar",
+   "size": 918047,
+   "sha1": "fc28fe7b0a0f95b45bb8f1eff161afa545ddadef"
+  },
+  {
+   "file": "shulkerboxtooltip-fabric-5.4.3+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/woHKruB1/shulkerboxtooltip-fabric-5.4.3%2B26.2.jar",
+   "size": 424763,
+   "sha1": "99162a39c96964c8693b48a68dbd81a449411276"
+  },
+  {
+   "file": "zoomify-2.17.0+mc26.2-universal.jar",
+   "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/D64cvU6G/zoomify-2.17.0%2Bmc26.2-universal.jar",
+   "size": 579144,
+   "sha1": "e357d25ee231b6da05393f96baa2b8d76439565a"
+  },
+  {
+   "file": "freecam-fabric-1.5.1+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/XeEZ3fK2/versions/cCtmoFyS/freecam-fabric-1.5.1%2Bmc26.2.jar",
+   "size": 2010154,
+   "sha1": "ef265def14405db3a2a8438519f760f67d509c50"
+  },
+  {
+   "file": "NoChatReports-FABRIC-26.2-v2.20.2.jar",
+   "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/aDbxaVTi/NoChatReports-FABRIC-26.2-v2.20.2.jar",
+   "size": 239602,
+   "sha1": "680b60f6ec5c09a646e7a76bb17cf551608051cd"
+  },
+  {
+   "file": "litematica-fabric-26.2-0.28.8.jar",
+   "url": "https://cdn.modrinth.com/data/bEpr0Arc/versions/CuniXtbo/litematica-fabric-26.2-0.28.8.jar",
+   "size": 1929569,
+   "sha1": "736eda2b7a9f08ef2a104f6a79bce2c2715ecf28"
+  },
+  {
+   "file": "malilib-fabric-26.2-0.29.6.jar",
+   "url": "https://cdn.modrinth.com/data/GcWjdA9I/versions/KvjmGjAV/malilib-fabric-26.2-0.29.6.jar",
+   "size": 2037195,
+   "sha1": "8e4959313bec2d413ac898d1a030f1d73d419d5a"
+  },
+  {
+   "file": "CustomSkinLoader_Universal-15.1.jar",
+   "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+   "size": 222917,
+   "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+  },
+  {
+   "file": "ComplementaryReimagined_r5.9.3.zip",
+   "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
+   "size": 553397,
+   "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "ComplementaryUnbound_r5.9.3.zip",
+   "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip",
+   "size": 553400,
+   "sha1": "2ee08300e1d6f039e63eae8484dddf57b3aaaf67",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "BSL_v10.1.8.zip",
+   "url": "https://cdn.modrinth.com/data/Q1vvjJYV/versions/Y68yiql9/BSL_v10.1.8.zip",
+   "size": 1134153,
+   "sha1": "e89818c8827d0131c102fb480c3c3446624db0df",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "photon_v1.4.zip",
+   "url": "https://cdn.modrinth.com/data/lLqFfGNs/versions/BnGklH5y/photon_v1.4.zip",
+   "size": 3857333,
+   "sha1": "96c7730f5891a42e39bbf1f0f5a98fa99628a7fe",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Solas Shader V3.9.zip",
+   "url": "https://cdn.modrinth.com/data/EpQFjzrQ/versions/IsqhVpb8/Solas%20Shader%20V3.9.zip",
+   "size": 1243081,
+   "sha1": "7130b2ef691aa90f117231ba9ab01e7f6fca6fab",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip",
+   "url": "https://cdn.modrinth.com/data/ZvMtQlho/versions/kC2Y8q1P/Bliss_v2.1.2_%28Chocapic13_Shaders_edit%29.zip",
+   "size": 1791406,
+   "sha1": "ded6c8a98305f8aff90ef781e7585b33b8452cfd",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "MakeUp-UltraFast-9.6.zip",
+   "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip",
+   "size": 406830,
+   "sha1": "e2a930f1ffb7ca6a56cf466c13c9e36193425a38",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Mellow v3.5.zip",
+   "url": "https://cdn.modrinth.com/data/BUxf36AP/versions/DmXr7SxM/Mellow%20v3.5.zip",
+   "size": 1955122,
+   "sha1": "9c309a5170ae555990cf2adfde71c7ac755f560c",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "AstraLex-Shaders-V93.0.zip",
+   "url": "https://cdn.modrinth.com/data/RphJSnEs/versions/qSbtQS2o/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip",
+   "size": 3184524,
+   "sha1": "1041c11b811ee3546bca75cbb14c8c1916a2e9c3",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "miniature-shader-2.19.zip",
+   "url": "https://cdn.modrinth.com/data/UaS8ROxa/versions/LWmZ94RG/miniature-shader-2.19.zip",
+   "size": 43913,
+   "sha1": "f66501ebcc5197f72ef19065eb0fa851707d7f9f",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Spooklementary_v2.0.4.zip",
+   "url": "https://cdn.modrinth.com/data/6uJCfiCH/versions/rcr90eRP/Spooklementary_v2.0.4.zip",
+   "size": 558206,
+   "sha1": "38651af0c334b9a5d454b903c982ccb24db0869a",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "I Like Vanilla v1.5.0b.zip",
+   "url": "https://cdn.modrinth.com/data/DoODk4HD/versions/lrndU3YJ/I%20Like%20Vanilla%20v1.5.0b.zip",
+   "size": 334513,
+   "sha1": "d681b1555f28b521f1967a8e8ed84f8c281a7aba",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Noble v1.9.9.zip",
+   "url": "https://cdn.modrinth.com/data/sclYVqbt/versions/5g32dX2k/Noble%20v1.9.9.zip",
+   "size": 16823335,
+   "sha1": "d717efc78a6051cccbd9a5e42f2a6b243ca40192",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Bloop-1.8.0-Alpha-3.zip",
+   "url": "https://cdn.modrinth.com/data/Q6RQF9Oa/versions/WvrEQHFq/Bloop-1.8.0-Alpha-3.zip",
+   "size": 4728538,
+   "sha1": "2d02d58f3f4259aee5c4ac56c07958a38461ba88",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "E-LITE shaders 5.1.3.zip",
+   "url": "https://cdn.modrinth.com/data/LTvf5Tji/versions/ChU59bMQ/%C2%A7lE-LITE%20shaders%205.1.3.zip",
+   "size": 546229,
+   "sha1": "69b00c8662df174034e918f4ca52c35dd2e66e9d",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Fantasy Shaders Reimagined v1.11.zip",
+   "url": "https://cdn.modrinth.com/data/l6di6hYz/versions/nLDvebj3/Fantasy%20Shaders%20Reimagined%20v1.11.zip",
+   "size": 493160,
+   "sha1": "2d3c92ae3a979192053fab01ff61fc9bf493468a",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Clarity 1.1.3.zip",
+   "url": "https://cdn.modrinth.com/data/rinvvngy/versions/BOa5cSU4/Clarity%201.1.3.zip",
+   "size": 66796,
+   "sha1": "11202ee317924962416e89617148b1755fec5cdd",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "RedHat_v34.3.1.zip",
+   "url": "https://cdn.modrinth.com/data/ZvitaqQh/versions/Ca8OxUZj/RedHat_v34.3.1.zip",
+   "size": 194767,
+   "sha1": "357e3062b2930a269332c94ac863e7916d023116",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "Sildur's Vibrant Shaders v2.02 Extreme.zip",
+   "url": "https://cdn.modrinth.com/data/z8EjLYqN/versions/J4RlzpKF/Sildur%27s%20Vibrant%20Shaders%20v2.02%20Extreme.zip",
+   "size": 251371,
+   "sha1": "2362f4dd27178879c30374c8f33965999bc350c8",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "BVS - Best Vanilla Shader 1.9.3.zip",
+   "url": "https://cdn.modrinth.com/data/chKtnjkM/versions/1NSEqI17/BVS%20-%20Best%20Vanilla%20Shader%201.9.3.zip",
+   "size": 66262,
+   "sha1": "5d5c866f3acb73d3edbf9c0cca4c33fde8da251b",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "iris.properties",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/iris.properties",
+   "size": 273,
+   "sha1": "fe6f0553978c438e54bd0c22dfaf962948d55d09",
+   "destino": "config",
+   "solo_si_falta": true
+  },
+  {
+   "file": "sodium-options.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/sodium-options.json",
+   "size": 746,
+   "sha1": "a2a7e80571e5a9177cbdf0807c07e71376dea931",
+   "destino": "config",
+   "solo_si_falta": true
+  },
+  {
+   "file": "options.txt",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/options.txt",
+   "size": 743,
+   "sha1": "787c7fe95bc9cbd7025ab5ea0f77b5447c68ae76",
+   "destino": "raiz",
+   "solo_si_falta": true
+  }
  ]
 }

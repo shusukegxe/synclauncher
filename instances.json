@@ -35,6 +35,13 @@
       "server": "",
       "version": "26.2",
       "puro": true
+    },
+    "pro262": {
+      "nombre": "26.2 Ultra Pro (GPU RTX)",
+      "ruta": "pro262",
+      "server": "",
+      "version": "26.2",
+      "puro": true
     }
   }
 }
