@@ -315,6 +315,12 @@
    "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/p667cMa5/entity_texture_features-7.2.6-26.2-fabric.jar",
    "size": 793181,
    "sha1": "83e1ae7d1fdd64ce3dee8cd25c1cdee6b6d6570d"
+  },
+  {
+   "file": "e4mc-fabric-6.2.3-modern.jar",
+   "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/RNDvrMAd/e4mc-fabric-6.2.3-modern.jar",
+   "size": 663905,
+   "sha1": "78a4feb50b8cb67a80ca172a56e85c9cd79d9fbb"
   }
  ],
  "lite262": [
@@ -750,6 +756,12 @@
    "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/2VTUVLLs/nvidium-0.4.4-beta6-26.2.jar",
    "size": 166469,
    "sha1": "108723a7ebe97fcf0dbc16e154358c7f0553496e"
+  },
+  {
+   "file": "e4mc-fabric-6.2.3-modern.jar",
+   "url": "https://cdn.modrinth.com/data/qANg5Jrr/versions/RNDvrMAd/e4mc-fabric-6.2.3-modern.jar",
+   "size": 663905,
+   "sha1": "78a4feb50b8cb67a80ca172a56e85c9cd79d9fbb"
   },
   {
    "file": "ComplementaryReimagined_r5.9.3.zip",
