@@ -674,6 +674,54 @@
    "sha1": "cf928e9066eda827d51319d7bfbc84dc5eb8a56c"
   },
   {
+   "file": "architectury-fabric-21.1.12.jar",
+   "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ohb3PBGZ/architectury-fabric-21.1.12.jar",
+   "size": 624143,
+   "sha1": "13358dcb2fcd29890f9ee73109553c179940c9e6"
+  },
+  {
+   "file": "midnightlib-fabric-1.10.0+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/codAaoxh/versions/FYtROxFj/midnightlib-fabric-1.10.0%2B26.2.jar",
+   "size": 65792,
+   "sha1": "8c4ee3680ff901e39f2a04049799d2c203f85fce"
+  },
+  {
+   "file": "replaymod-26.2-2.6.28.jar",
+   "url": "https://cdn.modrinth.com/data/Nv2fQJo5/versions/eHbYuA7P/replaymod-26.2-2.6.28.jar",
+   "size": 15764380,
+   "sha1": "4c0a9b4fa4852af576c20083c4f07e4fea1a32f0"
+  },
+  {
+   "file": "CameraOverhaul-v2.1.2-fabric+mc[26.2].jar",
+   "url": "https://cdn.modrinth.com/data/m0oRwcZx/versions/gjQzjTnd/CameraOverhaul-v2.1.2-fabric%2Bmc%5B26.2%5D.jar",
+   "size": 137245,
+   "sha1": "ee93254f8e96a6a57d3a1968b432422b39f9a206"
+  },
+  {
+   "file": "cinematic_respawn-26.2-fabric-1.4.3.jar",
+   "url": "https://cdn.modrinth.com/data/CFJWaa89/versions/k4Ukn0Ua/cinematic_respawn-26.2-fabric-1.4.3.jar",
+   "size": 172053,
+   "sha1": "52fb43cf6f85d308478e3f07afbf224fb5cb78fa"
+  },
+  {
+   "file": "Smooth F5 v1.3.2-26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eSO2d8oJ/versions/f959GZMl/Smooth%20F5%20v1.3.2-26.2.jar",
+   "size": 33281,
+   "sha1": "bf79651818fb6ab2df40cdb42decb0077d536391"
+  },
+  {
+   "file": "afk-cinematics-1.0.5+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/MjVuY1gY/versions/ggKNg45G/afk-cinematics-1.0.5%2B26.2.jar",
+   "size": 70831,
+   "sha1": "331728cd3e44e55d769355673e6286a0fc74292a"
+  },
+  {
+   "file": "camerapture-1.10.15+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9dzLWnmZ/versions/nbBC1XkL/camerapture-1.10.15%2Bmc26.2.jar",
+   "size": 2434928,
+   "sha1": "3a598f4b754e8d9df52d0673399d4dde7e5a3de0"
+  },
+  {
    "file": "ComplementaryReimagined_r5.9.3.zip",
    "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
    "size": 553397,
