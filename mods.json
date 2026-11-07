@@ -722,6 +722,24 @@
    "sha1": "3a598f4b754e8d9df52d0673399d4dde7e5a3de0"
   },
   {
+   "file": "DistantHorizons-3.3.3-26.2-fabric-neoforge.jar",
+   "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/aAow4a9f/DistantHorizons-3.3.3-26.2-fabric-neoforge.jar",
+   "size": 27766022,
+   "sha1": "22fa56cc57d6ed045ef3c4a3758ea5207ca5bcff"
+  },
+  {
+   "file": "cullleaves-fabric-4.1.2+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/iDsSBWPv/cullleaves-fabric-4.1.2%2B26.2.jar",
+   "size": 93600,
+   "sha1": "1df64a439a6cf79b785882c94b39ac04e67c63bd"
+  },
+  {
+   "file": "fastquit-3.1.5+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/x1hIzbuY/versions/ZZ5dfboC/fastquit-3.1.5%2Bmc26.2.jar",
+   "size": 63310,
+   "sha1": "0977eb0a35e1a1602bc9306ddbbb9177734131f0"
+  },
+  {
    "file": "ComplementaryReimagined_r5.9.3.zip",
    "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/Bqen1mJX/ComplementaryReimagined_r5.9.3.zip",
    "size": 553397,
