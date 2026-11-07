@@ -2,42 +2,42 @@
   "default": "bros",
   "instances": {
     "bros": {
-      "nombre": "El pack de los bros",
+      "nombre": "1.21.1",
       "ruta": ""
     },
     "backrooms": {
-      "nombre": "Backrooms XD",
+      "nombre": "1.20.1",
       "ruta": "backrooms",
       "server": "",
       "version": "1.20.1"
     },
     "backrooms3": {
-      "nombre": "Backrooms Vol. 3",
+      "nombre": "1.21.1 Vol. 3",
       "ruta": "backrooms3",
       "server": "",
       "version": "1.21.1"
     },
     "lite": {
-      "nombre": "Lite (PCs humildes)",
+      "nombre": "1.21.1 Lite",
       "ruta": "lite",
       "server": "",
       "version": "1.21.1"
     },
     "mc262": {
-      "nombre": "26.2 Nueva Generacion",
+      "nombre": "26.2",
       "ruta": "mc262",
       "server": "",
       "version": "26.2"
     },
     "lite262": {
-      "nombre": "26.2 Ultra Lite",
+      "nombre": "26.2 Lite",
       "ruta": "lite262",
       "server": "",
       "version": "26.2",
       "puro": true
     },
     "pro262": {
-      "nombre": "26.2 Ultra Pro (GPU RTX)",
+      "nombre": "26.2 Pro",
       "ruta": "pro262",
       "server": "",
       "version": "26.2",
