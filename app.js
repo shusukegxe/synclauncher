@@ -6,7 +6,7 @@ const $$ = s => document.querySelectorAll(s);
 
 const state = {
   server: 'djibouti-entirety.tun.ply.gg:37484',
-  serverAlt: '0thbm253.free.tryportwarp.cc:13302',
+  serverAlt: 'djibouti-entirety.tun.ply.gg:37484',
   eagler: 'wss://jun-starting-big-nuclear.trycloudflare.com',  // cliente Eagler (wss del tunel)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   bedrock: '0thbm253.free.tryportwarp.cc:13302',                                        // puerta Bedrock (se llena sola)
