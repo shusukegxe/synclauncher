@@ -10,7 +10,7 @@ const state = {
   eagler: 'wss://jun-starting-big-nuclear.trycloudflare.com',  // cliente Eagler (wss del tunel)
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   bedrock: '0thbm253.free.tryportwarp.cc:13302',                                        // puerta Bedrock (se llena sola)
-  eaglerWss: 'https://thinks-projector-publishing-memo.trycloudflare.com',  // respaldo wss://
+  eaglerWss: 'https://comparing-accommodation-html-nurses.trycloudflare.com',  // respaldo wss://
   panels: ['https://survivors-aerial-circuit-wishes.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
   mapPublic: 'https://dairy-bug-age-buffer.trycloudflare.com',
