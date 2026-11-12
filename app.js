@@ -13,7 +13,7 @@ const state = {
   eaglerWss: 'https://mai-cornell-upon-automobile.trycloudflare.com',  // respaldo wss://
   panels: ['https://prints-cube-fragrances-drums.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
-  mapPublic: 'https://api.trycloudflare.com',
+  mapPublic: 'https://intermediate-drop-republican-obtaining.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
