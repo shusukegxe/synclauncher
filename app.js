@@ -11,9 +11,9 @@ const state = {
   eaglerAlt: 'ws://192.168.1.204:54201',              // Eagler en la LAN del host
   bedrock: '0thbm253.free.tryportwarp.cc:13302',                                        // puerta Bedrock (se llena sola)
   eaglerWss: 'https://coupled-reynolds-below-police.trycloudflare.com',  // respaldo wss://
-  panels: ['https://weblog-intent-donor-feeds.trycloudflare.com',
+  panels: ['https://prints-cube-fragrances-drums.trycloudflare.com',
            'http://127.0.0.1:5555', 'http://192.168.1.204:5555'],  // panel: publico + host
-  mapPublic: 'https://aids-finally-camel-success.trycloudflare.com',
+  mapPublic: 'https://api.trycloudflare.com',
   repoWeb: 'https://github.com/shusukegxe/synclauncher',
   repoAvisos: 'shusukegxe/synclauncher',
   repo: 'shusukegxe/modsitosde-miencraft-.v',
