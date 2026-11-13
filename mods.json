@@ -315,6 +315,12 @@
    "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/p667cMa5/entity_texture_features-7.2.6-26.2-fabric.jar",
    "size": 793181,
    "sha1": "83e1ae7d1fdd64ce3dee8cd25c1cdee6b6d6570d"
+  },
+  {
+   "file": "voicechat-fabric-2.6.27+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/ul3tRpKz/voicechat-fabric-2.6.27%2B26.2.jar",
+   "size": 5595129,
+   "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   }
  ],
  "lite262": [
