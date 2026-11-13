@@ -1,49 +1,55 @@
 {
-  "default": "bros",
-  "instances": {
-    "bros": {
-      "nombre": "1.21.1",
-      "ruta": ""
-    },
-    "backrooms": {
-      "nombre": "1.20.1",
-      "ruta": "backrooms",
-      "server": "",
-      "version": "1.20.1"
-    },
-    "backrooms3": {
-      "nombre": "1.21.1 Vol. 3",
-      "ruta": "backrooms3",
-      "server": "",
-      "version": "1.21.1"
-    },
-    "lite": {
-      "nombre": "1.21.1 Lite",
-      "ruta": "lite",
-      "server": "",
-      "version": "1.21.1"
-    },
-    "mc262": {
-      "nombre": "26.2",
-      "ruta": "mc262",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "servidor_dinamico": true
-    },
-    "lite262": {
-      "nombre": "26.2 Lite",
-      "ruta": "lite262",
-      "server": "",
-      "version": "26.2",
-      "puro": true
-    },
-    "pro262": {
-      "nombre": "26.2 Pro",
-      "ruta": "pro262",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "puro": true,
-      "servidor_dinamico": true
-    }
+ "default": "bros",
+ "instances": {
+  "bros": {
+   "nombre": "1.21.1",
+   "ruta": ""
+  },
+  "backrooms": {
+   "nombre": "1.20.1",
+   "ruta": "backrooms",
+   "server": "",
+   "version": "1.20.1"
+  },
+  "backrooms3": {
+   "nombre": "1.21.1 Vol. 3",
+   "ruta": "backrooms3",
+   "server": "",
+   "version": "1.21.1"
+  },
+  "lite": {
+   "nombre": "1.21.1 Lite",
+   "ruta": "lite",
+   "server": "",
+   "version": "1.21.1"
+  },
+  "mc262": {
+   "nombre": "26.2",
+   "ruta": "mc262",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "servidor_dinamico": true
+  },
+  "lite262": {
+   "nombre": "26.2 Lite",
+   "ruta": "lite262",
+   "server": "",
+   "version": "26.2",
+   "puro": true
+  },
+  "pro262": {
+   "nombre": "26.2 Pro",
+   "ruta": "pro262",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "eagler262": {
+   "nombre": "Eagler 26.2 MODS (fabric)",
+   "ruta": "eagler262",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "eagler": "https://eaglercraft.com/play?version=modpack-ultimate-wasm"
   }
+ }
 }
