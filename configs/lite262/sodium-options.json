@@ -1,26 +1,29 @@
 {
-  "video": {
-    "graphics_quality": "fast",
-    "render_distance": 4,
-    "simulation_distance": 4,
-    "frame_rate_limit": 60,
-    "v-sync": false,
-    "brightness": 1.0,
-    "gui_scale": 0,
-    "fullscreen": false,
-    "clouds": "off",
-    "weather": "fast",
-    "particles": "minimal",
-    "smooth_lighting": "off",
-    "biome_blend_radius": 0,
-    "entity_shadows": false,
-    "vignette": false,
-    "mipmaps": 0
-  },
-  "advanced": {
-    "use_vulkan": true,
-    "chunk_builder_threads": 1,
-    "always_defer_chunk_updates": true,
-    "allow_direct_memory_access": true
-  }
+ "video": {
+  "graphics_quality": "fast",
+  "render_distance": 4,
+  "simulation_distance": 4,
+  "frame_rate_limit": 60,
+  "v-sync": false,
+  "brightness": 1.0,
+  "gui_scale": 0,
+  "fullscreen": false,
+  "clouds": "off",
+  "weather": "fast",
+  "particles": "minimal",
+  "smooth_lighting": "off",
+  "biome_blend_radius": 0,
+  "entity_shadows": false,
+  "vignette": false,
+  "mipmaps": 0
+ },
+ "advanced": {
+  "use_vulkan": true,
+  "chunk_builder_threads": 1,
+  "always_defer_chunk_updates": true,
+  "allow_direct_memory_access": true
+ },
+ "quality": {
+  "enable_vignette": false
+ }
 }
