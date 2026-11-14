@@ -44,6 +44,22 @@
    "version": "26.2",
    "puro": true,
    "servidor_dinamico": true
+  },
+  "terrorlite": {
+   "nombre": "26.2 Terror",
+   "ruta": "terrorlite",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "terrorpro": {
+   "nombre": "26.2 Terror Pro",
+   "ruta": "terrorpro",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
   }
  }
 }
