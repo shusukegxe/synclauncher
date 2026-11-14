@@ -321,6 +321,12 @@
    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/ul3tRpKz/voicechat-fabric-2.6.27%2B26.2.jar",
    "size": 5595129,
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
+  },
+  {
+   "file": "faceofhorror-3.3-fabric-26.x.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
+   "size": 4769125,
+   "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
   }
  ],
  "lite262": [
@@ -1066,6 +1072,12 @@
    "sha1": "787c7fe95bc9cbd7025ab5ea0f77b5447c68ae76",
    "destino": "raiz",
    "solo_si_falta": true
+  },
+  {
+   "file": "faceofhorror-3.3-fabric-26.x.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
+   "size": 4769125,
+   "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
   }
  ],
  "terrorlite": [
@@ -1242,6 +1254,12 @@
    "size": 19797744,
    "sha1": "2fb99ca7871a6ec8cb03e843651081fb039761f6",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "faceofhorror-3.3-fabric-26.x.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
+   "size": 4769125,
+   "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
   }
  ],
  "terrorpro": [
@@ -1867,6 +1885,12 @@
    "size": 19797744,
    "sha1": "2fb99ca7871a6ec8cb03e843651081fb039761f6",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "faceofhorror-3.3-fabric-26.x.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
+   "size": 4769125,
+   "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
   }
  ]
 }
