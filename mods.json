@@ -370,6 +370,24 @@
    "size": 310457,
    "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "piggyback-fabric-26.2-1.1.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/piggyback-fabric-26.2-1.1.1.jar",
+   "size": 344505,
+   "sha1": "7d0944e21ab80c392d0b7ef17d9ddb8f29ccede6"
+  },
+  {
+   "file": "saros_ragdoll-2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/saros_ragdoll-2.0.6.jar",
+   "size": 7444202,
+   "sha1": "01e0bf2cdfe3d310ce878eb1fbf617bc4388c8ad"
+  },
+  {
+   "file": "faewulf_lib-fabric-26.2-1.4.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
+   "size": 536478,
+   "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
   }
  ],
  "lite262": [
@@ -1171,6 +1189,24 @@
    "size": 310457,
    "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "piggyback-fabric-26.2-1.1.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/piggyback-fabric-26.2-1.1.1.jar",
+   "size": 344505,
+   "sha1": "7d0944e21ab80c392d0b7ef17d9ddb8f29ccede6"
+  },
+  {
+   "file": "saros_ragdoll-2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/saros_ragdoll-2.0.6.jar",
+   "size": 7444202,
+   "sha1": "01e0bf2cdfe3d310ce878eb1fbf617bc4388c8ad"
+  },
+  {
+   "file": "faewulf_lib-fabric-26.2-1.4.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
+   "size": 536478,
+   "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
   }
  ],
  "terrorlite": [
@@ -1390,6 +1426,24 @@
    "size": 310457,
    "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "piggyback-fabric-26.2-1.1.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/piggyback-fabric-26.2-1.1.1.jar",
+   "size": 344505,
+   "sha1": "7d0944e21ab80c392d0b7ef17d9ddb8f29ccede6"
+  },
+  {
+   "file": "saros_ragdoll-2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/saros_ragdoll-2.0.6.jar",
+   "size": 7444202,
+   "sha1": "01e0bf2cdfe3d310ce878eb1fbf617bc4388c8ad"
+  },
+  {
+   "file": "faewulf_lib-fabric-26.2-1.4.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
+   "size": 536478,
+   "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
   }
  ],
  "terrorpro": [
@@ -2064,6 +2118,24 @@
    "size": 310457,
    "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "piggyback-fabric-26.2-1.1.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/piggyback-fabric-26.2-1.1.1.jar",
+   "size": 344505,
+   "sha1": "7d0944e21ab80c392d0b7ef17d9ddb8f29ccede6"
+  },
+  {
+   "file": "saros_ragdoll-2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/saros_ragdoll-2.0.6.jar",
+   "size": 7444202,
+   "sha1": "01e0bf2cdfe3d310ce878eb1fbf617bc4388c8ad"
+  },
+  {
+   "file": "faewulf_lib-fabric-26.2-1.4.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
+   "size": 536478,
+   "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
   }
  ]
 }
