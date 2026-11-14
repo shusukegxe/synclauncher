@@ -351,6 +351,25 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
    "size": 49511,
    "sha1": "feae48103476c31416c628f6a1d09951aa793571"
+  },
+  {
+   "file": "carryon-fabric-26.2-2.11.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/carryon-fabric-26.2-2.11.2.jar",
+   "size": 379905,
+   "sha1": "3dbc5f73ccbaec35dbca4c07b731998938a5b09c"
+  },
+  {
+   "file": "PatPat-1.3.2+26.2+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PatPat-1.3.2+26.2+fabric.jar",
+   "size": 1211487,
+   "sha1": "47df86b2d37425157584eea6d949dc516addce87"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
   }
  ],
  "lite262": [
@@ -463,8 +482,8 @@
   {
    "file": "options.txt",
    "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite262/options.txt",
-   "size": 212,
-   "sha1": "ad922dbb770ac89f9cc3c0a9932203b77f1c0170",
+   "size": 260,
+   "sha1": "22b188f801407d2e923e95030fecf5561cf51201",
    "destino": "raiz"
   },
   {
@@ -478,6 +497,13 @@
    "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/ul3tRpKz/voicechat-fabric-2.6.27%2B26.2.jar",
    "size": 5595129,
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
   }
  ],
  "pro262": [
@@ -1092,8 +1118,8 @@
   {
    "file": "options.txt",
    "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/options.txt",
-   "size": 743,
-   "sha1": "787c7fe95bc9cbd7025ab5ea0f77b5447c68ae76",
+   "size": 791,
+   "sha1": "b49484796493af06642b0a604d293de89efa02de",
    "destino": "raiz",
    "solo_si_falta": true
   },
@@ -1126,6 +1152,25 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
    "size": 49511,
    "sha1": "feae48103476c31416c628f6a1d09951aa793571"
+  },
+  {
+   "file": "carryon-fabric-26.2-2.11.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/carryon-fabric-26.2-2.11.2.jar",
+   "size": 379905,
+   "sha1": "3dbc5f73ccbaec35dbca4c07b731998938a5b09c"
+  },
+  {
+   "file": "PatPat-1.3.2+26.2+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PatPat-1.3.2+26.2+fabric.jar",
+   "size": 1211487,
+   "sha1": "47df86b2d37425157584eea6d949dc516addce87"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
   }
  ],
  "terrorlite": [
@@ -1238,8 +1283,8 @@
   {
    "file": "options.txt",
    "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/options.txt",
-   "size": 269,
-   "sha1": "18ed6257302e832ab95783de0bf44e8a04bc128f",
+   "size": 291,
+   "sha1": "0c1dbeb9e2387e1aecc8c8f064091cb58ded29f9",
    "destino": "raiz"
   },
   {
@@ -1332,6 +1377,19 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
    "size": 49511,
    "sha1": "feae48103476c31416c628f6a1d09951aa793571"
+  },
+  {
+   "file": "carryon-fabric-26.2-2.11.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/carryon-fabric-26.2-2.11.2.jar",
+   "size": 379905,
+   "sha1": "3dbc5f73ccbaec35dbca4c07b731998938a5b09c"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
   }
  ],
  "terrorpro": [
@@ -1946,8 +2004,8 @@
   {
    "file": "options.txt",
    "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorpro/options.txt",
-   "size": 800,
-   "sha1": "0609d27d64a59f4a9f49ce772dbd97abe80c56c1",
+   "size": 822,
+   "sha1": "5207b6a59f56e24681676ef193298f1e4ea91b27",
    "destino": "raiz",
    "solo_si_falta": true
   },
@@ -1987,6 +2045,25 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
    "size": 49511,
    "sha1": "feae48103476c31416c628f6a1d09951aa793571"
+  },
+  {
+   "file": "carryon-fabric-26.2-2.11.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/carryon-fabric-26.2-2.11.2.jar",
+   "size": 379905,
+   "sha1": "3dbc5f73ccbaec35dbca4c07b731998938a5b09c"
+  },
+  {
+   "file": "PatPat-1.3.2+26.2+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PatPat-1.3.2+26.2+fabric.jar",
+   "size": 1211487,
+   "sha1": "47df86b2d37425157584eea6d949dc516addce87"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
   }
  ]
 }
