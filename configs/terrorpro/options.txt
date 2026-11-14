@@ -38,4 +38,4 @@ weatherRadius:10
 maxFps:260
 musicVolume:0.20
 mouseSensitivity:0.35
-resourcePacks:["vanilla","file/horror-resourcepack.zip"]
+resourcePacks:["vanilla","file/horror-resourcepack.zip","file/PatPat-MPA.zip"]

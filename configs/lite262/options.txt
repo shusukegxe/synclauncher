@@ -12,3 +12,4 @@ particles:2
 entityShadows:false
 mipmapLevels:0
 gamma:1.0
+resourcePacks:["vanilla","file/PatPat-MPA.zip"]
