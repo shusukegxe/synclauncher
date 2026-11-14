@@ -44,12 +44,6 @@
    "version": "26.2",
    "puro": true,
    "servidor_dinamico": true
-  },
-  "eagler262": {
-   "nombre": "Eagler 26.2 MODS (fabric)",
-   "ruta": "eagler262",
-   "server": "0thbm253.free.tryportwarp.cc:13302",
-   "eagler": "https://eaglercraft.com/play?version=modpack-ultimate-wasm"
   }
  }
 }
