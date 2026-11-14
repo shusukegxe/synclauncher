@@ -327,6 +327,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
    "size": 4769125,
    "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
+  },
+  {
+   "file": "cave_dweller-1.6.4-fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/cave_dweller-1.6.4-fabric.jar",
+   "size": 626132,
+   "sha1": "4a71e6c47812bd1a869e34825329494090c067ed"
+  },
+  {
+   "file": "geckolib-fabric-26.2-5.5.5.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
+   "size": 1185836,
+   "sha1": "66bd0b658dadc9345d9b885641b4322e3686094c"
+  },
+  {
+   "file": "the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "size": 72156518,
+   "sha1": "9481e95f4e5f0a979c27399026490e2a158f09d0"
+  },
+  {
+   "file": "villagerinabucket-fabric-26.2-1.0.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
+   "size": 49511,
+   "sha1": "feae48103476c31416c628f6a1d09951aa793571"
   }
  ],
  "lite262": [
@@ -1078,6 +1102,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
    "size": 4769125,
    "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
+  },
+  {
+   "file": "cave_dweller-1.6.4-fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/cave_dweller-1.6.4-fabric.jar",
+   "size": 626132,
+   "sha1": "4a71e6c47812bd1a869e34825329494090c067ed"
+  },
+  {
+   "file": "geckolib-fabric-26.2-5.5.5.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
+   "size": 1185836,
+   "sha1": "66bd0b658dadc9345d9b885641b4322e3686094c"
+  },
+  {
+   "file": "the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "size": 72156518,
+   "sha1": "9481e95f4e5f0a979c27399026490e2a158f09d0"
+  },
+  {
+   "file": "villagerinabucket-fabric-26.2-1.0.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
+   "size": 49511,
+   "sha1": "feae48103476c31416c628f6a1d09951aa793571"
   }
  ],
  "terrorlite": [
@@ -1260,6 +1308,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
    "size": 4769125,
    "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
+  },
+  {
+   "file": "cave_dweller-1.6.4-fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/cave_dweller-1.6.4-fabric.jar",
+   "size": 626132,
+   "sha1": "4a71e6c47812bd1a869e34825329494090c067ed"
+  },
+  {
+   "file": "geckolib-fabric-26.2-5.5.5.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
+   "size": 1185836,
+   "sha1": "66bd0b658dadc9345d9b885641b4322e3686094c"
+  },
+  {
+   "file": "the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "size": 72156518,
+   "sha1": "9481e95f4e5f0a979c27399026490e2a158f09d0"
+  },
+  {
+   "file": "villagerinabucket-fabric-26.2-1.0.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
+   "size": 49511,
+   "sha1": "feae48103476c31416c628f6a1d09951aa793571"
   }
  ],
  "terrorpro": [
@@ -1891,6 +1963,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faceofhorror-3.3-fabric-26.x.jar",
    "size": 4769125,
    "sha1": "2fd841d16f435693028a88edfbd7988f8817ffdc"
+  },
+  {
+   "file": "cave_dweller-1.6.4-fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/cave_dweller-1.6.4-fabric.jar",
+   "size": 626132,
+   "sha1": "4a71e6c47812bd1a869e34825329494090c067ed"
+  },
+  {
+   "file": "geckolib-fabric-26.2-5.5.5.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
+   "size": 1185836,
+   "sha1": "66bd0b658dadc9345d9b885641b4322e3686094c"
+  },
+  {
+   "file": "the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/the-deep-void-fabric-1.99.3.1.4-26.2.jar",
+   "size": 72156518,
+   "sha1": "9481e95f4e5f0a979c27399026490e2a158f09d0"
+  },
+  {
+   "file": "villagerinabucket-fabric-26.2-1.0.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/villagerinabucket-fabric-26.2-1.0.0.jar",
+   "size": 49511,
+   "sha1": "feae48103476c31416c628f6a1d09951aa793571"
   }
  ]
 }
