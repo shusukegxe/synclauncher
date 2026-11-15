@@ -388,6 +388,24 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
    "size": 536478,
    "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
+  },
+  {
+   "file": "remorphed-fabric-8.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/remorphed-fabric-8.1.jar",
+   "size": 778593,
+   "sha1": "27ff8042267afb6c8e32a7e0c52703be7a3ff135"
+  },
+  {
+   "file": "walkers-fabric-8.3.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/walkers-fabric-8.3.2.jar",
+   "size": 1178857,
+   "sha1": "15baa6639dd193f7e5da6a3f9e0dd9307d3cb52d"
+  },
+  {
+   "file": "craftedcore-fabric-8.2.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
+   "size": 798183,
+   "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
   }
  ],
  "lite262": [
@@ -1207,6 +1225,24 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
    "size": 536478,
    "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
+  },
+  {
+   "file": "remorphed-fabric-8.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/remorphed-fabric-8.1.jar",
+   "size": 778593,
+   "sha1": "27ff8042267afb6c8e32a7e0c52703be7a3ff135"
+  },
+  {
+   "file": "walkers-fabric-8.3.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/walkers-fabric-8.3.2.jar",
+   "size": 1178857,
+   "sha1": "15baa6639dd193f7e5da6a3f9e0dd9307d3cb52d"
+  },
+  {
+   "file": "craftedcore-fabric-8.2.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
+   "size": 798183,
+   "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
   }
  ],
  "terrorlite": [
@@ -1444,6 +1480,24 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
    "size": 536478,
    "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
+  },
+  {
+   "file": "remorphed-fabric-8.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/remorphed-fabric-8.1.jar",
+   "size": 778593,
+   "sha1": "27ff8042267afb6c8e32a7e0c52703be7a3ff135"
+  },
+  {
+   "file": "walkers-fabric-8.3.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/walkers-fabric-8.3.2.jar",
+   "size": 1178857,
+   "sha1": "15baa6639dd193f7e5da6a3f9e0dd9307d3cb52d"
+  },
+  {
+   "file": "craftedcore-fabric-8.2.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
+   "size": 798183,
+   "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
   }
  ],
  "terrorpro": [
@@ -2136,6 +2190,24 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/faewulf_lib-fabric-26.2-1.4.0.jar",
    "size": 536478,
    "sha1": "8b8de0cf0f287b16d40a760f8b882ad2ad7f551b"
+  },
+  {
+   "file": "remorphed-fabric-8.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/remorphed-fabric-8.1.jar",
+   "size": 778593,
+   "sha1": "27ff8042267afb6c8e32a7e0c52703be7a3ff135"
+  },
+  {
+   "file": "walkers-fabric-8.3.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/walkers-fabric-8.3.2.jar",
+   "size": 1178857,
+   "sha1": "15baa6639dd193f7e5da6a3f9e0dd9307d3cb52d"
+  },
+  {
+   "file": "craftedcore-fabric-8.2.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
+   "size": 798183,
+   "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
   }
  ]
 }
