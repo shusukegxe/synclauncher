@@ -406,6 +406,12 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
    "size": 798183,
    "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
+  },
+  {
+   "file": "skinshifter-fabric-3.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/skinshifter-fabric-3.2.0.jar",
+   "size": 42353,
+   "sha1": "e9c14920186ac83aa06b313befcc82196c73bb69"
   }
  ],
  "lite262": [
@@ -1243,6 +1249,12 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
    "size": 798183,
    "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
+  },
+  {
+   "file": "skinshifter-fabric-3.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/skinshifter-fabric-3.2.0.jar",
+   "size": 42353,
+   "sha1": "e9c14920186ac83aa06b313befcc82196c73bb69"
   }
  ],
  "terrorlite": [
@@ -1498,6 +1510,12 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
    "size": 798183,
    "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
+  },
+  {
+   "file": "skinshifter-fabric-3.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/skinshifter-fabric-3.2.0.jar",
+   "size": 42353,
+   "sha1": "e9c14920186ac83aa06b313befcc82196c73bb69"
   }
  ],
  "terrorpro": [
@@ -2208,6 +2226,12 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/craftedcore-fabric-8.2.1.jar",
    "size": 798183,
    "sha1": "687a536e352e1fe409e324c306783c9f24b8e49d"
+  },
+  {
+   "file": "skinshifter-fabric-3.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/skinshifter-fabric-3.2.0.jar",
+   "size": 42353,
+   "sha1": "e9c14920186ac83aa06b313befcc82196c73bb69"
   }
  ]
 }
