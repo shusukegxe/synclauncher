@@ -60,6 +60,14 @@
    "version": "26.2",
    "puro": true,
    "servidor_dinamico": true
+  },
+  "lite263": {
+   "nombre": "26.3 Lite",
+   "ruta": "lite263",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.3",
+   "puro": true,
+   "servidor_dinamico": true
   }
  }
 }

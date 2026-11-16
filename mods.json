@@ -2257,5 +2257,128 @@
    "size": 9285011,
    "sha1": "33f49bebbef484e9bbd2626036779f48a9f92603"
   }
+ ],
+ "lite263": [
+  {
+   "file": "fabric-api-0.166.2+26.3.jar",
+   "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Zns5SSRA/fabric-api-0.166.2%2B26.3.jar",
+   "size": 1797523,
+   "sha1": "65636253571429971f25f5619692e6c1a6362028"
+  },
+  {
+   "file": "cloth-config-fabric-26.3.159.jar",
+   "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar",
+   "size": 1135009,
+   "sha1": "9a5cce069380a2047250831dcb19f4ef1b15872d"
+  },
+  {
+   "file": "lithium-fabric-0.26.3+mc26.3.jar",
+   "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/fWv5bnZk/lithium-fabric-0.26.3%2Bmc26.3.jar",
+   "size": 919892,
+   "sha1": "2d3afe9d43bb2549e23479d8d93e644ff366bebf"
+  },
+  {
+   "file": "ferritecore-9.0.0-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+   "size": 72677,
+   "sha1": "eac76ff0f3753422c61b2c44487d0d195d88d4bc"
+  },
+  {
+   "file": "krypton-0.3.2.jar",
+   "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/UugdIYJw/krypton-0.3.2.jar",
+   "size": 268849,
+   "sha1": "21b21cb88e412f0bce73b6609de6dd6aca958d7d"
+  },
+  {
+   "file": "entityculling-fabric-1.12.1-mc26.3.jar",
+   "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/UWpkLRV5/entityculling-fabric-1.12.1-mc26.3.jar",
+   "size": 1522184,
+   "sha1": "de9005580599906b55ff241bdf8cb27da999939a"
+  },
+  {
+   "file": "ImmediatelyFast-Fabric-1.17.1+26.3.jar",
+   "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/3MP9UR23/ImmediatelyFast-Fabric-1.17.1%2B26.3.jar",
+   "size": 99586,
+   "sha1": "f565bbeb201f2305e81761429d3f1f47e1c3a321"
+  },
+  {
+   "file": "moreculling-fabric-26.3-1.9.2.jar",
+   "url": "https://cdn.modrinth.com/data/51shyZVL/versions/loquqFkT/moreculling-fabric-26.3-1.9.2.jar",
+   "size": 297119,
+   "sha1": "4acecf7b1414950c6eb853a8ff2820a7eb2b0069"
+  },
+  {
+   "file": "BadOptimizations-2.4.1-26.3-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/Sp0ctspw/BadOptimizations-2.4.1-26.3-fabric.jar",
+   "size": 60760,
+   "sha1": "4cc25ce6217326ff14169f5358921773297e9475"
+  },
+  {
+   "file": "Clumps-fabric-26.3-26.3.2.jar",
+   "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/J4I1wxJZ/Clumps-fabric-26.3-26.3.2.jar",
+   "size": 20154,
+   "sha1": "86d6618f772320bb5e66b4696396a450d5cb845e"
+  },
+  {
+   "file": "dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/Jwq069rR/dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar",
+   "size": 189474,
+   "sha1": "a4860c9480f0ce1a468e1e4c254214b1f97e19b3"
+  },
+  {
+   "file": "Ksyxis-1.4.6.jar",
+   "url": "https://cdn.modrinth.com/data/2ecVyZ49/versions/kzLBJQLn/Ksyxis-1.4.6.jar",
+   "size": 23873,
+   "sha1": "6de6271329e0c83e3ccc0512a0d3cfcc3e790d3f"
+  },
+  {
+   "file": "NoChatReports-FABRIC-26.3-v2.21.0.jar",
+   "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/6g96avt2/NoChatReports-FABRIC-26.3-v2.21.0.jar",
+   "size": 239561,
+   "sha1": "ed49e6780f20fcad080a211f8163c9d130ebdd34"
+  },
+  {
+   "file": "entity_model_features-3.3.12-26.3-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/vF6qLXsA/entity_model_features-3.3.12-26.3-fabric.jar",
+   "size": 665386,
+   "sha1": "2d076285c7e0671165fc86a827e62ce88ddcd201"
+  },
+  {
+   "file": "sodium-fabric-0.9.3-beta.5+mc26.3.jar",
+   "url": "https://cdn.modrinth.com/data/AANobbMI/versions/v7Lw0h1m/sodium-fabric-0.9.3-beta.5%2Bmc26.3.jar",
+   "size": 1914521,
+   "sha1": "33ea0f572a6afa3ba71bb17fe3ef44358c8293f9"
+  },
+  {
+   "file": "iris-fabric-1.11.7+mc26.3.jar",
+   "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/vTN4NRGW/iris-fabric-1.11.7%2Bmc26.3.jar",
+   "size": 2850938,
+   "sha1": "fa03640ba1e4ef2f7ae3619c6373a06e46d0ba2c"
+  },
+  {
+   "file": "PatPat-1.3.2+26.3+fabric.jar",
+   "url": "https://cdn.modrinth.com/data/dw7LChq9/versions/WVRk2pJA/PatPat-1.3.2%2B26.3%2Bfabric.jar",
+   "size": 1211460,
+   "sha1": "e6ba0d280beff68ee413cb387f742cc0b8d3f12a"
+  },
+  {
+   "file": "CustomSkinLoader_Universal-15.1.jar",
+   "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+   "size": 222917,
+   "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+  },
+  {
+   "file": "PatPat-MPA.zip",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/packs/PatPat-MPA.zip",
+   "size": 310457,
+   "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
+   "destino": "resourcepacks"
+  },
+  {
+   "file": "entity_texture_features-7.2.7-26.3-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/svwZ2o4d/entity_texture_features-7.2.7-26.3-fabric.jar",
+   "size": 798322,
+   "sha1": "29f48f42d72007ce13b4678fac5b2ef5986879e4"
+  }
  ]
 }
