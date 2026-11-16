@@ -2379,6 +2379,12 @@
    "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/svwZ2o4d/entity_texture_features-7.2.7-26.3-fabric.jar",
    "size": 798322,
    "sha1": "29f48f42d72007ce13b4678fac5b2ef5986879e4"
+  },
+  {
+   "file": "options.txt",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite263/options.txt",
+   "size": 260,
+   "sha1": "22b188f801407d2e923e95030fecf5561cf51201"
   }
  ]
 }
