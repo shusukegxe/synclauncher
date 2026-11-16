@@ -1600,6 +1600,33 @@
    "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
    "size": 193030,
    "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
+  },
+  {
+   "file": "iris-fabric-1.11.4+mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/gxZWWnKH/iris-fabric-1.11.4%2Bmc26.2.jar",
+   "size": 2821616,
+   "sha1": "bd0b24731a94b8fe164531e6345718d30ab08ed2"
+  },
+  {
+   "file": "MakeUp-UltraFast-9.6.zip",
+   "url": "https://cdn.modrinth.com/data/izsIPI7a/versions/t4YRxQug/MakeUp-UltraFast-9.6.zip",
+   "size": 406830,
+   "sha1": "e2a930f1ffb7ca6a56cf466c13c9e36193425a38",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "miniature-shader-2.19.zip",
+   "url": "https://cdn.modrinth.com/data/UaS8ROxa/versions/LWmZ94RG/miniature-shader-2.19.zip",
+   "size": 43913,
+   "sha1": "f66501ebcc5197f72ef19065eb0fa851707d7f9f",
+   "destino": "shaderpacks"
+  },
+  {
+   "file": "iris.properties",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/iris.properties",
+   "size": 266,
+   "sha1": "fb2925b25992b71e2c8c6f65c36bd1d239d27882",
+   "destino": "config"
   }
  ],
  "terrorpro": [
