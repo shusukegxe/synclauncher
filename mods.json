@@ -552,6 +552,30 @@
    "size": 310457,
    "sha1": "637947a6fbe09d4b93fa6f4f654f8fc576010650",
    "destino": "resourcepacks"
+  },
+  {
+   "file": "language-reload-1.7.8+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/doGx6rSt/language-reload-1.7.8%2B26.2.jar",
+   "size": 79500,
+   "sha1": "3d5a85a0804aef395d3dffb0ee69acf634f4464c"
+  },
+  {
+   "file": "fast-ip-ping-v1.0.12-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/uA3MAgMy/fast-ip-ping-v1.0.12-mc26.2.jar",
+   "size": 11320,
+   "sha1": "94fd6ea5f9f70bd385b2f0174e3856ca688b519f"
+  },
+  {
+   "file": "rrls-5.2.8+mc.26.2.jar",
+   "url": "https://cdn.modrinth.com/data/ZP7xHXtw/versions/DVwuMj1w/rrls-5.2.8%2Bmc.26.2.jar",
+   "size": 119145,
+   "sha1": "b74544c874a3b679acad16a31e34bb23443a5357"
+  },
+  {
+   "file": "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "size": 193030,
+   "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
   }
  ],
  "pro262": [
@@ -1267,6 +1291,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ransom-fabric-26.2-1.2.1.jar",
    "size": 9285011,
    "sha1": "33f49bebbef484e9bbd2626036779f48a9f92603"
+  },
+  {
+   "file": "language-reload-1.7.8+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/doGx6rSt/language-reload-1.7.8%2B26.2.jar",
+   "size": 79500,
+   "sha1": "3d5a85a0804aef395d3dffb0ee69acf634f4464c"
+  },
+  {
+   "file": "fast-ip-ping-v1.0.12-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/uA3MAgMy/fast-ip-ping-v1.0.12-mc26.2.jar",
+   "size": 11320,
+   "sha1": "94fd6ea5f9f70bd385b2f0174e3856ca688b519f"
+  },
+  {
+   "file": "rrls-5.2.8+mc.26.2.jar",
+   "url": "https://cdn.modrinth.com/data/ZP7xHXtw/versions/DVwuMj1w/rrls-5.2.8%2Bmc.26.2.jar",
+   "size": 119145,
+   "sha1": "b74544c874a3b679acad16a31e34bb23443a5357"
+  },
+  {
+   "file": "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "size": 193030,
+   "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
   }
  ],
  "terrorlite": [
@@ -1534,6 +1582,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ransom-fabric-26.2-1.2.1.jar",
    "size": 9285011,
    "sha1": "33f49bebbef484e9bbd2626036779f48a9f92603"
+  },
+  {
+   "file": "language-reload-1.7.8+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/doGx6rSt/language-reload-1.7.8%2B26.2.jar",
+   "size": 79500,
+   "sha1": "3d5a85a0804aef395d3dffb0ee69acf634f4464c"
+  },
+  {
+   "file": "fast-ip-ping-v1.0.12-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/uA3MAgMy/fast-ip-ping-v1.0.12-mc26.2.jar",
+   "size": 11320,
+   "sha1": "94fd6ea5f9f70bd385b2f0174e3856ca688b519f"
+  },
+  {
+   "file": "rrls-5.2.8+mc.26.2.jar",
+   "url": "https://cdn.modrinth.com/data/ZP7xHXtw/versions/DVwuMj1w/rrls-5.2.8%2Bmc.26.2.jar",
+   "size": 119145,
+   "sha1": "b74544c874a3b679acad16a31e34bb23443a5357"
+  },
+  {
+   "file": "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "size": 193030,
+   "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
   }
  ],
  "terrorpro": [
@@ -2256,6 +2328,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ransom-fabric-26.2-1.2.1.jar",
    "size": 9285011,
    "sha1": "33f49bebbef484e9bbd2626036779f48a9f92603"
+  },
+  {
+   "file": "language-reload-1.7.8+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/uLbm7CG6/versions/doGx6rSt/language-reload-1.7.8%2B26.2.jar",
+   "size": 79500,
+   "sha1": "3d5a85a0804aef395d3dffb0ee69acf634f4464c"
+  },
+  {
+   "file": "fast-ip-ping-v1.0.12-mc26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9mtu0sUO/versions/uA3MAgMy/fast-ip-ping-v1.0.12-mc26.2.jar",
+   "size": 11320,
+   "sha1": "94fd6ea5f9f70bd385b2f0174e3856ca688b519f"
+  },
+  {
+   "file": "rrls-5.2.8+mc.26.2.jar",
+   "url": "https://cdn.modrinth.com/data/ZP7xHXtw/versions/DVwuMj1w/rrls-5.2.8%2Bmc.26.2.jar",
+   "size": 119145,
+   "sha1": "b74544c874a3b679acad16a31e34bb23443a5357"
+  },
+  {
+   "file": "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+   "size": 193030,
+   "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
   }
  ],
  "lite263": [
