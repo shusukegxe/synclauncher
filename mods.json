@@ -1398,9 +1398,9 @@
   },
   {
    "file": "sodium-options.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite262/sodium-options.json",
-   "size": 582,
-   "sha1": "934b0f6e269ee3332988db16f4cb684765726162",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/sodium-options.json",
+   "size": 583,
+   "sha1": "b30c67b1691cb61c231485dfa1e10bb90e2e284b",
    "destino": "config"
   },
   {
@@ -1427,8 +1427,8 @@
   {
    "file": "options.txt",
    "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/options.txt",
-   "size": 291,
-   "sha1": "0c1dbeb9e2387e1aecc8c8f064091cb58ded29f9",
+   "size": 351,
+   "sha1": "78c79820bc365938896220a3f83ea136d50dbec9",
    "destino": "raiz"
   },
   {
@@ -1478,12 +1478,6 @@
    "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/iDsSBWPv/cullleaves-fabric-4.1.2%2B26.2.jar",
    "size": 93600,
    "sha1": "1df64a439a6cf79b785882c94b39ac04e67c63bd"
-  },
-  {
-   "file": "nvidium-0.4.4-beta6-26.2.jar",
-   "url": "https://cdn.modrinth.com/data/SfMw2IZN/versions/2VTUVLLs/nvidium-0.4.4-beta6-26.2.jar",
-   "size": 166469,
-   "sha1": "108723a7ebe97fcf0dbc16e154358c7f0553496e"
   },
   {
    "file": "horror-resourcepack.zip",
