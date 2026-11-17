@@ -412,6 +412,18 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/skinshifter-fabric-3.2.0.jar",
    "size": 42353,
    "sha1": "e9c14920186ac83aa06b313befcc82196c73bb69"
+  },
+  {
+   "file": "doctor-nowhere-fabric-26.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/doctor-nowhere-fabric-26.2.0.jar",
+   "size": 22550327,
+   "sha1": "018bfc33bdf16e063c7f6fcf730d892287dd8564"
+  },
+  {
+   "file": "backrooms-2.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/backrooms-2.0.1.jar",
+   "size": 4783903,
+   "sha1": "b0426d9beddda0d141d9df73778934a0a899b2a2"
   }
  ],
  "lite262": [
@@ -1303,6 +1315,18 @@
    "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
    "size": 193030,
    "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
+  },
+  {
+   "file": "doctor-nowhere-fabric-26.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/doctor-nowhere-fabric-26.2.0.jar",
+   "size": 22550327,
+   "sha1": "018bfc33bdf16e063c7f6fcf730d892287dd8564"
+  },
+  {
+   "file": "backrooms-2.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/backrooms-2.0.1.jar",
+   "size": 4783903,
+   "sha1": "b0426d9beddda0d141d9df73778934a0a899b2a2"
   }
  ],
  "terrorlite": [
@@ -1588,6 +1612,18 @@
    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/aAow4a9f/DistantHorizons-3.3.3-26.2-fabric-neoforge.jar",
    "size": 27766022,
    "sha1": "22fa56cc57d6ed045ef3c4a3758ea5207ca5bcff"
+  },
+  {
+   "file": "doctor-nowhere-fabric-26.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/doctor-nowhere-fabric-26.2.0.jar",
+   "size": 22550327,
+   "sha1": "018bfc33bdf16e063c7f6fcf730d892287dd8564"
+  },
+  {
+   "file": "backrooms-2.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/backrooms-2.0.1.jar",
+   "size": 4783903,
+   "sha1": "b0426d9beddda0d141d9df73778934a0a899b2a2"
   }
  ],
  "terrorpro": [
@@ -2328,6 +2364,18 @@
    "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/EKLUURiy/ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
    "size": 193030,
    "sha1": "d3637cc2fe15761ca66070e5916f17c80f03ba51"
+  },
+  {
+   "file": "doctor-nowhere-fabric-26.2.0.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/doctor-nowhere-fabric-26.2.0.jar",
+   "size": 22550327,
+   "sha1": "018bfc33bdf16e063c7f6fcf730d892287dd8564"
+  },
+  {
+   "file": "backrooms-2.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/backrooms-2.0.1.jar",
+   "size": 4783903,
+   "sha1": "b0426d9beddda0d141d9df73778934a0a899b2a2"
   }
  ],
  "lite263": [
