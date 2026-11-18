@@ -227,10 +227,10 @@
    "sha1": "03a635bae2c5a5e66825a35ff130242752054b32"
   },
   {
-   "file": "wthit-26.2-fabric-20.0.0.jar",
-   "url": "https://cdn.modrinth.com/data/6AQIaxuO/versions/7hordoNl/wthit-26.2-fabric-20.0.0.jar",
-   "size": 918047,
-   "sha1": "fc28fe7b0a0f95b45bb8f1eff161afa545ddadef"
+   "file": "wthit-26.2-fabric-20.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/wthit-26.2-fabric-20.0.1.jar",
+   "size": 923170,
+   "sha1": "9fb0d5adc6a72880e3c50f085eab25f44087a086"
   },
   {
    "file": "shulkerboxtooltip-fabric-5.4.3+26.2.jar",
@@ -844,10 +844,10 @@
    "sha1": "03a635bae2c5a5e66825a35ff130242752054b32"
   },
   {
-   "file": "wthit-26.2-fabric-20.0.0.jar",
-   "url": "https://cdn.modrinth.com/data/6AQIaxuO/versions/7hordoNl/wthit-26.2-fabric-20.0.0.jar",
-   "size": 918047,
-   "sha1": "fc28fe7b0a0f95b45bb8f1eff161afa545ddadef"
+   "file": "wthit-26.2-fabric-20.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/wthit-26.2-fabric-20.0.1.jar",
+   "size": 923170,
+   "sha1": "9fb0d5adc6a72880e3c50f085eab25f44087a086"
   },
   {
    "file": "shulkerboxtooltip-fabric-5.4.3+26.2.jar",
@@ -1840,6 +1840,12 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/creativecore-fabric-26.2-2.14.14.jar",
    "size": 1396350,
    "sha1": "c9189bb8b0f760d3b84e73b77cf81ca809399c3d"
+  },
+  {
+   "file": "wthit-26.2-fabric-20.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/wthit-26.2-fabric-20.0.1.jar",
+   "size": 923170,
+   "sha1": "9fb0d5adc6a72880e3c50f085eab25f44087a086"
   }
  ],
  "terrorpro": [
@@ -2030,10 +2036,10 @@
    "sha1": "03a635bae2c5a5e66825a35ff130242752054b32"
   },
   {
-   "file": "wthit-26.2-fabric-20.0.0.jar",
-   "url": "https://cdn.modrinth.com/data/6AQIaxuO/versions/7hordoNl/wthit-26.2-fabric-20.0.0.jar",
-   "size": 918047,
-   "sha1": "fc28fe7b0a0f95b45bb8f1eff161afa545ddadef"
+   "file": "wthit-26.2-fabric-20.0.1.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/wthit-26.2-fabric-20.0.1.jar",
+   "size": 923170,
+   "sha1": "9fb0d5adc6a72880e3c50f085eab25f44087a086"
   },
   {
    "file": "shulkerboxtooltip-fabric-5.4.3+26.2.jar",
