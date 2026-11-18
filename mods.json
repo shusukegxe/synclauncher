@@ -460,6 +460,30 @@
    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Qnq8I4rX/architectury-fabric-21.1.13.jar",
    "size": 624173,
    "sha1": "1a6c88dd2d372f6aa60d27eef855bccaf8443c74"
+  },
+  {
+   "file": "sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "size": 202335,
+   "sha1": "d59f8b345a1b62b8045634eb94d2c7a8f0c3a2c9"
+  },
+  {
+   "file": "PresenceFootsteps-1.13.3+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PresenceFootsteps-1.13.3+26.2.jar",
+   "size": 5749193,
+   "sha1": "07791ec2f22d779c42cb06e71cff834da9d85456"
+  },
+  {
+   "file": "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "size": 84821411,
+   "sha1": "b4fa62c189907192933fae4853eeebeb6d57d836"
+  },
+  {
+   "file": "kirin-1.22.0+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/kirin-1.22.0+26.2.jar",
+   "size": 140044,
+   "sha1": "1de962f9dd9bcbf11856870cdbe64d3e6d5930f6"
   }
  ],
  "lite262": [
@@ -1399,6 +1423,30 @@
    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Qnq8I4rX/architectury-fabric-21.1.13.jar",
    "size": 624173,
    "sha1": "1a6c88dd2d372f6aa60d27eef855bccaf8443c74"
+  },
+  {
+   "file": "sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "size": 202335,
+   "sha1": "d59f8b345a1b62b8045634eb94d2c7a8f0c3a2c9"
+  },
+  {
+   "file": "PresenceFootsteps-1.13.3+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PresenceFootsteps-1.13.3+26.2.jar",
+   "size": 5749193,
+   "sha1": "07791ec2f22d779c42cb06e71cff834da9d85456"
+  },
+  {
+   "file": "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "size": 84821411,
+   "sha1": "b4fa62c189907192933fae4853eeebeb6d57d836"
+  },
+  {
+   "file": "kirin-1.22.0+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/kirin-1.22.0+26.2.jar",
+   "size": 140044,
+   "sha1": "1de962f9dd9bcbf11856870cdbe64d3e6d5930f6"
   }
  ],
  "terrorlite": [
@@ -1732,6 +1780,30 @@
    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Qnq8I4rX/architectury-fabric-21.1.13.jar",
    "size": 624173,
    "sha1": "1a6c88dd2d372f6aa60d27eef855bccaf8443c74"
+  },
+  {
+   "file": "sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "size": 202335,
+   "sha1": "d59f8b345a1b62b8045634eb94d2c7a8f0c3a2c9"
+  },
+  {
+   "file": "PresenceFootsteps-1.13.3+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PresenceFootsteps-1.13.3+26.2.jar",
+   "size": 5749193,
+   "sha1": "07791ec2f22d779c42cb06e71cff834da9d85456"
+  },
+  {
+   "file": "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "size": 84821411,
+   "sha1": "b4fa62c189907192933fae4853eeebeb6d57d836"
+  },
+  {
+   "file": "kirin-1.22.0+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/kirin-1.22.0+26.2.jar",
+   "size": 140044,
+   "sha1": "1de962f9dd9bcbf11856870cdbe64d3e6d5930f6"
   }
  ],
  "terrorpro": [
@@ -2520,6 +2592,30 @@
    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Qnq8I4rX/architectury-fabric-21.1.13.jar",
    "size": 624173,
    "sha1": "1a6c88dd2d372f6aa60d27eef855bccaf8443c74"
+  },
+  {
+   "file": "sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sound-physics-remastered-fabric-1.5.2+26.2.jar",
+   "size": 202335,
+   "sha1": "d59f8b345a1b62b8045634eb94d2c7a8f0c3a2c9"
+  },
+  {
+   "file": "PresenceFootsteps-1.13.3+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PresenceFootsteps-1.13.3+26.2.jar",
+   "size": 5749193,
+   "sha1": "07791ec2f22d779c42cb06e71cff834da9d85456"
+  },
+  {
+   "file": "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
+   "size": 84821411,
+   "sha1": "b4fa62c189907192933fae4853eeebeb6d57d836"
+  },
+  {
+   "file": "kirin-1.22.0+26.2.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/kirin-1.22.0+26.2.jar",
+   "size": 140044,
+   "sha1": "1de962f9dd9bcbf11856870cdbe64d3e6d5930f6"
   }
  ],
  "lite263": [
