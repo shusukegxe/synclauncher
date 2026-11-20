@@ -1854,40 +1854,10 @@
    "sha1": "1a6c88dd2d372f6aa60d27eef855bccaf8443c74"
   },
   {
-   "file": "sound-physics-remastered-fabric-1.5.2+26.2.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/sound-physics-remastered-fabric-1.5.2+26.2.jar",
-   "size": 202335,
-   "sha1": "d59f8b345a1b62b8045634eb94d2c7a8f0c3a2c9"
-  },
-  {
-   "file": "PresenceFootsteps-1.13.3+26.2.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/PresenceFootsteps-1.13.3+26.2.jar",
-   "size": 5749193,
-   "sha1": "07791ec2f22d779c42cb06e71cff834da9d85456"
-  },
-  {
-   "file": "AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/AmbientSounds_FABRIC_v6.3.6_mc26.2.jar",
-   "size": 84821411,
-   "sha1": "b4fa62c189907192933fae4853eeebeb6d57d836"
-  },
-  {
-   "file": "kirin-1.22.0+26.2.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/kirin-1.22.0+26.2.jar",
-   "size": 140044,
-   "sha1": "1de962f9dd9bcbf11856870cdbe64d3e6d5930f6"
-  },
-  {
    "file": "guns_plus_plus-5.9.5.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/guns_plus_plus-5.9.5.jar",
    "size": 25565135,
    "sha1": "7f5e8395ee4d59129af7e1bef5d1d058eb6aff91"
-  },
-  {
-   "file": "creativecore-fabric-26.2-2.14.14.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/creativecore-fabric-26.2-2.14.14.jar",
-   "size": 1396350,
-   "sha1": "c9189bb8b0f760d3b84e73b77cf81ca809399c3d"
   },
   {
    "file": "wthit-26.2-fabric-20.0.1.jar",
