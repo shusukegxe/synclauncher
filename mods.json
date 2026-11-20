@@ -490,6 +490,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/FarmersDelight-26.2-3.6.30+refabricated.jar",
    "size": 3471321,
    "sha1": "834008079679c9b72617364c140c3be943d76506"
+  },
+  {
+   "file": "EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "size": 188076,
+   "sha1": "6d92062e46357bfb36fc17b131d58fba915bd6a9"
+  },
+  {
+   "file": "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "size": 609550,
+   "sha1": "a4083de0d8e0c19b993d21f7a576216efb5ceb23"
+  },
+  {
+   "file": "puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "size": 1153987,
+   "sha1": "da3af4c38ee227d16f4426eab08cb943c9b3f15d"
+  },
+  {
+   "file": "uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "size": 1518581,
+   "sha1": "38d67362435152194ee025de084e98dead5fad2f"
   }
  ],
  "lite262": [
@@ -1459,6 +1483,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/FarmersDelight-26.2-3.6.30+refabricated.jar",
    "size": 3471321,
    "sha1": "834008079679c9b72617364c140c3be943d76506"
+  },
+  {
+   "file": "EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "size": 188076,
+   "sha1": "6d92062e46357bfb36fc17b131d58fba915bd6a9"
+  },
+  {
+   "file": "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "size": 609550,
+   "sha1": "a4083de0d8e0c19b993d21f7a576216efb5ceb23"
+  },
+  {
+   "file": "puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "size": 1153987,
+   "sha1": "da3af4c38ee227d16f4426eab08cb943c9b3f15d"
+  },
+  {
+   "file": "uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "size": 1518581,
+   "sha1": "38d67362435152194ee025de084e98dead5fad2f"
   }
  ],
  "terrorlite": [
@@ -1828,6 +1876,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/FarmersDelight-26.2-3.6.30+refabricated.jar",
    "size": 3471321,
    "sha1": "834008079679c9b72617364c140c3be943d76506"
+  },
+  {
+   "file": "EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "size": 188076,
+   "sha1": "6d92062e46357bfb36fc17b131d58fba915bd6a9"
+  },
+  {
+   "file": "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "size": 609550,
+   "sha1": "a4083de0d8e0c19b993d21f7a576216efb5ceb23"
+  },
+  {
+   "file": "puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "size": 1153987,
+   "sha1": "da3af4c38ee227d16f4426eab08cb943c9b3f15d"
+  },
+  {
+   "file": "uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "size": 1518581,
+   "sha1": "38d67362435152194ee025de084e98dead5fad2f"
   }
  ],
  "terrorpro": [
@@ -2646,6 +2718,30 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/FarmersDelight-26.2-3.6.30+refabricated.jar",
    "size": 3471321,
    "sha1": "834008079679c9b72617364c140c3be943d76506"
+  },
+  {
+   "file": "EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/EnchantingInfuser-v26.2.0-mc26.2.x-Fabric.jar",
+   "size": 188076,
+   "sha1": "6d92062e46357bfb36fc17b131d58fba915bd6a9"
+  },
+  {
+   "file": "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar",
+   "size": 609550,
+   "sha1": "a4083de0d8e0c19b993d21f7a576216efb5ceb23"
+  },
+  {
+   "file": "puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/puzzleslib-v26.2.5-mc26.2.x+fabric.jar",
+   "size": 1153987,
+   "sha1": "da3af4c38ee227d16f4426eab08cb943c9b3f15d"
+  },
+  {
+   "file": "uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/uncrafteverything-fabric-26.2-26.2.0.6.jar",
+   "size": 1518581,
+   "sha1": "38d67362435152194ee025de084e98dead5fad2f"
   }
  ],
  "lite263": [
