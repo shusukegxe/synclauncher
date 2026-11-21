@@ -75,6 +75,13 @@
       "server": "",
       "version": "1.21.4",
       "puro": true
+    },
+    "thegod": {
+      "nombre": "1.21.1 The God",
+      "ruta": "no-sync",
+      "server": "",
+      "version": "1.21.1",
+      "loader": "neoforge"
     }
   }
 }
