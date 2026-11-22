@@ -43,6 +43,12 @@
       "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar",
       "size": 600915,
       "sha1": "e71346a43c563e5784580dd096338acfb45f49d4"
+    },
+    {
+      "file": "Safra-fabric-1.21.1-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
+      "size": 952758,
+      "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
     }
   ],
   "backrooms": [
@@ -51,6 +57,12 @@
       "url": "https://cdn.modrinth.com/data/H6pjI7Ol/versions/GCtdHGRz/spb-revamped-1.20.1-1.2.0.jar",
       "size": 115866331,
       "sha1": "ba5278db307e3e86703bd4def3830684cf0a4f2b"
+    },
+    {
+      "file": "Safra-fabric-1.20.1-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/IoWBVGBn/Safra-fabric-1.20.1-3.2.jar",
+      "size": 955381,
+      "sha1": "10d373a1b8ef2e3420642affa0b49435323788e5"
     }
   ],
   "backrooms3": [
@@ -83,6 +95,12 @@
       "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/CustomSkinLoader_Universal-15.1.jar",
       "size": 222917,
       "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+    },
+    {
+      "file": "Safra-fabric-1.21.1-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
+      "size": 952758,
+      "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
     }
   ],
   "lite": [
@@ -109,6 +127,12 @@
       "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/ferritecore-7.0.3-fabric.jar",
       "size": 123450,
       "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad"
+    },
+    {
+      "file": "Safra-fabric-1.21.1-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
+      "size": 952758,
+      "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
     }
   ],
   "mc262": [
@@ -556,6 +580,12 @@
       "url": "https://cdn.modrinth.com/data/neputdHo/versions/KN2G3wWO/shared_pets-fabric-26.2-1.0.1.jar",
       "size": 162096,
       "sha1": "5f710da97838cd34151c6cfb05f66466e55370f5"
+    },
+    {
+      "file": "Safra-fabric-26.2-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
+      "size": 312591,
+      "sha1": "40af9e38e49675153e813315729134065cb79d18"
     }
   ],
   "lite262": [
@@ -762,6 +792,12 @@
       "url": "https://cdn.modrinth.com/data/neputdHo/versions/KN2G3wWO/shared_pets-fabric-26.2-1.0.1.jar",
       "size": 162096,
       "sha1": "5f710da97838cd34151c6cfb05f66466e55370f5"
+    },
+    {
+      "file": "Safra-fabric-26.2-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
+      "size": 312591,
+      "sha1": "40af9e38e49675153e813315729134065cb79d18"
     }
   ],
   "pro262": [
@@ -1639,6 +1675,12 @@
       "url": "https://cdn.modrinth.com/data/neputdHo/versions/KN2G3wWO/shared_pets-fabric-26.2-1.0.1.jar",
       "size": 162096,
       "sha1": "5f710da97838cd34151c6cfb05f66466e55370f5"
+    },
+    {
+      "file": "Safra-fabric-26.2-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
+      "size": 312591,
+      "sha1": "40af9e38e49675153e813315729134065cb79d18"
     }
   ],
   "terrorlite": [
@@ -2037,6 +2079,12 @@
       "url": "https://cdn.modrinth.com/data/neputdHo/versions/KN2G3wWO/shared_pets-fabric-26.2-1.0.1.jar",
       "size": 162096,
       "sha1": "5f710da97838cd34151c6cfb05f66466e55370f5"
+    },
+    {
+      "file": "Safra-fabric-26.2-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
+      "size": 312591,
+      "sha1": "40af9e38e49675153e813315729134065cb79d18"
     }
   ],
   "terrorpro": [
@@ -2914,6 +2962,12 @@
       "url": "https://cdn.modrinth.com/data/neputdHo/versions/KN2G3wWO/shared_pets-fabric-26.2-1.0.1.jar",
       "size": 162096,
       "sha1": "5f710da97838cd34151c6cfb05f66466e55370f5"
+    },
+    {
+      "file": "Safra-fabric-26.2-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
+      "size": 312591,
+      "sha1": "40af9e38e49675153e813315729134065cb79d18"
     }
   ],
   "lite263": [
@@ -3043,6 +3097,12 @@
       "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite263/options.txt",
       "size": 260,
       "sha1": "22b188f801407d2e923e95030fecf5561cf51201"
+    },
+    {
+      "file": "Safra-fabric-26.3-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/45ZQGgJ9/Safra-fabric-26.3-3.2.jar",
+      "size": 951241,
+      "sha1": "caf8b6a7f6af6668a08dd82b010550fd1561bbe1"
     }
   ],
   "parkour1214": [
@@ -3111,6 +3171,12 @@
       "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/KoUrx3jJ/reeses-sodium-options-fabric-1.8.3%2Bmc1.21.4.jar",
       "size": 81067,
       "sha1": "c72f07a8f139f0420cbce29bd9eb29fb24db427f"
+    },
+    {
+      "file": "Safra-fabric-1.21.4-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/fnd8bmWi/Safra-fabric-1.21.4-3.0.jar",
+      "size": 314337,
+      "sha1": "30cfb70970512e423688f9fd1edf03191ed1a7bf"
     }
   ],
   "thegod": [
@@ -3149,6 +3215,12 @@
       "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
       "size": 121559,
       "sha1": "9563692efb708b6b568df27a01ec52f6311928ef"
+    },
+    {
+      "file": "Safra-neoforge-1.21.1-3.2.jar",
+      "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/H1x4MHnv/Safra-neoforge-1.21.1-3.2.jar",
+      "size": 990588,
+      "sha1": "2d2ba02e0a8f084ce42bf08e6cbcbf2a719b9159"
     }
   ]
 }
