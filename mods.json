@@ -169,6 +169,12 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
    "size": 1131265,
    "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0"
+  },
+  {
+   "file": "placeholder-api-2.4.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+   "size": 232325,
+   "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
   }
  ],
  "backrooms": [
@@ -485,6 +491,12 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
    "size": 1131265,
    "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0"
+  },
+  {
+   "file": "placeholder-api-2.4.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+   "size": 232325,
+   "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
   }
  ],
  "lite": [
@@ -631,6 +643,24 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
    "size": 1131265,
    "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0"
+  },
+  {
+   "file": "fabric-api-0.116.18+1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/5SwzqWUu/fabric-api-0.116.18%2B1.21.1.jar",
+   "size": 2453884,
+   "sha1": "584d303f646287ee6be059ecb2fc451255be9ee9"
+  },
+  {
+   "file": "placeholder-api-2.4.2+1.21.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
+   "size": 232325,
+   "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
+  },
+  {
+   "file": "sodium-fabric-0.8.13+mc1.21.1.jar",
+   "url": "https://cdn.modrinth.com/data/AANobbMI/versions/SMxNOGZ6/sodium-fabric-0.8.13%2Bmc1.21.1.jar",
+   "size": 1574609,
+   "sha1": "003c114c85ca88ef3362e018deb6aca0c682d6a1"
   }
  ],
  "mc262": [
@@ -1114,6 +1144,18 @@
    "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/ue8CO97w/Jade-mc26.2-Fabric-26.2.11.jar",
    "size": 1043764,
    "sha1": "101668371882c3413531025373f5d91b63e26dd0"
+  },
+  {
+   "file": "placeholder-api-3.1.0-beta.1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+   "size": 254973,
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "ResourcefulLib-5.0.4.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/4BbCbnE6/ResourcefulLib-5.0.4.jar",
+   "size": 455301,
+   "sha1": "09319ddea83747f368d7ebc4ce509cc1f052461b"
   }
  ],
  "lite262": [
@@ -1392,6 +1434,18 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
    "size": 1125271,
    "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
+  },
+  {
+   "file": "ResourcefulLib-5.0.4.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/4BbCbnE6/ResourcefulLib-5.0.4.jar",
+   "size": 455301,
+   "sha1": "09319ddea83747f368d7ebc4ce509cc1f052461b"
+  },
+  {
+   "file": "placeholder-api-3.1.0-beta.1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+   "size": 254973,
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
   }
  ],
  "pro262": [
@@ -2293,6 +2347,18 @@
    "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/ue8CO97w/Jade-mc26.2-Fabric-26.2.11.jar",
    "size": 1043764,
    "sha1": "101668371882c3413531025373f5d91b63e26dd0"
+  },
+  {
+   "file": "placeholder-api-3.1.0-beta.1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+   "size": 254973,
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "ResourcefulLib-5.0.4.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/4BbCbnE6/ResourcefulLib-5.0.4.jar",
+   "size": 455301,
+   "sha1": "09319ddea83747f368d7ebc4ce509cc1f052461b"
   }
  ],
  "terrorlite": [
@@ -2763,6 +2829,24 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
    "size": 1125271,
    "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
+  },
+  {
+   "file": "ResourcefulLib-5.0.4.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/4BbCbnE6/ResourcefulLib-5.0.4.jar",
+   "size": 455301,
+   "sha1": "09319ddea83747f368d7ebc4ce509cc1f052461b"
+  },
+  {
+   "file": "placeholder-api-3.1.0-beta.1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+   "size": 254973,
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "badpackets-fabric-0.12.2.jar",
+   "url": "https://cdn.modrinth.com/data/ftdbN0KK/versions/SgNrUT3E/badpackets-fabric-0.12.2.jar",
+   "size": 54465,
+   "sha1": "6733365cd9e0a44f6bb28326385b96e2328b31f2"
   }
  ],
  "terrorpro": [
@@ -3664,6 +3748,18 @@
    "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/ue8CO97w/Jade-mc26.2-Fabric-26.2.11.jar",
    "size": 1043764,
    "sha1": "101668371882c3413531025373f5d91b63e26dd0"
+  },
+  {
+   "file": "placeholder-api-3.1.0-beta.1+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+   "size": 254973,
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "ResourcefulLib-5.0.4.jar",
+   "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/4BbCbnE6/ResourcefulLib-5.0.4.jar",
+   "size": 455301,
+   "sha1": "09319ddea83747f368d7ebc4ce509cc1f052461b"
   }
  ],
  "lite263": [
@@ -3853,6 +3949,12 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/s9SjoFu1/yet_another_config_lib_v3-3.9.7%2B26.3-fabric.jar",
    "size": 1125377,
    "sha1": "e54d86dd4a78f95cd6ec0309d96fae01e661c00d"
+  },
+  {
+   "file": "placeholder-api-3.2.0+26.3.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar",
+   "size": 254959,
+   "sha1": "4c455faa6333dbaef72cedbb91fe4a2a03176741"
   }
  ],
  "parkour1214": [
@@ -4011,6 +4113,12 @@
    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/kcTd0BNZ/yet_another_config_lib_v3-3.8.2%2B1.21.4-fabric.jar",
    "size": 1130824,
    "sha1": "603164222915a5b2ef159a3aabae75f8bac268f7"
+  },
+  {
+   "file": "placeholder-api-2.5.2+1.21.3.jar",
+   "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/eeN3FuMY/placeholder-api-2.5.2%2B1.21.3.jar",
+   "size": 237288,
+   "sha1": "841b1ef57880fc0f94a22ab268b737c3830b5595"
   }
  ],
  "thegod": [
