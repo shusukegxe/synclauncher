@@ -1,87 +1,87 @@
 {
-  "default": "bros",
-  "instances": {
-    "bros": {
-      "nombre": "1.21.1",
-      "ruta": ""
-    },
-    "backrooms": {
-      "nombre": "1.20.1",
-      "ruta": "backrooms",
-      "server": "",
-      "version": "1.20.1"
-    },
-    "backrooms3": {
-      "nombre": "1.21.1 Vol. 3",
-      "ruta": "backrooms3",
-      "server": "",
-      "version": "1.21.1"
-    },
-    "lite": {
-      "nombre": "1.21.1 Lite",
-      "ruta": "lite",
-      "server": "",
-      "version": "1.21.1"
-    },
-    "mc262": {
-      "nombre": "26.2",
-      "ruta": "mc262",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "servidor_dinamico": true
-    },
-    "lite262": {
-      "nombre": "26.2 Lite",
-      "ruta": "lite262",
-      "server": "",
-      "version": "26.2",
-      "puro": true
-    },
-    "pro262": {
-      "nombre": "26.2 Pro",
-      "ruta": "pro262",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "puro": true,
-      "servidor_dinamico": true
-    },
-    "terrorlite": {
-      "nombre": "26.2 Terror",
-      "ruta": "terrorlite",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "puro": true,
-      "servidor_dinamico": true
-    },
-    "terrorpro": {
-      "nombre": "26.2 Terror Pro",
-      "ruta": "terrorpro",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.2",
-      "puro": true,
-      "servidor_dinamico": true
-    },
-    "lite263": {
-      "nombre": "26.3 Lite",
-      "ruta": "lite263",
-      "server": "0thbm253.free.tryportwarp.cc:13302",
-      "version": "26.3",
-      "puro": true,
-      "servidor_dinamico": true
-    },
-    "parkour1214": {
-      "nombre": "1.21.4 Parkour",
-      "ruta": "parkour1214",
-      "server": "",
-      "version": "1.21.4",
-      "puro": true
-    },
-    "thegod": {
-      "nombre": "1.21.1 The God",
-      "ruta": "no-sync",
-      "server": "",
-      "version": "1.21.1",
-      "loader": "neoforge"
-    }
+ "default": "bros",
+ "instances": {
+  "bros": {
+   "nombre": "1.21.1",
+   "ruta": "bros"
+  },
+  "backrooms": {
+   "nombre": "1.20.1",
+   "ruta": "backrooms",
+   "server": "",
+   "version": "1.20.1"
+  },
+  "backrooms3": {
+   "nombre": "1.21.1 Vol. 3",
+   "ruta": "backrooms3",
+   "server": "",
+   "version": "1.21.1"
+  },
+  "lite": {
+   "nombre": "1.21.1 Lite",
+   "ruta": "lite",
+   "server": "",
+   "version": "1.21.1"
+  },
+  "mc262": {
+   "nombre": "26.2",
+   "ruta": "mc262",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "servidor_dinamico": true
+  },
+  "lite262": {
+   "nombre": "26.2 Lite",
+   "ruta": "lite262",
+   "server": "",
+   "version": "26.2",
+   "puro": true
+  },
+  "pro262": {
+   "nombre": "26.2 Pro",
+   "ruta": "pro262",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "terrorlite": {
+   "nombre": "26.2 Terror",
+   "ruta": "terrorlite",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "terrorpro": {
+   "nombre": "26.2 Terror Pro",
+   "ruta": "terrorpro",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "lite263": {
+   "nombre": "26.3 Lite",
+   "ruta": "lite263",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.3",
+   "puro": true,
+   "servidor_dinamico": true
+  },
+  "parkour1214": {
+   "nombre": "1.21.4 Parkour",
+   "ruta": "parkour1214",
+   "server": "",
+   "version": "1.21.4",
+   "puro": true
+  },
+  "thegod": {
+   "nombre": "1.21.1 The God",
+   "ruta": "no-sync",
+   "server": "",
+   "version": "1.21.1",
+   "loader": "neoforge"
   }
+ }
 }
