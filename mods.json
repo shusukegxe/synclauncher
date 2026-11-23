@@ -917,6 +917,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
    "size": 232325,
    "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
+  },
+  {
+   "file": "voicechat-fabric-1.21.1-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/dyhq1XyO/voicechat-fabric-1.21.1-2.6.27.jar",
+   "size": 5389006,
+   "sha1": "0b078093df28328d8faa0dc6495969bab5c75707"
   }
  ],
  "lite": [
@@ -1069,6 +1075,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar",
    "size": 232325,
    "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
+  },
+  {
+   "file": "voicechat-fabric-1.21.1-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/dyhq1XyO/voicechat-fabric-1.21.1-2.6.27.jar",
+   "size": 5389006,
+   "sha1": "0b078093df28328d8faa0dc6495969bab5c75707"
   }
  ],
  "mc262": [
@@ -2713,6 +2725,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
    "size": 254973,
    "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "voicechat-fabric-2.6.27+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/ul3tRpKz/voicechat-fabric-2.6.27%2B26.2.jar",
+   "size": 5595129,
+   "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   }
  ],
  "terrorlite": [
@@ -4072,6 +4090,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
    "size": 254973,
    "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  {
+   "file": "voicechat-fabric-2.6.27+26.2.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/ul3tRpKz/voicechat-fabric-2.6.27%2B26.2.jar",
+   "size": 5595129,
+   "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   }
  ],
  "lite263": [
@@ -4261,6 +4285,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar",
    "size": 254959,
    "sha1": "4c455faa6333dbaef72cedbb91fe4a2a03176741"
+  },
+  {
+   "file": "voicechat-fabric-2.6.27+26.3.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/x9jLR94Q/voicechat-fabric-2.6.27%2B26.3.jar",
+   "size": 5611159,
+   "sha1": "23442735927fe3839650196c0656eb82b0322d87"
   }
  ],
  "parkour1214": [
@@ -4419,6 +4449,12 @@
    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/eeN3FuMY/placeholder-api-2.5.2%2B1.21.3.jar",
    "size": 237288,
    "sha1": "841b1ef57880fc0f94a22ab268b737c3830b5595"
+  },
+  {
+   "file": "voicechat-fabric-1.21.4-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/d6MsGgjW/voicechat-fabric-1.21.4-2.6.27.jar",
+   "size": 5396254,
+   "sha1": "ddaf8317d065d9d81b31dd8f8cfd9dc1e0a45999"
   }
  ],
  "thegod": [
@@ -4499,6 +4535,12 @@
    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/izKINKFg/cloth-config-15.0.140-neoforge.jar",
    "size": 1163890,
    "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2"
+  },
+  {
+   "file": "voicechat-neoforge-1.21.1-2.6.27.jar",
+   "url": "https://cdn.modrinth.com/data/9eGKb6K1/versions/iR08ksVF/voicechat-neoforge-1.21.1-2.6.27.jar",
+   "size": 4936802,
+   "sha1": "8aded3a22614a8e1641973623e7817dccea513fa"
   }
  ]
 }
