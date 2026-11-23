@@ -545,6 +545,34 @@ input::placeholder{color:var(--dim);opacity:.7}
         </div>
         <div id="mpResults" style="display:flex;flex-direction:column;gap:6px;max-height:240px;overflow:auto"></div>
       </div>
+      <h2 class="sect">Explorar (sin buscar nada)</h2>
+      <div class="panel">
+        <div class="field-row">
+          <select id="mpCat" style="max-width:220px">
+            <option value="">todas las categorias</option>
+            <option value="optimization">optimizacion</option>
+            <option value="technology">tecnologia</option>
+            <option value="magic">magia</option>
+            <option value="adventure">aventura</option>
+            <option value="worldgen">worldgen / biomas</option>
+            <option value="utility">utilidad</option>
+            <option value="storage">almacenamiento</option>
+            <option value="food">comida</option>
+            <option value="equipment">equipamento</option>
+            <option value="mobs">mobs</option>
+            <option value="decoration">decoracion</option>
+            <option value="social">social</option>
+            <option value="management">gestion</option>
+          </select>
+          <select id="mpSort" style="max-width:170px">
+            <option value="downloads" selected>populares</option>
+            <option value="follows">favoritos</option>
+            <option value="newest">nuevos</option>
+          </select>
+          <button id="mpExploreBtn" class="btn">Explorar</button>
+        </div>
+        <div id="mpExplore" style="display:flex;flex-direction:column;gap:6px;max-height:300px;overflow:auto"></div>
+      </div>
       <h2 class="sect">Mods del pack</h2>
       <div class="panel">
         <div id="mpMods" class="mods-list"></div>
@@ -1392,6 +1420,58 @@ async function mpSearch(){
     box.innerHTML = '<span class="small" style="color:var(--danger)">' + esc(e.message) + '</span>';
   }
 }
+function mpHitRow(h){
+  const row = document.createElement('div');
+  row.className = 'mod-row';
+  if (h.icon_url){
+    const img = document.createElement('img');
+    img.src = h.icon_url; img.alt = '';
+    img.style.cssText = 'width:30px;height:30px;border-radius:8px;flex:none';
+    img.onerror = () => img.remove();
+    row.appendChild(img);
+  }
+  const col = document.createElement('div');
+  col.style.cssText = 'flex:1;min-width:0';
+  const t = document.createElement('div');
+  t.textContent = h.title; t.style.fontWeight = '600'; t.style.fontSize = '12.5px';
+  const d = document.createElement('div');
+  d.className = 'dim';
+  d.style.cssText = 'font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+  d.textContent = (h.description || '').slice(0, 90);
+  col.appendChild(t); col.appendChild(d);
+  const dn = document.createElement('span');
+  dn.className = 'sz';
+  dn.textContent = ((h.downloads || 0) / 1000).toFixed(0) + 'k';
+  const b = document.createElement('button');
+  b.className = 'copy-mini';
+  b.textContent = '+ agregar';
+  b.onclick = () => {
+    if (mp.mods.some(m => m.slug === h.slug)){ toast('Ya esta en la lista'); return; }
+    mp.mods.push({ slug: h.slug, name: h.title });
+    mpRender();
+    toast(h.title + ' agregado');
+  };
+  row.appendChild(col); row.appendChild(dn); row.appendChild(b);
+  return row;
+}
+async function mpExplore(){
+  const box = $('#mpExplore');
+  box.innerHTML = '<div class="skel"></div><div class="skel"></div><div class="skel"></div>';
+  const cat = $('#mpCat').value;
+  const sort = $('#mpSort').value;
+  const facets = [['versions:' + mp.v], ['categories:' + mp.loader], ['project_type:mod']];
+  if (cat) facets.push(['categories:' + cat]);
+  try {
+    const r = await fetchTO(MR + '/search?facets=' + encodeURIComponent(JSON.stringify(facets)) + '&index=' + sort + '&limit=14', { cache: 'no-store' }, 12000);
+    if (!r.ok) throw new Error('http ' + r.status);
+    const hits = (await r.json()).hits || [];
+    if (!hits.length){ box.innerHTML = '<span class="dim small">Nada por aqui para ' + esc(mp.v) + '/' + esc(mp.loader) + ' con ese filtro.</span>'; return; }
+    box.innerHTML = '';
+    hits.forEach(h => box.appendChild(mpHitRow(h)));
+  } catch (e){
+    box.innerHTML = '<span class="small" style="color:var(--danger)">' + esc(e.message) + '</span>';
+  }
+}
 async function mpEnsureRw(){
   if (!window.showDirectoryPicker) throw new Error('tu navegador no soporta escritura: usa Chrome o Edge');
   if (!state.dir){
@@ -1476,6 +1556,8 @@ function mpInit(){
   $('#mpQuery').addEventListener('keydown', e => { if (e.key === 'Enter') mpSearch(); });
   $('#mpSearchBtn').onclick = mpSearch;
   $('#mpCreate').onclick = mpCreate;
+  $('#mpExploreBtn').onclick = mpExplore;
+  mpExplore();
   mpRender();
 }
 /* ---------- init ---------- */
