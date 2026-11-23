@@ -418,6 +418,10 @@ input::placeholder{color:var(--dim);opacity:.7}
         <svg viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/></svg>
         Mods
       </button>
+      <button class="nav-item" data-view="modpacks">
+        <svg viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 12l9-5M12 12v10M12 12L3 7"/><circle cx="12" cy="12" r="2.4"/></svg>
+        Modpacks
+      </button>
       <button class="nav-item" data-view="ayuda">
         <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.4 2.33c-.8.3-.9 1.1-.9 1.67"/><path d="M12 17h.01"/></svg>
         Ayuda
@@ -516,6 +520,39 @@ input::placeholder{color:var(--dim);opacity:.7}
       <h2 class="sect">Mods del pack</h2>
       <div class="mods-head dim" id="modsHead">cargando…</div>
       <div id="modsList" class="mods-list"></div>
+    </section>
+    <section id="view-modpacks" class="view">
+      <h2 class="sect">Crear modpack desde Modrinth</h2>
+      <div class="panel">
+        <div class="field-row">
+          <input id="mpNombre" placeholder="nombre del pack (ej: terror con amigos)">
+          <select id="mpVersion" style="max-width:150px">
+            <option value="26.2" selected>26.2</option>
+            <option value="26.3">26.3</option>
+            <option value="1.21.4">1.21.4</option>
+            <option value="1.21.1">1.21.1</option>
+            <option value="1.20.1">1.20.1</option>
+          </select>
+          <select id="mpLoader" style="max-width:150px">
+            <option value="fabric" selected>Fabric</option>
+            <option value="neoforge">NeoForge</option>
+          </select>
+        </div>
+        <p class="dim small">Elige version y loader primero (cambiarlos limpia la lista). Los mods se bajan para esa version exacta.</p>
+        <div class="field-row">
+          <input id="mpQuery" placeholder="buscar mods en Modrinth (ej: minimap, voz, terror...)">
+          <button id="mpSearchBtn" class="btn">Buscar</button>
+        </div>
+        <div id="mpResults" style="display:flex;flex-direction:column;gap:6px;max-height:240px;overflow:auto"></div>
+      </div>
+      <h2 class="sect">Mods del pack</h2>
+      <div class="panel">
+        <div id="mpMods" class="mods-list"></div>
+        <div class="p-bar" style="margin-top:10px"><div id="mpProg"></div></div>
+        <pre id="mpLog" hidden style="background:rgba(0,0,0,.45);border:1px solid var(--line2);border-radius:10px;padding:10px 12px;font-size:11.5px;max-height:180px;overflow:auto;white-space:pre-wrap;font-family:'Space Grotesk',monospace"></pre>
+        <button id="mpCreate" class="btn btn-big">Crear e instalar pack (dependencias automaticas)</button>
+        <p class="dim small">Resuelve cada mod y sus <b>dependencias requeridas</b> en Modrinth para la version+loader elegidos, escribe el pack y abre el instalador. Requiere haber conectado la carpeta de Sync (Ajustes). El pack queda como instancia nueva en el selector.</p>
+      </div>
     </section>
     <section id="view-ayuda" class="view">
       <h2 class="sect">Ayuda y solución de problemas</h2>
@@ -842,6 +879,7 @@ function go(view){
   $$('.nav-item').forEach(b => b.classList.toggle('active', b.dataset.view === view));
   $$('.view').forEach(v => v.classList.toggle('active', v.id === 'view-' + view));
   if (view === 'server') startLive();
+  if (view === 'modpacks') mpInit();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 /* ---------- cabeza de skin (fallback 2D) ---------- */
@@ -1253,6 +1291,193 @@ function openWizard(){
   $('#wizNick').value = state.nick || '';
 }
 function validNick(n){ return /^[A-Za-z0-9_]{3,16}$/.test(n); }
+/* ============================================================
+   MODPACKS: crear packs desde Modrinth (+ dependencias auto)
+   ============================================================ */
+const mp = { v: '26.2', loader: 'fabric', mods: [], busy: false, inited: false };
+const MR = 'https://api.modrinth.com/v2';
+function mpFacets(){
+  return encodeURIComponent(JSON.stringify([['versions:' + mp.v], ['categories:' + mp.loader], ['project_type:mod']]));
+}
+async function mrSearch(q){
+  const r = await fetchTO(MR + '/search?query=' + encodeURIComponent(q) + '&facets=' + mpFacets() + '&limit=10', { cache: 'no-store' }, 12000);
+  if (!r.ok) throw new Error('modrinth http ' + r.status);
+  return (await r.json()).hits || [];
+}
+async function mrFirstBuild(slug){
+  const q = encodeURIComponent(JSON.stringify([['versions:' + mp.v], ['categories:' + mp.loader]]));
+  const r = await fetchTO(MR + '/project/' + encodeURIComponent(slug) + '/version?' + q, { cache: 'no-store' }, 12000);
+  if (!r.ok) throw new Error('http ' + r.status);
+  const vs = await r.json();
+  if (!vs.length) throw new Error('sin build ' + mp.v + '/' + mp.loader);
+  const files = vs[0].files || [];
+  const f = files.find(x => x.primary) || files[0];
+  if (!f) throw new Error('sin archivo descargable');
+  return { url: f.url, file: f.filename, sha1: (f.hashes || {}).sha1 || '', size: f.size || 0,
+           deps: (vs[0].dependencies || []).filter(d => d.dependency_type === 'required' && d.project_id).map(d => d.project_id) };
+}
+async function mrProject(pid){
+  const r = await fetchTO(MR + '/project/' + encodeURIComponent(pid), { cache: 'no-store' }, 10000);
+  if (!r.ok) throw new Error('http ' + r.status);
+  return await r.json();
+}
+function mpRender(){
+  const box = $('#mpMods');
+  box.innerHTML = '';
+  if (!mp.mods.length){
+    box.innerHTML = '<span class="dim small">Sin mods todavia: busca arriba y agrega. Las dependencias requeridas se agregan solas al crear.</span>';
+    return;
+  }
+  mp.mods.forEach((m, i) => {
+    const row = document.createElement('div');
+    row.className = 'mod-row';
+    const n = document.createElement('span');
+    n.textContent = m.name;
+    n.title = m.slug;
+    n.style.cssText = 'flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+    const x = document.createElement('button');
+    x.className = 'copy-mini';
+    x.textContent = 'quitar';
+    x.onclick = () => { mp.mods.splice(i, 1); mpRender(); };
+    row.appendChild(n); row.appendChild(x);
+    box.appendChild(row);
+  });
+}
+let mpSearchTimer = null;
+function mpQueueSearch(){ clearTimeout(mpSearchTimer); mpSearchTimer = setTimeout(mpSearch, 450); }
+async function mpSearch(){
+  const q = $('#mpQuery').value.trim();
+  const box = $('#mpResults');
+  if (!q){ box.innerHTML = ''; return; }
+  box.innerHTML = '<div class="skel"></div><div class="skel"></div><div class="skel"></div>';
+  try {
+    const hits = await mrSearch(q);
+    if (!hits.length){ box.innerHTML = '<span class="dim small">Sin resultados para ' + esc(mp.v) + '/' + esc(mp.loader) + '. Prueba otra version u otro termino.</span>'; return; }
+    box.innerHTML = '';
+    hits.forEach(h => {
+      const row = document.createElement('div');
+      row.className = 'mod-row';
+      if (h.icon_url){
+        const img = document.createElement('img');
+        img.src = h.icon_url; img.alt = '';
+        img.style.cssText = 'width:30px;height:30px;border-radius:8px;flex:none';
+        img.onerror = () => img.remove();
+        row.appendChild(img);
+      }
+      const col = document.createElement('div');
+      col.style.cssText = 'flex:1;min-width:0';
+      const t = document.createElement('div');
+      t.textContent = h.title; t.style.fontWeight = '600'; t.style.fontSize = '12.5px';
+      const d = document.createElement('div');
+      d.className = 'dim';
+      d.style.cssText = 'font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+      d.textContent = (h.description || '').slice(0, 90);
+      col.appendChild(t); col.appendChild(d);
+      const dn = document.createElement('span');
+      dn.className = 'sz';
+      dn.textContent = ((h.downloads || 0) / 1000).toFixed(0) + 'k';
+      const b = document.createElement('button');
+      b.className = 'copy-mini';
+      b.textContent = '+ agregar';
+      b.onclick = () => {
+        if (mp.mods.some(m => m.slug === h.slug)){ toast('Ya esta en la lista'); return; }
+        mp.mods.push({ slug: h.slug, name: h.title });
+        mpRender();
+        toast(h.title + ' agregado');
+      };
+      row.appendChild(col); row.appendChild(dn); row.appendChild(b);
+      box.appendChild(row);
+    });
+  } catch (e){
+    box.innerHTML = '<span class="small" style="color:var(--danger)">' + esc(e.message) + '</span>';
+  }
+}
+async function mpEnsureRw(){
+  if (!window.showDirectoryPicker) throw new Error('tu navegador no soporta escritura: usa Chrome o Edge');
+  if (!state.dir){
+    state.dir = await window.showDirectoryPicker({ mode: 'readwrite' });
+    await idbSet('dir', state.dir);
+  } else {
+    try {
+      if (state.dir.queryPermission && await state.dir.queryPermission({ mode: 'readwrite' }) !== 'granted'){
+        const p = await state.dir.requestPermission({ mode: 'readwrite' });
+        if (p !== 'granted') throw new Error('denegado');
+      }
+    } catch (e){ throw new Error('permiso de escritura denegado: concede la carpeta de nuevo en Ajustes'); }
+  }
+  return state.dir;
+}
+async function mpCreate(){
+  if (mp.busy) return;
+  if (!mp.mods.length){ toast('Agrega al menos un mod de Modrinth'); return; }
+  const nombre = $('#mpNombre').value.trim() || ('mi-pack-' + mp.v);
+  mp.busy = true;
+  const btn = $('#mpCreate');
+  btn.disabled = true;
+  const log = $('#mpLog');
+  log.hidden = false;
+  log.textContent = '';
+  const mlog = t => { log.textContent += t + '\n'; log.scrollTop = log.scrollHeight; };
+  try {
+    const dir = await mpEnsureRw();
+    mlog('>> Resolviendo builds en Modrinth (' + mp.v + ' / ' + mp.loader + ')...');
+    const finalMods = [];
+    const seen = new Set();
+    const pend = mp.mods.map(m => ({ slug: m.slug, auto: false }));
+    let idx = 0, errores = 0;
+    while (idx < pend.length){
+      const item = pend[idx++];
+      try {
+        if (!item.slug || seen.has(item.slug)) continue;
+        seen.add(item.slug);
+        const build = await mrFirstBuild(item.slug);
+        finalMods.push({ url: build.url, file: build.file, sha1: build.sha1, size: build.size, auto: item.auto });
+        mlog((item.auto ? '   dep: ' : '+ ') + build.file);
+        for (const depId of (build.deps || [])){
+          if (!pend.some(p => p.slug === depId) && !seen.has(depId)){
+            const proj = await mrProject(depId);
+            pend.push({ slug: proj.slug, auto: true });
+          }
+        }
+      } catch (e){
+        errores++;
+        mlog('   X ' + (item.slug || '?') + ': ' + e.message);
+      }
+      $('#mpProg').style.width = Math.round(idx * 100 / Math.max(1, pend.length)) + '%';
+    }
+    if (!finalMods.length) throw new Error('ningun mod resolvio builds compatibles');
+    mlog('>> ' + finalMods.length + ' mods listos (' + errores + ' sin build). Escribiendo pack...');
+    const id = 'pack-' + nombre.toLowerCase().replace(/[^a-z0-9_-]/g, '-');
+    const packJson = { nombre: nombre, version: mp.v, loader: mp.loader, server: '',
+      mods: finalMods.map(m => ({ url: m.url, file: m.file, sha1: m.sha1, size: m.size })) };
+    const packsDir = await dir.getDirectoryHandle('packs', { create: true });
+    const fh = await packsDir.getFileHandle(id + '.json', { create: true });
+    const w = await fh.createWritable();
+    await w.write(JSON.stringify(packJson, null, 1));
+    await w.close();
+    mlog('>> pack guardado en ' + dir.name + '/packs/' + id + '.json');
+    mlog('>> abriendo el instalador... si Windows pregunta, dale a Abrir');
+    toast('Pack enviado al instalador');
+    mp.busy = false;
+    btn.disabled = false;
+    setTimeout(() => { location.href = 'mcq://modpackfile?id=' + encodeURIComponent(id); }, 900);
+  } catch (e){
+    mp.busy = false;
+    btn.disabled = false;
+    mlog('X ' + e.message);
+    toast(e.message);
+  }
+}
+function mpInit(){
+  if (mp.inited) return;
+  mp.inited = true;
+  $('#mpVersion').onchange = e => { mp.v = e.target.value; mp.mods = []; mpRender(); };
+  $('#mpLoader').onchange = e => { mp.loader = e.target.value; mp.mods = []; mpRender(); };
+  $('#mpQuery').addEventListener('keydown', e => { if (e.key === 'Enter') mpSearch(); });
+  $('#mpSearchBtn').onclick = mpSearch;
+  $('#mpCreate').onclick = mpCreate;
+  mpRender();
+}
 /* ---------- init ---------- */
 function init(){
   state.test = new URLSearchParams(location.search).has('test');
