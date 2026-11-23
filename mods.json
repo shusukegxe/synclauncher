@@ -3227,6 +3227,24 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/H1x4MHnv/Safra-neoforge-1.21.1-3.2.jar",
       "size": 990588,
       "sha1": "2d2ba02e0a8f084ce42bf08e6cbcbf2a719b9159"
+    },
+    {
+      "file": "iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/KduFYu4t/iris-neoforge-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "size": 2540723,
+      "sha1": "1bd129cf7bce65d6b1c0543045f0620c98a0f885"
+    },
+    {
+      "file": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "size": 1292934,
+      "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+    },
+    {
+      "file": "CustomSkinLoader_Universal-15.1.jar",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+      "size": 222917,
+      "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
     }
   ]
 }
