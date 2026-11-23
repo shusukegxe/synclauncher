@@ -479,6 +479,20 @@ input::placeholder{color:var(--dim);opacity:.7}
       <div id="onlineList" class="online-list"></div>
       <h2 class="sect">Los bros</h2>
       <div id="friendsList" class="cards"></div>
+      <h2 class="sect">Chat de los bros</h2>
+      <div class="panel">
+        <div id="chatFeed" class="feed" style="max-height:280px"><span class="dim small">conectando al panel del host...</span></div>
+        <div class="field-row" style="margin-top:10px">
+          <input id="chatMsg" placeholder="escribe tu mensaje...">
+          <button id="chatSend" class="btn">Enviar</button>
+        </div>
+        <p class="dim small">El chat vive en la PC del host (via panel). Sin panel: no conecta.</p>
+      </div>
+      <h2 class="sect">Registrados en Sync</h2>
+      <div id="syncUsers" class="online-list"><span class="dim small">conectando...</span></div>
+      <h2 class="sect">Packs de la comunidad</h2>
+      <div id="communityPacks" class="mods-list"><span class="dim small">conectando...</span></div>
+      <p class="dim small">Los packs compartidos se instalan como instancia nueva (con sus dependencias ya resueltas por quien lo creo). Crea el tuyo en la pestana Modpacks.</p>
     </section>
     <section id="view-server" class="view">
       <h2 class="sect">Server en vivo</h2>
@@ -724,6 +738,7 @@ input::placeholder{color:var(--dim);opacity:.7}
     </div>
     <div id="skinView"></div>
     <canvas id="skinHead" width="128" height="128" hidden></canvas>
+    <div id="pInstancias" class="p-note dim" style="width:100%;text-align:center"></div>
     <div class="p-note dim">tu skin viaja contigo
 <span class="mono tiny">ely.by · CustomSkinLoader</span></div>
   </aside>
@@ -912,6 +927,7 @@ function go(view){
   $$('.view').forEach(v => v.classList.toggle('active', v.id === 'view-' + view));
   if (view === 'server') startLive();
   if (view === 'modpacks') mpInit();
+  if (view === 'social') startSocial();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 /* ---------- cabeza de skin (fallback 2D) ---------- */
@@ -1540,6 +1556,20 @@ async function mpCreate(){
     await w.write(JSON.stringify(packJson, null, 1));
     await w.close();
     mlog('>> pack guardado en ' + dir.name + '/packs/' + id + '.json');
+    // compartir con los bros (via panel del host; silencioso si no hay panel)
+    try {
+      const sh = await panelPost('/api/sync/pack', { nick: state.nick || 'anon', pack: packJson });
+      if (sh && sh.out){
+        mlog('>> compartido con los bros: ' + (sh.out.nombre || sh.out.id || sh.out));
+      }
+    } catch (e) { }
+    // guardalo en tu perfil
+    try {
+      const mis = myPacks();
+      mis.push({ id: id, nombre: nombre, version: mp.v, loader: mp.loader });
+      localStorage.setItem('myPacks', JSON.stringify(mis.slice(-20)));
+      renderMyInstancias();
+    } catch (e) { }
     mlog('>> abriendo el instalador... si Windows pregunta, dale a Abrir');
     toast('Pack enviado al instalador');
     mp.busy = false;
@@ -1563,6 +1593,138 @@ function mpInit(){
   $('#mpExploreBtn').onclick = mpExplore;
   mpExplore();
   mpRender();
+}
+/* ============================================================
+   SOCIAL SYNC: presencia, chat de bros, packs de la comunidad
+   ============================================================ */
+async function panelPost(path, body, ms){
+  for (const base of (state.panels || [])){
+    try {
+      const r = await fetchTO(base + path, {
+        method: 'POST', cache: 'no-store',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body || {})
+      }, ms || 8000);
+      if (!r.ok) continue;
+      return await r.json();
+    } catch (e) { /* siguiente direccion */ }
+  }
+  return null;
+}
+function myPacks(){
+  try { return JSON.parse(localStorage.getItem('myPacks') || '[]'); } catch (e) { return []; }
+}
+function renderMyInstancias(){
+  const box = $('#pInstancias');
+  if (!box) return;
+  const packs = myPacks();
+  const insts = (state.insts || []).map(i => i.nombre || i.id);
+  let h = '';
+  if (packs.length){
+    h += '<b>tus packs</b>' + packs.slice(-6).map(p =>
+      '<div class="mono tiny">' + esc(p.nombre) + ' · ' + esc(p.version) + ' · ' + esc(p.loader || 'fabric') + '</div>').join('');
+  }
+  if (insts.length){
+    h += '<b>instancias</b>' + insts.slice(0, 8).map(n => '<div class="mono tiny">' + esc(n) + '</div>').join('');
+  }
+  box.innerHTML = h;
+}
+async function socialChat(){
+  const box = $('#chatFeed');
+  if (!box) return;
+  const d = await panelFetch('/api/sync/chat?n=60', 3500);
+  if (!d || !d.chat){
+    box.innerHTML = '<div class="chat-row"><span class="txt dim">— Sin conexion con el panel del host —</span></div>';
+    return;
+  }
+  if (!d.chat.length){
+    box.innerHTML = '<div class="chat-row"><span class="txt dim">— Silencio total... escribe algo —</span></div>';
+    return;
+  }
+  const alFondo = box.scrollTop + box.clientHeight >= box.scrollHeight - 40;
+  box.innerHTML = d.chat.map(c => {
+    const h = c.t ? new Date(c.t * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '';
+    return '<div class="chat-row"><span class="h">' + esc(h) + '</span><span class="nick">' + esc(c.nick) +
+      '</span><span class="txt">' + esc(c.txt) + '</span></div>';
+  }).join('');
+  if (alFondo) box.scrollTop = box.scrollHeight;
+}
+async function socialUsers(){
+  const box = $('#syncUsers');
+  if (!box) return;
+  const d = await panelFetch('/api/sync/users', 3500);
+  if (!d || !d.usuarios){
+    box.innerHTML = '<span class="dim small">sin conexion con el panel del host</span>';
+    return;
+  }
+  box.innerHTML = d.usuarios.length
+    ? d.usuarios.map(u => '<span class="pill on">' + esc(u.nick) + '</span>').join('')
+    : '<span class="dim small">nadie todavia — tu seras el primero</span>';
+}
+async function socialPacks(){
+  const box = $('#communityPacks');
+  if (!box) return;
+  const d = await panelFetch('/api/sync/packs', 3500);
+  if (!d || !d.packs){
+    box.innerHTML = '<span class="dim small">sin conexion con el panel del host</span>';
+    return;
+  }
+  if (!d.packs.length){
+    box.innerHTML = '<span class="dim small">ningun pack compartido todavia — crea el primero en Modpacks</span>';
+    return;
+  }
+  box.innerHTML = d.packs.slice().reverse().map(p =>
+    '<div class="mod-row"><div style="flex:1;min-width:0">' +
+    '<div><b>' + esc(p.nombre) + '</b> <span class="dim tiny">por ' + esc(p.autor) + ' · ' + esc(p.fecha || '') + '</span></div>' +
+    '<div class="dim tiny">MC ' + esc(p.version) + ' · ' + esc(p.loader) + ' · ' + (p.mods || []).length + ' mods</div>' +
+    '</div><button class="copy-mini" data-pack="' + esc(p.id) + '">instalar</button></div>').join('');
+  box.querySelectorAll('button[data-pack]').forEach(b => {
+    b.onclick = () => {
+      const p = d.packs.find(x => x.id === b.dataset.pack);
+      if (p) instalarPackComunitario(p);
+    };
+  });
+}
+async function chatSend(){
+  const inp = $('#chatMsg');
+  const txt = (inp.value || '').trim();
+  if (!txt) return;
+  if (!state.nick){ toast('Configura tu nombre primero'); return; }
+  inp.value = '';
+  const r = await panelPost('/api/sync/chat', { nick: state.nick, texto: txt });
+  if (!r){ toast('sin conexion con el panel del host'); return; }
+  socialChat();
+}
+async function instalarPackComunitario(p){
+  try {
+    const dir = await mpEnsureRw();
+    const packsDir = await dir.getDirectoryHandle('packs', { create: true });
+    const fh = await packsDir.getFileHandle(p.id + '.json', { create: true });
+    const w = await fh.createWritable();
+    await w.write(JSON.stringify({ nombre: p.nombre, version: p.version, loader: p.loader, server: '', mods: p.mods }, null, 1));
+    await w.close();
+    await panelPost('/api/sync/whoami', { nick: state.nick || '' });
+    toast('Pack listo: abriendo el instalador...');
+    setTimeout(() => { location.href = 'mcq://modpackfile?id=' + encodeURIComponent(p.id); }, 700);
+  } catch (e){ toast('no pude escribir el pack: ' + e.message); }
+}
+function startSocial(){
+  socialChat(); socialUsers(); socialPacks();
+  panelPost('/api/sync/whoami', { nick: state.nick || '' });
+  if (!startSocial._t){
+    startSocial._t = setInterval(() => {
+      if (document.visibilityState !== 'visible') return;
+      const v = $('#view-social');
+      if (v && v.classList.contains('active')){ socialChat(); socialUsers(); socialPacks(); }
+      panelPost('/api/sync/whoami', { nick: state.nick || '' });
+    }, 6000);
+  }
+  const inp = $('#chatMsg'), btn = $('#chatSend');
+  if (btn && !btn.onclick){
+    btn.onclick = chatSend;
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter') chatSend(); });
+    if (state.nick) inp.placeholder = 'escribe como ' + state.nick + '...';
+  }
 }
 /* ---------- init ---------- */
 function init(){
@@ -1623,6 +1785,11 @@ function init(){
   })();
   setInterval(() => { if (document.visibilityState === 'visible') pollStatus(); }, 60000);
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') pollStatus(); });
+  renderMyInstancias();
+  panelPost('/api/sync/whoami', { nick: state.nick || '' });
+  setInterval(() => {
+    if (document.visibilityState === 'visible' && state.nick) panelPost('/api/sync/whoami', { nick: state.nick });
+  }, 120000);
   if (!localStorage.getItem('wizDone')) openWizard();
 }
 document.addEventListener('DOMContentLoaded', init);
