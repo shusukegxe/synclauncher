@@ -49,6 +49,66 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
       "size": 952758,
       "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/sbniofKw/entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "size": 1533920,
+      "sha1": "720c5d1bc6cf06e0db8fdde8c8f95fa22c49e86b"
+    },
+    {
+      "file": "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar",
+      "size": 342235,
+      "sha1": "5067bdff1d5cc6d2dd89986f98bd8bd7ae62fb98"
+    },
+    {
+      "file": "dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/GBH14HiF/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar",
+      "size": 217532,
+      "sha1": "c0ee92c6d8a48e077aa9b02f3470619eab17d59c"
+    },
+    {
+      "file": "Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/3ene3W1l/Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "size": 20723,
+      "sha1": "14628ba309d876cfefc4cef864a66ef12812066c"
+    },
+    {
+      "file": "moreculling-fabric-1.21.1-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/zze1l7gB/moreculling-fabric-1.21.1-1.0.11.jar",
+      "size": 333742,
+      "sha1": "f962d360322dbc37146bf32391f80bef0d3491f3"
+    },
+    {
+      "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "size": 471258,
+      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872"
+    },
+    {
+      "file": "krypton-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "size": 161045,
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50"
+    },
+    {
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "size": 283566,
+      "sha1": "1461d8e46391efd32a3085150e86094c9f6f5c9d"
+    },
+    {
+      "file": "noisium-fabric-2.3.0+mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar",
+      "size": 216183,
+      "sha1": "642a672cfc60ff1e1262a39d7e160b1381c5120c"
+    },
+    {
+      "file": "c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/KxcgERSN/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "size": 3810456,
+      "sha1": "7ce266eb1d7ff617751ed1f0ebb203662ed641b3"
     }
   ],
   "backrooms": [
@@ -63,6 +123,96 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/IoWBVGBn/Safra-fabric-1.20.1-3.2.jar",
       "size": 955381,
       "sha1": "10d373a1b8ef2e3420642affa0b49435323788e5"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/rYDYcz8z/entityculling-fabric-1.12.2-mc1.20.1.jar",
+      "size": 1531140,
+      "sha1": "6c8f57ac4666f8fca5ee332ef7ca7a6e530ff7f0"
+    },
+    {
+      "file": "ImmediatelyFast-Fabric-1.5.5+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/iwYUrQJO/ImmediatelyFast-Fabric-1.5.5%2B1.20.4.jar",
+      "size": 348818,
+      "sha1": "9f0110b60dc752ca093f2fc10a72d221b6dc8ac3"
+    },
+    {
+      "file": "dynamic-fps-3.11.4+minecraft-1.20.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/QwPQBhiQ/dynamic-fps-3.11.4%2Bminecraft-1.20.0-fabric.jar",
+      "size": 223261,
+      "sha1": "38196ee5bcfb3605f9bb9e52a45916b250216313"
+    },
+    {
+      "file": "Clumps-fabric-1.20.1-12.0.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/hefSwtn6/Clumps-fabric-1.20.1-12.0.0.4.jar",
+      "size": 21987,
+      "sha1": "a20cfe0b0ee0b897887f81c4919af9d220ba22e7"
+    },
+    {
+      "file": "moreculling-1.20.1-0.24.6.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/MI90wAbW/moreculling-1.20.1-0.24.6.jar",
+      "size": 274523,
+      "sha1": "c99e1ede1b0a6b90467078a8abdd6259c83d77f4"
+    },
+    {
+      "file": "modernfix-fabric-5.25.2+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/rPmgLeZC/modernfix-fabric-5.25.2%2Bmc1.20.1.jar",
+      "size": 545175,
+      "sha1": "be03b9eb570c1e9df7593e68623f0fecbd039460"
+    },
+    {
+      "file": "krypton-0.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/jiDwS0W1/krypton-0.2.3.jar",
+      "size": 185895,
+      "sha1": "4d499819effd8afe811e5d93952fcc46765a00df"
+    },
+    {
+      "file": "BadOptimizations-2.4.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/DIugITgU/BadOptimizations-2.4.1-1.20.1.jar",
+      "size": 460234,
+      "sha1": "304007dcb0fb15ed1a1bc3771736470dafc5be0f"
+    },
+    {
+      "file": "noisium-fabric-2.3.0+mc1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/erSJnRcq/noisium-fabric-2.3.0%2Bmc1.20-1.20.1.jar",
+      "size": 214902,
+      "sha1": "be85535cf1efe82bd8c41bcf851becaad498a598"
+    },
+    {
+      "file": "fabric-api-0.92.12+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/rvI2dfzR/fabric-api-0.92.12%2B1.20.1.jar",
+      "size": 2137232,
+      "sha1": "3e9cdd3e2f827ca9a259df9eb8e31949437b6bd4"
+    },
+    {
+      "file": "sodium-fabric-0.5.13+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/OihdIimA/sodium-fabric-0.5.13%2Bmc1.20.1.jar",
+      "size": 971552,
+      "sha1": "bcdbf37d9494e405cba210d7a80ed58e756297b5"
+    },
+    {
+      "file": "lithium-fabric-mc1.20.1-0.11.4.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/iEcXOkz4/lithium-fabric-mc1.20.1-0.11.4.jar",
+      "size": 691483,
+      "sha1": "048227ed60a3005cf9fa55880dfe0cf20b0ba680"
+    },
+    {
+      "file": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.18.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/fyt7FtgA/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.18.jar",
+      "size": 1426510,
+      "sha1": "ffeeafb265d7f0914e9b96ab70a1181d3642773a"
+    },
+    {
+      "file": "memoryleakfix-fabric-1.17+-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar",
+      "size": 49334,
+      "sha1": "784bbbe9c64ac9d3d4ad19786c02291e607fcf4e"
+    },
+    {
+      "file": "lazydfu-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.3/lazydfu-0.1.3.jar",
+      "size": 14531,
+      "sha1": "0dfa8b03ed408fb7fdada29e01cfebba02af1049"
     }
   ],
   "backrooms3": [
@@ -101,6 +251,66 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
       "size": 952758,
       "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/sbniofKw/entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "size": 1533920,
+      "sha1": "720c5d1bc6cf06e0db8fdde8c8f95fa22c49e86b"
+    },
+    {
+      "file": "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar",
+      "size": 342235,
+      "sha1": "5067bdff1d5cc6d2dd89986f98bd8bd7ae62fb98"
+    },
+    {
+      "file": "dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/GBH14HiF/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar",
+      "size": 217532,
+      "sha1": "c0ee92c6d8a48e077aa9b02f3470619eab17d59c"
+    },
+    {
+      "file": "Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/3ene3W1l/Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "size": 20723,
+      "sha1": "14628ba309d876cfefc4cef864a66ef12812066c"
+    },
+    {
+      "file": "moreculling-fabric-1.21.1-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/zze1l7gB/moreculling-fabric-1.21.1-1.0.11.jar",
+      "size": 333742,
+      "sha1": "f962d360322dbc37146bf32391f80bef0d3491f3"
+    },
+    {
+      "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "size": 471258,
+      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872"
+    },
+    {
+      "file": "krypton-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "size": 161045,
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50"
+    },
+    {
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "size": 283566,
+      "sha1": "1461d8e46391efd32a3085150e86094c9f6f5c9d"
+    },
+    {
+      "file": "noisium-fabric-2.3.0+mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar",
+      "size": 216183,
+      "sha1": "642a672cfc60ff1e1262a39d7e160b1381c5120c"
+    },
+    {
+      "file": "c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/KxcgERSN/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "size": 3810456,
+      "sha1": "7ce266eb1d7ff617751ed1f0ebb203662ed641b3"
     }
   ],
   "lite": [
@@ -133,6 +343,66 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/WfIFzB7I/Safra-fabric-1.21.1-3.2.jar",
       "size": 952758,
       "sha1": "77f152e35691f9abdc845b75c16a581560eb0c3a"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/sbniofKw/entityculling-fabric-1.12.2-mc1.21.1.jar",
+      "size": 1533920,
+      "sha1": "720c5d1bc6cf06e0db8fdde8c8f95fa22c49e86b"
+    },
+    {
+      "file": "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar",
+      "size": 342235,
+      "sha1": "5067bdff1d5cc6d2dd89986f98bd8bd7ae62fb98"
+    },
+    {
+      "file": "dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/GBH14HiF/dynamic-fps-3.11.4%2Bminecraft-1.21.0-fabric.jar",
+      "size": 217532,
+      "sha1": "c0ee92c6d8a48e077aa9b02f3470619eab17d59c"
+    },
+    {
+      "file": "Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/3ene3W1l/Clumps-fabric-1.21.1-19.0.0.1.jar",
+      "size": 20723,
+      "sha1": "14628ba309d876cfefc4cef864a66ef12812066c"
+    },
+    {
+      "file": "moreculling-fabric-1.21.1-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/zze1l7gB/moreculling-fabric-1.21.1-1.0.11.jar",
+      "size": 333742,
+      "sha1": "f962d360322dbc37146bf32391f80bef0d3491f3"
+    },
+    {
+      "file": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "size": 471258,
+      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872"
+    },
+    {
+      "file": "krypton-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "size": 161045,
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50"
+    },
+    {
+      "file": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "size": 283566,
+      "sha1": "1461d8e46391efd32a3085150e86094c9f6f5c9d"
+    },
+    {
+      "file": "noisium-fabric-2.3.0+mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/4sGQgiu2/noisium-fabric-2.3.0%2Bmc1.21-1.21.1.jar",
+      "size": 216183,
+      "sha1": "642a672cfc60ff1e1262a39d7e160b1381c5120c"
+    },
+    {
+      "file": "c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/KxcgERSN/c2me-fabric-mc1.21.1-0.4.0-alpha.0.30.jar",
+      "size": 3810456,
+      "sha1": "7ce266eb1d7ff617751ed1f0ebb203662ed641b3"
     }
   ],
   "mc262": [
@@ -586,6 +856,30 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
       "size": 312591,
       "sha1": "40af9e38e49675153e813315729134065cb79d18"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/M8qoBSI5/entityculling-fabric-1.12.2-mc26.2.jar",
+      "size": 1522911,
+      "sha1": "4dc4395072d3f0b239c918ec20949ef443a97439"
+    },
+    {
+      "file": "Clumps-fabric-26.2-26.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/dEMopoOJ/Clumps-fabric-26.2-26.2.1.jar",
+      "size": 19950,
+      "sha1": "98e368bacc9d1a607be81d02f78f9afe913e7cfe"
+    },
+    {
+      "file": "moreculling-fabric-26.2-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/Qc7V2eKG/moreculling-fabric-26.2-1.8.2.jar",
+      "size": 364112,
+      "sha1": "0c84eb55036d82e34b329658c481fd8b84c6f0e1"
+    },
+    {
+      "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/qwS7dYKj/c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "size": 4104762,
+      "sha1": "e107e87c92c3a099aa5f6d46f111ab2a0a90f0d2"
     }
   ],
   "lite262": [
@@ -798,6 +1092,24 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
       "size": 312591,
       "sha1": "40af9e38e49675153e813315729134065cb79d18"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/M8qoBSI5/entityculling-fabric-1.12.2-mc26.2.jar",
+      "size": 1522911,
+      "sha1": "4dc4395072d3f0b239c918ec20949ef443a97439"
+    },
+    {
+      "file": "moreculling-fabric-26.2-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/Qc7V2eKG/moreculling-fabric-26.2-1.8.2.jar",
+      "size": 364112,
+      "sha1": "0c84eb55036d82e34b329658c481fd8b84c6f0e1"
+    },
+    {
+      "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/qwS7dYKj/c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "size": 4104762,
+      "sha1": "e107e87c92c3a099aa5f6d46f111ab2a0a90f0d2"
     }
   ],
   "pro262": [
@@ -1681,6 +1993,24 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
       "size": 312591,
       "sha1": "40af9e38e49675153e813315729134065cb79d18"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/M8qoBSI5/entityculling-fabric-1.12.2-mc26.2.jar",
+      "size": 1522911,
+      "sha1": "4dc4395072d3f0b239c918ec20949ef443a97439"
+    },
+    {
+      "file": "moreculling-fabric-26.2-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/Qc7V2eKG/moreculling-fabric-26.2-1.8.2.jar",
+      "size": 364112,
+      "sha1": "0c84eb55036d82e34b329658c481fd8b84c6f0e1"
+    },
+    {
+      "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/qwS7dYKj/c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "size": 4104762,
+      "sha1": "e107e87c92c3a099aa5f6d46f111ab2a0a90f0d2"
     }
   ],
   "terrorlite": [
@@ -2085,6 +2415,24 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
       "size": 312591,
       "sha1": "40af9e38e49675153e813315729134065cb79d18"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/M8qoBSI5/entityculling-fabric-1.12.2-mc26.2.jar",
+      "size": 1522911,
+      "sha1": "4dc4395072d3f0b239c918ec20949ef443a97439"
+    },
+    {
+      "file": "moreculling-fabric-26.2-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/Qc7V2eKG/moreculling-fabric-26.2-1.8.2.jar",
+      "size": 364112,
+      "sha1": "0c84eb55036d82e34b329658c481fd8b84c6f0e1"
+    },
+    {
+      "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/qwS7dYKj/c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "size": 4104762,
+      "sha1": "e107e87c92c3a099aa5f6d46f111ab2a0a90f0d2"
     }
   ],
   "terrorpro": [
@@ -2968,6 +3316,24 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/us6BkShL/Safra-fabric-26.2-3.0.jar",
       "size": 312591,
       "sha1": "40af9e38e49675153e813315729134065cb79d18"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/M8qoBSI5/entityculling-fabric-1.12.2-mc26.2.jar",
+      "size": 1522911,
+      "sha1": "4dc4395072d3f0b239c918ec20949ef443a97439"
+    },
+    {
+      "file": "moreculling-fabric-26.2-1.8.2.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/Qc7V2eKG/moreculling-fabric-26.2-1.8.2.jar",
+      "size": 364112,
+      "sha1": "0c84eb55036d82e34b329658c481fd8b84c6f0e1"
+    },
+    {
+      "file": "c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/qwS7dYKj/c2me-fabric-mc26.2-0.4.2-alpha.0.71.jar",
+      "size": 4104762,
+      "sha1": "e107e87c92c3a099aa5f6d46f111ab2a0a90f0d2"
     }
   ],
   "lite263": [
@@ -3103,6 +3469,18 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/45ZQGgJ9/Safra-fabric-26.3-3.2.jar",
       "size": 951241,
       "sha1": "caf8b6a7f6af6668a08dd82b010550fd1561bbe1"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc26.3.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/42iHT1ru/entityculling-fabric-1.12.2-mc26.3.jar",
+      "size": 1522839,
+      "sha1": "56c3a85e1e665526861a701e6fcd0d65e922dd11"
+    },
+    {
+      "file": "c2me-fabric-mc26.3-0.4.2-alpha.0.124.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/silzGoWa/c2me-fabric-mc26.3-0.4.2-alpha.0.124.jar",
+      "size": 4704560,
+      "sha1": "d4e2976b179a5fb6195e4416609d2b3b28f73c5f"
     }
   ],
   "parkour1214": [
@@ -3195,6 +3573,36 @@
       "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
       "size": 222917,
       "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
+    },
+    {
+      "file": "entityculling-fabric-1.12.2-mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/TgLy2wiM/entityculling-fabric-1.12.2-mc1.21.4.jar",
+      "size": 1536260,
+      "sha1": "731ffb787360640ad1c3c275e3368c64feae7c24"
+    },
+    {
+      "file": "krypton-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "size": 161045,
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50"
+    },
+    {
+      "file": "BadOptimizations-2.4.1-1.21.2-21.5.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/KsC2V6FQ/BadOptimizations-2.4.1-1.21.2-21.5.jar",
+      "size": 282678,
+      "sha1": "f3ac49d4866a6fde8623c0021481285dc1d3d2b8"
+    },
+    {
+      "file": "noisium-fabric-2.5.0+mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/KuNKN7d2/versions/9NHdQfkN/noisium-fabric-2.5.0%2Bmc1.21.4.jar",
+      "size": 216077,
+      "sha1": "4adbf542d5dd586fe8a458202bfeebd757dfd2f6"
+    },
+    {
+      "file": "c2me-fabric-mc1.21.4-0.3.2+alpha.0.45.jar",
+      "url": "https://cdn.modrinth.com/data/VSNURh3q/versions/Ixtrpubv/c2me-fabric-mc1.21.4-0.3.2%2Balpha.0.45.jar",
+      "size": 4665485,
+      "sha1": "1f7a73b6c4b7595d5dd9a1e31e4b2e57333598a1"
     }
   ],
   "thegod": [
