@@ -3183,6 +3183,18 @@
       "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/TJ6o2sr4/cloth-config-17.0.144-fabric.jar",
       "size": 1152857,
       "sha1": "63a1a3b25c642f5a745dfcc9bdc0841660f560af"
+    },
+    {
+      "file": "iris-fabric-1.8.8+mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/Ca054sTe/iris-fabric-1.8.8%2Bmc1.21.4.jar",
+      "size": 2682702,
+      "sha1": "54f7ab6450530bdca2ba44887b53458f78a256ef"
+    },
+    {
+      "file": "CustomSkinLoader_Universal-15.1.jar",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/yyYvYfZI/CustomSkinLoader_Universal-15.1.jar",
+      "size": 222917,
+      "sha1": "324e6921ecd576e44875981466e7f22170b6541a"
     }
   ],
   "thegod": [
