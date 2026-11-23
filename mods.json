@@ -3177,6 +3177,12 @@
       "url": "https://cdn.modrinth.com/data/XtEbzMqr/versions/fnd8bmWi/Safra-fabric-1.21.4-3.0.jar",
       "size": 314337,
       "sha1": "30cfb70970512e423688f9fd1edf03191ed1a7bf"
+    },
+    {
+      "file": "cloth-config-17.0.144-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/TJ6o2sr4/cloth-config-17.0.144-fabric.jar",
+      "size": 1152857,
+      "sha1": "63a1a3b25c642f5a745dfcc9bdc0841660f560af"
     }
   ],
   "thegod": [
