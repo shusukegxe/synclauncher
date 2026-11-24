@@ -1614,23 +1614,10 @@
    "sha1": "bcfda58c9d74f4d1a5734343d191a73df4125538"
   },
   {
-   "file": "gamblerrr-0.2.0.jar",
-   "url": "https://cdn.modrinth.com/data/WEhLyCHY/versions/51k33gS9/gamblerrr-0.2.0.jar",
-   "size": 286294,
-   "sha1": "fed5b6bad0c004752176f0d7895d2f4c7de83d48"
-  },
-  {
    "file": "eaglerbreakable-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/mc262/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "lite262": [
@@ -1965,23 +1952,10 @@
    "sha1": "bcfda58c9d74f4d1a5734343d191a73df4125538"
   },
   {
-   "file": "gamblerrr-0.2.0.jar",
-   "url": "https://cdn.modrinth.com/data/WEhLyCHY/versions/51k33gS9/gamblerrr-0.2.0.jar",
-   "size": 286294,
-   "sha1": "fed5b6bad0c004752176f0d7895d2f4c7de83d48"
-  },
-  {
    "file": "eaglerbreakable-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite262/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "pro262": [
@@ -2933,23 +2907,10 @@
    "sha1": "bcfda58c9d74f4d1a5734343d191a73df4125538"
   },
   {
-   "file": "gamblerrr-0.2.0.jar",
-   "url": "https://cdn.modrinth.com/data/WEhLyCHY/versions/51k33gS9/gamblerrr-0.2.0.jar",
-   "size": 286294,
-   "sha1": "fed5b6bad0c004752176f0d7895d2f4c7de83d48"
-  },
-  {
    "file": "eaglerbreakable-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "terrorlite": [
@@ -3476,23 +3437,10 @@
    "sha1": "bcfda58c9d74f4d1a5734343d191a73df4125538"
   },
   {
-   "file": "gamblerrr-0.2.0.jar",
-   "url": "https://cdn.modrinth.com/data/WEhLyCHY/versions/51k33gS9/gamblerrr-0.2.0.jar",
-   "size": 286294,
-   "sha1": "fed5b6bad0c004752176f0d7895d2f4c7de83d48"
-  },
-  {
    "file": "eaglerbreakable-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "terrorpro": [
@@ -4444,23 +4392,10 @@
    "sha1": "bcfda58c9d74f4d1a5734343d191a73df4125538"
   },
   {
-   "file": "gamblerrr-0.2.0.jar",
-   "url": "https://cdn.modrinth.com/data/WEhLyCHY/versions/51k33gS9/gamblerrr-0.2.0.jar",
-   "size": 286294,
-   "sha1": "fed5b6bad0c004752176f0d7895d2f4c7de83d48"
-  },
-  {
    "file": "eaglerbreakable-1.0.0.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorpro/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "lite263": [
@@ -4680,13 +4615,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "gamblerrr-hub.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite263/gamblerrr-hub.json",
-   "size": 150,
-   "sha1": "9b58ab2cbbb9c5016a79f059da7f97c8515b9ea5",
-   "destino": "config"
   }
  ],
  "parkour1214": [
