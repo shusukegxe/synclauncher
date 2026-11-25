@@ -219,12 +219,6 @@
    "sha1": null
   },
   {
-   "file": "From-The-Fog-1.21.1-1.9.4.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/From-The-Fog-1.21.1-1.9.4.jar",
-   "size": 4612025,
-   "sha1": null
-  },
-  {
    "file": "MouseTweaks-fabric-mc1.21-2.26.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/MouseTweaks-fabric-mc1.21-2.26.jar",
    "size": 75984,
@@ -1283,12 +1277,6 @@
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   },
   {
-   "file": "From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "size": 20540475,
-   "sha1": "64695fbacfea0dcf98ba302ae5c3c1bac4673692"
-  },
-  {
    "file": "geckolib-fabric-26.2-5.5.5.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
    "size": 1185836,
@@ -1618,6 +1606,13 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
+  },
+  {
+   "file": "verity-fabric.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/mc262/verity-fabric.json",
+   "size": 186,
+   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
+   "destino": "config"
   }
  ],
  "lite262": [
@@ -1956,6 +1951,13 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
+  },
+  {
+   "file": "verity-fabric.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite262/verity-fabric.json",
+   "size": 186,
+   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
+   "destino": "config"
   }
  ],
  "pro262": [
@@ -2552,12 +2554,6 @@
    "solo_si_falta": true
   },
   {
-   "file": "From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "size": 20540475,
-   "sha1": "64695fbacfea0dcf98ba302ae5c3c1bac4673692"
-  },
-  {
    "file": "geckolib-fabric-26.2-5.5.5.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
    "size": 1185836,
@@ -2911,6 +2907,13 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
+  },
+  {
+   "file": "verity-fabric.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/verity-fabric.json",
+   "size": 186,
+   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
+   "destino": "config"
   }
  ],
  "terrorlite": [
@@ -3062,12 +3065,6 @@
    "url": "https://cdn.modrinth.com/data/GNxdLCoP/versions/iDsSBWPv/cullleaves-fabric-4.1.2%2B26.2.jar",
    "size": 93600,
    "sha1": "1df64a439a6cf79b785882c94b39ac04e67c63bd"
-  },
-  {
-   "file": "From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "size": 20540475,
-   "sha1": "64695fbacfea0dcf98ba302ae5c3c1bac4673692"
   },
   {
    "file": "geckolib-fabric-26.2-5.5.5.jar",
@@ -3441,6 +3438,13 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
+  },
+  {
+   "file": "verity-fabric.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/verity-fabric.json",
+   "size": 186,
+   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
+   "destino": "config"
   }
  ],
  "terrorpro": [
@@ -4037,12 +4041,6 @@
    "solo_si_falta": true
   },
   {
-   "file": "From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/From-The-Fog-Forge-Fabric-26.2-v1.11.3.jar",
-   "size": 20540475,
-   "sha1": "64695fbacfea0dcf98ba302ae5c3c1bac4673692"
-  },
-  {
    "file": "geckolib-fabric-26.2-5.5.5.jar",
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/geckolib-fabric-26.2-5.5.5.jar",
    "size": 1185836,
@@ -4396,6 +4394,13 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
+  },
+  {
+   "file": "verity-fabric.json",
+   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorpro/verity-fabric.json",
+   "size": 186,
+   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
+   "destino": "config"
   }
  ],
  "lite263": [
