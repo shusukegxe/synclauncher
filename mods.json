@@ -1548,12 +1548,6 @@
    "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -1606,13 +1600,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/mc262/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   }
  ],
  "lite262": [
@@ -1893,12 +1880,6 @@
    "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -1951,13 +1932,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/lite262/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   }
  ],
  "pro262": [
@@ -2849,12 +2823,6 @@
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -2907,13 +2875,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/pro262/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   }
  ],
  "terrorlite": [
@@ -3380,12 +3341,6 @@
    "sha1": "6733365cd9e0a44f6bb28326385b96e2328b31f2"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -3438,13 +3393,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorlite/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   }
  ],
  "terrorpro": [
@@ -4336,12 +4284,6 @@
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -4394,13 +4336,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorpro/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   }
  ],
  "lite263": [
@@ -5761,12 +5696,6 @@
    "sha1": "42f718b4f2c4b05a7c3b6b4eaa51a49d043d9740"
   },
   {
-   "file": "verity-26.2-3.4.1-fabric.26.2.5.jar",
-   "size": 167045582,
-   "sha1": "f77172c4d2e871864d33d8db80bd3b8badcf0ef7",
-   "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/verity-26.2-3.4.1/verity-26.2-3.4.1-fabric.26.2.5.jar"
-  },
-  {
    "file": "toolleveling-fabric-1.5.1+26.2.jar",
    "size": 65075,
    "sha1": "45f445b5a5644d56281aaffb0683454c831d31b5",
@@ -5819,13 +5748,6 @@
    "url": "https://raw.githubusercontent.com/shusukegxe/modsitosde-miencraft-.v/main/eaglerbreakable-1.0.0.jar",
    "size": 4922,
    "sha1": "ed07228f6e54674c75bf6566ff57299e8ae3d92f"
-  },
-  {
-   "file": "verity-fabric.json",
-   "url": "https://raw.githubusercontent.com/shusukegxe/synclauncher/main/configs/terrorpro/verity-fabric.json",
-   "size": 186,
-   "sha1": "a1be45b5ca623c15b16ff30ac9f9ab89e5f1e638",
-   "destino": "config"
   },
   {
    "file": "vitrail-0.13.0-beta+mc26.2.jar",
