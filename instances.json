@@ -82,6 +82,14 @@
    "server": "",
    "version": "1.21.1",
    "loader": "neoforge"
+  },
+  "terrorpronv": {
+   "nombre": "26.2 NVIDIA",
+   "ruta": "terrorpronv",
+   "server": "0thbm253.free.tryportwarp.cc:13302",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
   }
  }
 }
