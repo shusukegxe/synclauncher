@@ -2,7 +2,7 @@ version:3800
 autoJump:false
 preferVulkan:true
 graphicsMode:0
-renderDistance:4
+renderDistance:9
 simulationDistance:4
 enableVsync:false
 maxFps:60
