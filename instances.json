@@ -90,6 +90,14 @@
    "version": "26.2",
    "puro": true,
    "servidor_dinamico": true
+  },
+  "desiderio": {
+   "nombre": "26.2 Desiderio",
+   "ruta": "desiderio",
+   "server": "0thbm253.free.tryportwarp.cc:10278",
+   "version": "26.2",
+   "puro": true,
+   "servidor_dinamico": true
   }
  }
 }
