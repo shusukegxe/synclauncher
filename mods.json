@@ -5936,6 +5936,12 @@
    "url": "https://github.com/shusukegxe/modsitosde-miencraft-.v/releases/download/desiderio-26.2/desiderio-26.2-fabric-arreglado.jar",
    "size": 380006056,
    "sha1": "bd4120afff748d6f52651537c4d57caa46ba36e5"
+  },
+  {
+   "file": "yet_another_config_lib_v3-3.9.7+26.2-fabric.jar",
+   "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/DoR7RYgi/yet_another_config_lib_v3-3.9.7%2B26.2-fabric.jar",
+   "size": 1125271,
+   "sha1": "79c8ee7f8a0e775190dfff59be1e505e2f432998"
   }
  ]
 }
